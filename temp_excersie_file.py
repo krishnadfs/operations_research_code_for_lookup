@@ -83,7 +83,7 @@ df_p_t_d = base_df_p.merge(base_df_t, how='left'
                            ).merge(base_df_d, how='left')
 
 df_p_t_d = df_p_t_d.dropna().reset_index(drop=True)
-df_p_t_d.loc[:,'t_val'] = df_p_t_d['t_val'].apply(int)
+df_p_t_d.loc[:,'t_val'] = df_p_t_d['t_val'].apply(int)-0.5
 df_p_t_d.loc[:,'d_val'] = df_p_t_d['d_val'].apply(int)
 
 df_p_t_d.loc[:,'M_val'] = np.random.randint(0,10,len(df_p_t_d))
@@ -262,7 +262,7 @@ print ('Here a cell is assumed to be the one associated with individual variable
 for i in set(df_p_t_d_var.p_val):
     temp_df_2 = df_p_t_d_var[df_p_t_d_var.p_val==i].reset_index(drop=True)
     for j in set(temp_df_2.d_val):
-        prob += lpSum([u[var]  for var in temp_df_2[temp_df_2.d_val==j].x_var]) >= 0, 'max_decision_var'+str(i)+'_'+str(j) 
+        prob += lpSum([u[var]  for var in temp_df_2[temp_df_2.d_val==j].x_var]) >= 10, 'max_decision_var'+str(i)+'_'+str(j) 
                
 
 # In[Model Solving Block]:
@@ -314,3 +314,4 @@ final_df = pd.concat([final_sol_df.var_name.apply(lambda x: pd.Series(str(x).spl
                                    final_df_with_d_index], axis=1)
 
 
+print(final_df)

@@ -8,8 +8,12 @@ A set of such ROWs is called as GRID.
 
 Since the values of M, U, R are to be identified, three different variables to be created and among these only variables corresponding to M need to be considred in the objective as a Maximization objective. 
 
-The following assumptions are made in modelling the model. 
+The following directions of code developments are quite significant to create an executable basic version of code 
 
 1. A priori chocies were made such that there are pre-defined 'possible' number of groups for each D value. However, solver will find the right number of groups only after finding the choice. 
 
-2.    
+2. BIG_M constraints, artificial constraints, are introduced to make sure that one of the constraints (related to occurance of variables) meaningful 
+
+3. While M and U have gradiants initialization through both objective and consrtaints, similar kind of gradients were initiated in the objective to pull R variables. 
+
+

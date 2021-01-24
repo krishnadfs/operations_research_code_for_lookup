@@ -271,12 +271,33 @@ prob.writeLP('model_lp_file.txt')
 print ('objective', value(prob.objective), 'and status' ,prob.status, '\n')
 
 # In[Solution Extraction]:
-
+groups_list = []
 for var in set(df_p_t_d_var.x_var):
     if y[var].value()>=1: 
         if (u[var].value()>=0 and  m[var].value()>=0 and r[var].value()>=0):
             if (u[var].value()>0 or m[var].value()>0):
-                print ([var, u[var].value(), m[var].value(), r[var].value(), y[var].value()])
+                groups_list.append([var, u[var].value(), m[var].value(), r[var].value(), y[var].value()])
+                
+final_sol_df = pd.DataFrame(groups_list).rename(columns={0:'var_name', 
+                                                         1:'U_val', 
+                                                         2:'M_val', 
+                                                         3:'R_val',
+                                                         4:'frequency'}) 
+
+# apply(lambda x : x[0]+x[1] if x[2]==2 else x[0] , axis =1)
+
+final_df_with_p_index = pd.concat([final_sol_df.var_name.apply(lambda x: pd.Series(str(x).split("_")[0][0])).rename(columns={0:'p_index'}), 
+                                   final_sol_df], axis=1)
+
+final_df_with_t_index = pd.concat([final_sol_df.var_name.apply(lambda x: pd.Series(str(x).split("_")[1][0])).rename(columns={0:'t_index'}), 
+                                   final_df_with_p_index], axis=1)
+
+final_df_with_d_index = pd.concat([final_sol_df.var_name.apply(lambda x: pd.Series(str(x).split("_")[2][0:2])).rename(columns={0:'d_index'}), 
+                                   final_df_with_t_index], axis=1)
+
+final_df_with_g_index = pd.concat([final_sol_df.var_name.apply(lambda x: pd.Series(str(x).split("_")[3][0])).rename(columns={0:'g_index'}), 
+                                   final_df_with_d_index], axis=1)
+
     
 
 

@@ -1,0 +1,3278 @@
+\* MAXIMIZATION *\
+Maximize
+OBJ: u_1p_0.5t_10d_1g + u_1p_0.5t_10d_2g + u_1p_1.5t_10d_1g + u_1p_1.5t_10d_2g
+ + u_1p_2.5t_10d_1g + u_1p_2.5t_10d_2g + u_1p_3.5t_10d_1g + u_1p_3.5t_10d_2g
+ + u_1p_4.5t_10d_1g + u_1p_4.5t_10d_2g + u_1p_5.5t_10d_1g + u_1p_5.5t_10d_2g
+ + u_1p_6.5t_10d_1g + u_1p_6.5t_10d_2g + u_1p_7.5t_10d_1g + u_1p_7.5t_10d_2g
+ + u_1p_8.5t_10d_1g + u_1p_8.5t_10d_2g + u_2p_0.5t_10d_1g + u_2p_0.5t_10d_2g
+ + u_2p_1.5t_10d_1g + u_2p_1.5t_10d_2g + u_2p_2.5t_10d_1g + u_2p_2.5t_10d_2g
+ + u_2p_3.5t_10d_1g + u_2p_3.5t_10d_2g + u_2p_4.5t_10d_1g + u_2p_4.5t_10d_2g
+ + u_2p_5.5t_10d_1g + u_2p_5.5t_10d_2g + u_2p_6.5t_10d_1g + u_2p_6.5t_10d_2g
+ + u_2p_7.5t_10d_1g + u_2p_7.5t_10d_2g + u_2p_8.5t_10d_1g + u_2p_8.5t_10d_2g
+ + u_4p_0.5t_10d_1g + u_4p_0.5t_10d_2g + u_4p_1.5t_10d_1g + u_4p_1.5t_10d_2g
+ + u_4p_2.5t_10d_1g + u_4p_2.5t_10d_2g + u_4p_3.5t_10d_1g + u_4p_3.5t_10d_2g
+ + u_4p_4.5t_10d_1g + u_4p_4.5t_10d_2g + u_4p_5.5t_10d_1g + u_4p_5.5t_10d_2g
+ + u_4p_6.5t_10d_1g + u_4p_6.5t_10d_2g + u_4p_7.5t_10d_1g + u_4p_7.5t_10d_2g
+ + u_4p_8.5t_10d_1g + u_4p_8.5t_10d_2g + u_5p_0.5t_10d_1g + u_5p_0.5t_10d_2g
+ + u_5p_1.5t_10d_1g + u_5p_1.5t_10d_2g + u_5p_2.5t_10d_1g + u_5p_2.5t_10d_2g
+ + u_5p_3.5t_10d_1g + u_5p_3.5t_10d_2g + u_5p_4.5t_10d_1g + u_5p_4.5t_10d_2g
+ + u_5p_5.5t_10d_1g + u_5p_5.5t_10d_2g + u_5p_6.5t_10d_1g + u_5p_6.5t_10d_2g
+ + u_5p_7.5t_10d_1g + u_5p_7.5t_10d_2g + u_5p_8.5t_10d_1g + u_5p_8.5t_10d_2g
+ + u_6p_0.5t_10d_1g + u_6p_0.5t_10d_2g + u_6p_1.5t_10d_1g + u_6p_1.5t_10d_2g
+ + u_6p_2.5t_10d_1g + u_6p_2.5t_10d_2g + u_6p_3.5t_10d_1g + u_6p_3.5t_10d_2g
+ + u_6p_4.5t_10d_1g + u_6p_4.5t_10d_2g + u_6p_5.5t_10d_1g + u_6p_5.5t_10d_2g
+ + u_6p_6.5t_10d_1g + u_6p_6.5t_10d_2g + u_6p_7.5t_10d_1g + u_6p_7.5t_10d_2g
+ + u_6p_8.5t_10d_1g + u_6p_8.5t_10d_2g + u_7p_0.5t_10d_1g + u_7p_0.5t_10d_2g
+ + u_7p_1.5t_10d_1g + u_7p_1.5t_10d_2g + u_7p_2.5t_10d_1g + u_7p_2.5t_10d_2g
+ + u_7p_3.5t_10d_1g + u_7p_3.5t_10d_2g + u_7p_4.5t_10d_1g + u_7p_4.5t_10d_2g
+ + u_7p_5.5t_10d_1g + u_7p_5.5t_10d_2g + u_7p_6.5t_10d_1g + u_7p_6.5t_10d_2g
+ + u_7p_7.5t_10d_1g + u_7p_7.5t_10d_2g + u_7p_8.5t_10d_1g + u_7p_8.5t_10d_2g
+ + u_8p_0.5t_10d_1g + u_8p_0.5t_10d_2g + u_8p_1.5t_10d_1g + u_8p_1.5t_10d_2g
+ + u_8p_2.5t_10d_1g + u_8p_2.5t_10d_2g + u_8p_3.5t_10d_1g + u_8p_3.5t_10d_2g
+ + u_8p_4.5t_10d_1g + u_8p_4.5t_10d_2g + u_8p_5.5t_10d_1g + u_8p_5.5t_10d_2g
+ + u_8p_6.5t_10d_1g + u_8p_6.5t_10d_2g + u_8p_7.5t_10d_1g + u_8p_7.5t_10d_2g
+ + u_8p_8.5t_10d_1g + u_8p_8.5t_10d_2g + u_9p_0.5t_10d_1g + u_9p_0.5t_10d_2g
+ + u_9p_1.5t_10d_1g + u_9p_1.5t_10d_2g + u_9p_2.5t_10d_1g + u_9p_2.5t_10d_2g
+ + u_9p_3.5t_10d_1g + u_9p_3.5t_10d_2g + u_9p_4.5t_10d_1g + u_9p_4.5t_10d_2g
+ + u_9p_5.5t_10d_1g + u_9p_5.5t_10d_2g + u_9p_6.5t_10d_1g + u_9p_6.5t_10d_2g
+ + u_9p_7.5t_10d_1g + u_9p_7.5t_10d_2g + u_9p_8.5t_10d_1g + u_9p_8.5t_10d_2g
+Subject To
+M_threshold_row_1: m_1p_0.5t_10d_1g + m_1p_0.5t_10d_2g + m_1p_0.5t_40d_1g
+ + m_1p_0.5t_40d_2g + m_1p_0.5t_40d_3g + m_1p_1.5t_10d_1g + m_1p_1.5t_10d_2g
+ + m_1p_1.5t_40d_1g + m_1p_1.5t_40d_2g + m_1p_1.5t_40d_3g + m_1p_2.5t_10d_1g
+ + m_1p_2.5t_10d_2g + m_1p_2.5t_40d_1g + m_1p_2.5t_40d_2g + m_1p_2.5t_40d_3g
+ + m_1p_3.5t_10d_1g + m_1p_3.5t_10d_2g + m_1p_3.5t_40d_1g + m_1p_3.5t_40d_2g
+ + m_1p_3.5t_40d_3g + m_1p_4.5t_10d_1g + m_1p_4.5t_10d_2g + m_1p_4.5t_40d_1g
+ + m_1p_4.5t_40d_2g + m_1p_4.5t_40d_3g + m_1p_5.5t_10d_1g + m_1p_5.5t_10d_2g
+ + m_1p_5.5t_40d_1g + m_1p_5.5t_40d_2g + m_1p_5.5t_40d_3g + m_1p_6.5t_10d_1g
+ + m_1p_6.5t_10d_2g + m_1p_6.5t_40d_1g + m_1p_6.5t_40d_2g + m_1p_6.5t_40d_3g
+ + m_1p_7.5t_10d_1g + m_1p_7.5t_10d_2g + m_1p_7.5t_40d_1g + m_1p_7.5t_40d_2g
+ + m_1p_7.5t_40d_3g + m_1p_8.5t_10d_1g + m_1p_8.5t_10d_2g + m_1p_8.5t_40d_1g
+ + m_1p_8.5t_40d_2g + m_1p_8.5t_40d_3g >= 15
+M_threshold_row_2: m_2p_0.5t_10d_1g + m_2p_0.5t_10d_2g + m_2p_0.5t_40d_1g
+ + m_2p_0.5t_40d_2g + m_2p_0.5t_40d_3g + m_2p_1.5t_10d_1g + m_2p_1.5t_10d_2g
+ + m_2p_1.5t_40d_1g + m_2p_1.5t_40d_2g + m_2p_1.5t_40d_3g + m_2p_2.5t_10d_1g
+ + m_2p_2.5t_10d_2g + m_2p_2.5t_40d_1g + m_2p_2.5t_40d_2g + m_2p_2.5t_40d_3g
+ + m_2p_3.5t_10d_1g + m_2p_3.5t_10d_2g + m_2p_3.5t_40d_1g + m_2p_3.5t_40d_2g
+ + m_2p_3.5t_40d_3g + m_2p_4.5t_10d_1g + m_2p_4.5t_10d_2g + m_2p_4.5t_40d_1g
+ + m_2p_4.5t_40d_2g + m_2p_4.5t_40d_3g + m_2p_5.5t_10d_1g + m_2p_5.5t_10d_2g
+ + m_2p_5.5t_40d_1g + m_2p_5.5t_40d_2g + m_2p_5.5t_40d_3g + m_2p_6.5t_10d_1g
+ + m_2p_6.5t_10d_2g + m_2p_6.5t_40d_1g + m_2p_6.5t_40d_2g + m_2p_6.5t_40d_3g
+ + m_2p_7.5t_10d_1g + m_2p_7.5t_10d_2g + m_2p_7.5t_40d_1g + m_2p_7.5t_40d_2g
+ + m_2p_7.5t_40d_3g + m_2p_8.5t_10d_1g + m_2p_8.5t_10d_2g + m_2p_8.5t_40d_1g
+ + m_2p_8.5t_40d_2g + m_2p_8.5t_40d_3g >= 15
+M_threshold_row_4: m_4p_0.5t_10d_1g + m_4p_0.5t_10d_2g + m_4p_0.5t_40d_1g
+ + m_4p_0.5t_40d_2g + m_4p_0.5t_40d_3g + m_4p_1.5t_10d_1g + m_4p_1.5t_10d_2g
+ + m_4p_1.5t_40d_1g + m_4p_1.5t_40d_2g + m_4p_1.5t_40d_3g + m_4p_2.5t_10d_1g
+ + m_4p_2.5t_10d_2g + m_4p_2.5t_40d_1g + m_4p_2.5t_40d_2g + m_4p_2.5t_40d_3g
+ + m_4p_3.5t_10d_1g + m_4p_3.5t_10d_2g + m_4p_3.5t_40d_1g + m_4p_3.5t_40d_2g
+ + m_4p_3.5t_40d_3g + m_4p_4.5t_10d_1g + m_4p_4.5t_10d_2g + m_4p_4.5t_40d_1g
+ + m_4p_4.5t_40d_2g + m_4p_4.5t_40d_3g + m_4p_5.5t_10d_1g + m_4p_5.5t_10d_2g
+ + m_4p_5.5t_40d_1g + m_4p_5.5t_40d_2g + m_4p_5.5t_40d_3g + m_4p_6.5t_10d_1g
+ + m_4p_6.5t_10d_2g + m_4p_6.5t_40d_1g + m_4p_6.5t_40d_2g + m_4p_6.5t_40d_3g
+ + m_4p_7.5t_10d_1g + m_4p_7.5t_10d_2g + m_4p_7.5t_40d_1g + m_4p_7.5t_40d_2g
+ + m_4p_7.5t_40d_3g + m_4p_8.5t_10d_1g + m_4p_8.5t_10d_2g + m_4p_8.5t_40d_1g
+ + m_4p_8.5t_40d_2g + m_4p_8.5t_40d_3g >= 15
+M_threshold_row_5: m_5p_0.5t_10d_1g + m_5p_0.5t_10d_2g + m_5p_0.5t_40d_1g
+ + m_5p_0.5t_40d_2g + m_5p_0.5t_40d_3g + m_5p_1.5t_10d_1g + m_5p_1.5t_10d_2g
+ + m_5p_1.5t_40d_1g + m_5p_1.5t_40d_2g + m_5p_1.5t_40d_3g + m_5p_2.5t_10d_1g
+ + m_5p_2.5t_10d_2g + m_5p_2.5t_40d_1g + m_5p_2.5t_40d_2g + m_5p_2.5t_40d_3g
+ + m_5p_3.5t_10d_1g + m_5p_3.5t_10d_2g + m_5p_3.5t_40d_1g + m_5p_3.5t_40d_2g
+ + m_5p_3.5t_40d_3g + m_5p_4.5t_10d_1g + m_5p_4.5t_10d_2g + m_5p_4.5t_40d_1g
+ + m_5p_4.5t_40d_2g + m_5p_4.5t_40d_3g + m_5p_5.5t_10d_1g + m_5p_5.5t_10d_2g
+ + m_5p_5.5t_40d_1g + m_5p_5.5t_40d_2g + m_5p_5.5t_40d_3g + m_5p_6.5t_10d_1g
+ + m_5p_6.5t_10d_2g + m_5p_6.5t_40d_1g + m_5p_6.5t_40d_2g + m_5p_6.5t_40d_3g
+ + m_5p_7.5t_10d_1g + m_5p_7.5t_10d_2g + m_5p_7.5t_40d_1g + m_5p_7.5t_40d_2g
+ + m_5p_7.5t_40d_3g + m_5p_8.5t_10d_1g + m_5p_8.5t_10d_2g + m_5p_8.5t_40d_1g
+ + m_5p_8.5t_40d_2g + m_5p_8.5t_40d_3g >= 15
+M_threshold_row_6: m_6p_0.5t_10d_1g + m_6p_0.5t_10d_2g + m_6p_0.5t_40d_1g
+ + m_6p_0.5t_40d_2g + m_6p_0.5t_40d_3g + m_6p_1.5t_10d_1g + m_6p_1.5t_10d_2g
+ + m_6p_1.5t_40d_1g + m_6p_1.5t_40d_2g + m_6p_1.5t_40d_3g + m_6p_2.5t_10d_1g
+ + m_6p_2.5t_10d_2g + m_6p_2.5t_40d_1g + m_6p_2.5t_40d_2g + m_6p_2.5t_40d_3g
+ + m_6p_3.5t_10d_1g + m_6p_3.5t_10d_2g + m_6p_3.5t_40d_1g + m_6p_3.5t_40d_2g
+ + m_6p_3.5t_40d_3g + m_6p_4.5t_10d_1g + m_6p_4.5t_10d_2g + m_6p_4.5t_40d_1g
+ + m_6p_4.5t_40d_2g + m_6p_4.5t_40d_3g + m_6p_5.5t_10d_1g + m_6p_5.5t_10d_2g
+ + m_6p_5.5t_40d_1g + m_6p_5.5t_40d_2g + m_6p_5.5t_40d_3g + m_6p_6.5t_10d_1g
+ + m_6p_6.5t_10d_2g + m_6p_6.5t_40d_1g + m_6p_6.5t_40d_2g + m_6p_6.5t_40d_3g
+ + m_6p_7.5t_10d_1g + m_6p_7.5t_10d_2g + m_6p_7.5t_40d_1g + m_6p_7.5t_40d_2g
+ + m_6p_7.5t_40d_3g + m_6p_8.5t_10d_1g + m_6p_8.5t_10d_2g + m_6p_8.5t_40d_1g
+ + m_6p_8.5t_40d_2g + m_6p_8.5t_40d_3g >= 15
+M_threshold_row_7: m_7p_0.5t_10d_1g + m_7p_0.5t_10d_2g + m_7p_0.5t_40d_1g
+ + m_7p_0.5t_40d_2g + m_7p_0.5t_40d_3g + m_7p_1.5t_10d_1g + m_7p_1.5t_10d_2g
+ + m_7p_1.5t_40d_1g + m_7p_1.5t_40d_2g + m_7p_1.5t_40d_3g + m_7p_2.5t_10d_1g
+ + m_7p_2.5t_10d_2g + m_7p_2.5t_40d_1g + m_7p_2.5t_40d_2g + m_7p_2.5t_40d_3g
+ + m_7p_3.5t_10d_1g + m_7p_3.5t_10d_2g + m_7p_3.5t_40d_1g + m_7p_3.5t_40d_2g
+ + m_7p_3.5t_40d_3g + m_7p_4.5t_10d_1g + m_7p_4.5t_10d_2g + m_7p_4.5t_40d_1g
+ + m_7p_4.5t_40d_2g + m_7p_4.5t_40d_3g + m_7p_5.5t_10d_1g + m_7p_5.5t_10d_2g
+ + m_7p_5.5t_40d_1g + m_7p_5.5t_40d_2g + m_7p_5.5t_40d_3g + m_7p_6.5t_10d_1g
+ + m_7p_6.5t_10d_2g + m_7p_6.5t_40d_1g + m_7p_6.5t_40d_2g + m_7p_6.5t_40d_3g
+ + m_7p_7.5t_10d_1g + m_7p_7.5t_10d_2g + m_7p_7.5t_40d_1g + m_7p_7.5t_40d_2g
+ + m_7p_7.5t_40d_3g + m_7p_8.5t_10d_1g + m_7p_8.5t_10d_2g + m_7p_8.5t_40d_1g
+ + m_7p_8.5t_40d_2g + m_7p_8.5t_40d_3g >= 15
+M_threshold_row_8: m_8p_0.5t_10d_1g + m_8p_0.5t_10d_2g + m_8p_0.5t_40d_1g
+ + m_8p_0.5t_40d_2g + m_8p_0.5t_40d_3g + m_8p_1.5t_10d_1g + m_8p_1.5t_10d_2g
+ + m_8p_1.5t_40d_1g + m_8p_1.5t_40d_2g + m_8p_1.5t_40d_3g + m_8p_2.5t_10d_1g
+ + m_8p_2.5t_10d_2g + m_8p_2.5t_40d_1g + m_8p_2.5t_40d_2g + m_8p_2.5t_40d_3g
+ + m_8p_3.5t_10d_1g + m_8p_3.5t_10d_2g + m_8p_3.5t_40d_1g + m_8p_3.5t_40d_2g
+ + m_8p_3.5t_40d_3g + m_8p_4.5t_10d_1g + m_8p_4.5t_10d_2g + m_8p_4.5t_40d_1g
+ + m_8p_4.5t_40d_2g + m_8p_4.5t_40d_3g + m_8p_5.5t_10d_1g + m_8p_5.5t_10d_2g
+ + m_8p_5.5t_40d_1g + m_8p_5.5t_40d_2g + m_8p_5.5t_40d_3g + m_8p_6.5t_10d_1g
+ + m_8p_6.5t_10d_2g + m_8p_6.5t_40d_1g + m_8p_6.5t_40d_2g + m_8p_6.5t_40d_3g
+ + m_8p_7.5t_10d_1g + m_8p_7.5t_10d_2g + m_8p_7.5t_40d_1g + m_8p_7.5t_40d_2g
+ + m_8p_7.5t_40d_3g + m_8p_8.5t_10d_1g + m_8p_8.5t_10d_2g + m_8p_8.5t_40d_1g
+ + m_8p_8.5t_40d_2g + m_8p_8.5t_40d_3g >= 15
+M_threshold_row_9: m_9p_0.5t_10d_1g + m_9p_0.5t_10d_2g + m_9p_0.5t_40d_1g
+ + m_9p_0.5t_40d_2g + m_9p_0.5t_40d_3g + m_9p_1.5t_10d_1g + m_9p_1.5t_10d_2g
+ + m_9p_1.5t_40d_1g + m_9p_1.5t_40d_2g + m_9p_1.5t_40d_3g + m_9p_2.5t_10d_1g
+ + m_9p_2.5t_10d_2g + m_9p_2.5t_40d_1g + m_9p_2.5t_40d_2g + m_9p_2.5t_40d_3g
+ + m_9p_3.5t_10d_1g + m_9p_3.5t_10d_2g + m_9p_3.5t_40d_1g + m_9p_3.5t_40d_2g
+ + m_9p_3.5t_40d_3g + m_9p_4.5t_10d_1g + m_9p_4.5t_10d_2g + m_9p_4.5t_40d_1g
+ + m_9p_4.5t_40d_2g + m_9p_4.5t_40d_3g + m_9p_5.5t_10d_1g + m_9p_5.5t_10d_2g
+ + m_9p_5.5t_40d_1g + m_9p_5.5t_40d_2g + m_9p_5.5t_40d_3g + m_9p_6.5t_10d_1g
+ + m_9p_6.5t_10d_2g + m_9p_6.5t_40d_1g + m_9p_6.5t_40d_2g + m_9p_6.5t_40d_3g
+ + m_9p_7.5t_10d_1g + m_9p_7.5t_10d_2g + m_9p_7.5t_40d_1g + m_9p_7.5t_40d_2g
+ + m_9p_7.5t_40d_3g + m_9p_8.5t_10d_1g + m_9p_8.5t_10d_2g + m_9p_8.5t_40d_1g
+ + m_9p_8.5t_40d_2g + m_9p_8.5t_40d_3g >= 15
+R_threshold_row_1: r_1p_0.5t_10d_1g + r_1p_0.5t_10d_2g + r_1p_0.5t_40d_1g
+ + r_1p_0.5t_40d_2g + r_1p_0.5t_40d_3g + r_1p_1.5t_10d_1g + r_1p_1.5t_10d_2g
+ + r_1p_1.5t_40d_1g + r_1p_1.5t_40d_2g + r_1p_1.5t_40d_3g + r_1p_2.5t_10d_1g
+ + r_1p_2.5t_10d_2g + r_1p_2.5t_40d_1g + r_1p_2.5t_40d_2g + r_1p_2.5t_40d_3g
+ + r_1p_3.5t_10d_1g + r_1p_3.5t_10d_2g + r_1p_3.5t_40d_1g + r_1p_3.5t_40d_2g
+ + r_1p_3.5t_40d_3g + r_1p_4.5t_10d_1g + r_1p_4.5t_10d_2g + r_1p_4.5t_40d_1g
+ + r_1p_4.5t_40d_2g + r_1p_4.5t_40d_3g + r_1p_5.5t_10d_1g + r_1p_5.5t_10d_2g
+ + r_1p_5.5t_40d_1g + r_1p_5.5t_40d_2g + r_1p_5.5t_40d_3g + r_1p_6.5t_10d_1g
+ + r_1p_6.5t_10d_2g + r_1p_6.5t_40d_1g + r_1p_6.5t_40d_2g + r_1p_6.5t_40d_3g
+ + r_1p_7.5t_10d_1g + r_1p_7.5t_10d_2g + r_1p_7.5t_40d_1g + r_1p_7.5t_40d_2g
+ + r_1p_7.5t_40d_3g + r_1p_8.5t_10d_1g + r_1p_8.5t_10d_2g + r_1p_8.5t_40d_1g
+ + r_1p_8.5t_40d_2g + r_1p_8.5t_40d_3g >= 15
+R_threshold_row_2: r_2p_0.5t_10d_1g + r_2p_0.5t_10d_2g + r_2p_0.5t_40d_1g
+ + r_2p_0.5t_40d_2g + r_2p_0.5t_40d_3g + r_2p_1.5t_10d_1g + r_2p_1.5t_10d_2g
+ + r_2p_1.5t_40d_1g + r_2p_1.5t_40d_2g + r_2p_1.5t_40d_3g + r_2p_2.5t_10d_1g
+ + r_2p_2.5t_10d_2g + r_2p_2.5t_40d_1g + r_2p_2.5t_40d_2g + r_2p_2.5t_40d_3g
+ + r_2p_3.5t_10d_1g + r_2p_3.5t_10d_2g + r_2p_3.5t_40d_1g + r_2p_3.5t_40d_2g
+ + r_2p_3.5t_40d_3g + r_2p_4.5t_10d_1g + r_2p_4.5t_10d_2g + r_2p_4.5t_40d_1g
+ + r_2p_4.5t_40d_2g + r_2p_4.5t_40d_3g + r_2p_5.5t_10d_1g + r_2p_5.5t_10d_2g
+ + r_2p_5.5t_40d_1g + r_2p_5.5t_40d_2g + r_2p_5.5t_40d_3g + r_2p_6.5t_10d_1g
+ + r_2p_6.5t_10d_2g + r_2p_6.5t_40d_1g + r_2p_6.5t_40d_2g + r_2p_6.5t_40d_3g
+ + r_2p_7.5t_10d_1g + r_2p_7.5t_10d_2g + r_2p_7.5t_40d_1g + r_2p_7.5t_40d_2g
+ + r_2p_7.5t_40d_3g + r_2p_8.5t_10d_1g + r_2p_8.5t_10d_2g + r_2p_8.5t_40d_1g
+ + r_2p_8.5t_40d_2g + r_2p_8.5t_40d_3g >= 15
+R_threshold_row_4: r_4p_0.5t_10d_1g + r_4p_0.5t_10d_2g + r_4p_0.5t_40d_1g
+ + r_4p_0.5t_40d_2g + r_4p_0.5t_40d_3g + r_4p_1.5t_10d_1g + r_4p_1.5t_10d_2g
+ + r_4p_1.5t_40d_1g + r_4p_1.5t_40d_2g + r_4p_1.5t_40d_3g + r_4p_2.5t_10d_1g
+ + r_4p_2.5t_10d_2g + r_4p_2.5t_40d_1g + r_4p_2.5t_40d_2g + r_4p_2.5t_40d_3g
+ + r_4p_3.5t_10d_1g + r_4p_3.5t_10d_2g + r_4p_3.5t_40d_1g + r_4p_3.5t_40d_2g
+ + r_4p_3.5t_40d_3g + r_4p_4.5t_10d_1g + r_4p_4.5t_10d_2g + r_4p_4.5t_40d_1g
+ + r_4p_4.5t_40d_2g + r_4p_4.5t_40d_3g + r_4p_5.5t_10d_1g + r_4p_5.5t_10d_2g
+ + r_4p_5.5t_40d_1g + r_4p_5.5t_40d_2g + r_4p_5.5t_40d_3g + r_4p_6.5t_10d_1g
+ + r_4p_6.5t_10d_2g + r_4p_6.5t_40d_1g + r_4p_6.5t_40d_2g + r_4p_6.5t_40d_3g
+ + r_4p_7.5t_10d_1g + r_4p_7.5t_10d_2g + r_4p_7.5t_40d_1g + r_4p_7.5t_40d_2g
+ + r_4p_7.5t_40d_3g + r_4p_8.5t_10d_1g + r_4p_8.5t_10d_2g + r_4p_8.5t_40d_1g
+ + r_4p_8.5t_40d_2g + r_4p_8.5t_40d_3g >= 15
+R_threshold_row_5: r_5p_0.5t_10d_1g + r_5p_0.5t_10d_2g + r_5p_0.5t_40d_1g
+ + r_5p_0.5t_40d_2g + r_5p_0.5t_40d_3g + r_5p_1.5t_10d_1g + r_5p_1.5t_10d_2g
+ + r_5p_1.5t_40d_1g + r_5p_1.5t_40d_2g + r_5p_1.5t_40d_3g + r_5p_2.5t_10d_1g
+ + r_5p_2.5t_10d_2g + r_5p_2.5t_40d_1g + r_5p_2.5t_40d_2g + r_5p_2.5t_40d_3g
+ + r_5p_3.5t_10d_1g + r_5p_3.5t_10d_2g + r_5p_3.5t_40d_1g + r_5p_3.5t_40d_2g
+ + r_5p_3.5t_40d_3g + r_5p_4.5t_10d_1g + r_5p_4.5t_10d_2g + r_5p_4.5t_40d_1g
+ + r_5p_4.5t_40d_2g + r_5p_4.5t_40d_3g + r_5p_5.5t_10d_1g + r_5p_5.5t_10d_2g
+ + r_5p_5.5t_40d_1g + r_5p_5.5t_40d_2g + r_5p_5.5t_40d_3g + r_5p_6.5t_10d_1g
+ + r_5p_6.5t_10d_2g + r_5p_6.5t_40d_1g + r_5p_6.5t_40d_2g + r_5p_6.5t_40d_3g
+ + r_5p_7.5t_10d_1g + r_5p_7.5t_10d_2g + r_5p_7.5t_40d_1g + r_5p_7.5t_40d_2g
+ + r_5p_7.5t_40d_3g + r_5p_8.5t_10d_1g + r_5p_8.5t_10d_2g + r_5p_8.5t_40d_1g
+ + r_5p_8.5t_40d_2g + r_5p_8.5t_40d_3g >= 15
+R_threshold_row_6: r_6p_0.5t_10d_1g + r_6p_0.5t_10d_2g + r_6p_0.5t_40d_1g
+ + r_6p_0.5t_40d_2g + r_6p_0.5t_40d_3g + r_6p_1.5t_10d_1g + r_6p_1.5t_10d_2g
+ + r_6p_1.5t_40d_1g + r_6p_1.5t_40d_2g + r_6p_1.5t_40d_3g + r_6p_2.5t_10d_1g
+ + r_6p_2.5t_10d_2g + r_6p_2.5t_40d_1g + r_6p_2.5t_40d_2g + r_6p_2.5t_40d_3g
+ + r_6p_3.5t_10d_1g + r_6p_3.5t_10d_2g + r_6p_3.5t_40d_1g + r_6p_3.5t_40d_2g
+ + r_6p_3.5t_40d_3g + r_6p_4.5t_10d_1g + r_6p_4.5t_10d_2g + r_6p_4.5t_40d_1g
+ + r_6p_4.5t_40d_2g + r_6p_4.5t_40d_3g + r_6p_5.5t_10d_1g + r_6p_5.5t_10d_2g
+ + r_6p_5.5t_40d_1g + r_6p_5.5t_40d_2g + r_6p_5.5t_40d_3g + r_6p_6.5t_10d_1g
+ + r_6p_6.5t_10d_2g + r_6p_6.5t_40d_1g + r_6p_6.5t_40d_2g + r_6p_6.5t_40d_3g
+ + r_6p_7.5t_10d_1g + r_6p_7.5t_10d_2g + r_6p_7.5t_40d_1g + r_6p_7.5t_40d_2g
+ + r_6p_7.5t_40d_3g + r_6p_8.5t_10d_1g + r_6p_8.5t_10d_2g + r_6p_8.5t_40d_1g
+ + r_6p_8.5t_40d_2g + r_6p_8.5t_40d_3g >= 15
+R_threshold_row_7: r_7p_0.5t_10d_1g + r_7p_0.5t_10d_2g + r_7p_0.5t_40d_1g
+ + r_7p_0.5t_40d_2g + r_7p_0.5t_40d_3g + r_7p_1.5t_10d_1g + r_7p_1.5t_10d_2g
+ + r_7p_1.5t_40d_1g + r_7p_1.5t_40d_2g + r_7p_1.5t_40d_3g + r_7p_2.5t_10d_1g
+ + r_7p_2.5t_10d_2g + r_7p_2.5t_40d_1g + r_7p_2.5t_40d_2g + r_7p_2.5t_40d_3g
+ + r_7p_3.5t_10d_1g + r_7p_3.5t_10d_2g + r_7p_3.5t_40d_1g + r_7p_3.5t_40d_2g
+ + r_7p_3.5t_40d_3g + r_7p_4.5t_10d_1g + r_7p_4.5t_10d_2g + r_7p_4.5t_40d_1g
+ + r_7p_4.5t_40d_2g + r_7p_4.5t_40d_3g + r_7p_5.5t_10d_1g + r_7p_5.5t_10d_2g
+ + r_7p_5.5t_40d_1g + r_7p_5.5t_40d_2g + r_7p_5.5t_40d_3g + r_7p_6.5t_10d_1g
+ + r_7p_6.5t_10d_2g + r_7p_6.5t_40d_1g + r_7p_6.5t_40d_2g + r_7p_6.5t_40d_3g
+ + r_7p_7.5t_10d_1g + r_7p_7.5t_10d_2g + r_7p_7.5t_40d_1g + r_7p_7.5t_40d_2g
+ + r_7p_7.5t_40d_3g + r_7p_8.5t_10d_1g + r_7p_8.5t_10d_2g + r_7p_8.5t_40d_1g
+ + r_7p_8.5t_40d_2g + r_7p_8.5t_40d_3g >= 15
+R_threshold_row_8: r_8p_0.5t_10d_1g + r_8p_0.5t_10d_2g + r_8p_0.5t_40d_1g
+ + r_8p_0.5t_40d_2g + r_8p_0.5t_40d_3g + r_8p_1.5t_10d_1g + r_8p_1.5t_10d_2g
+ + r_8p_1.5t_40d_1g + r_8p_1.5t_40d_2g + r_8p_1.5t_40d_3g + r_8p_2.5t_10d_1g
+ + r_8p_2.5t_10d_2g + r_8p_2.5t_40d_1g + r_8p_2.5t_40d_2g + r_8p_2.5t_40d_3g
+ + r_8p_3.5t_10d_1g + r_8p_3.5t_10d_2g + r_8p_3.5t_40d_1g + r_8p_3.5t_40d_2g
+ + r_8p_3.5t_40d_3g + r_8p_4.5t_10d_1g + r_8p_4.5t_10d_2g + r_8p_4.5t_40d_1g
+ + r_8p_4.5t_40d_2g + r_8p_4.5t_40d_3g + r_8p_5.5t_10d_1g + r_8p_5.5t_10d_2g
+ + r_8p_5.5t_40d_1g + r_8p_5.5t_40d_2g + r_8p_5.5t_40d_3g + r_8p_6.5t_10d_1g
+ + r_8p_6.5t_10d_2g + r_8p_6.5t_40d_1g + r_8p_6.5t_40d_2g + r_8p_6.5t_40d_3g
+ + r_8p_7.5t_10d_1g + r_8p_7.5t_10d_2g + r_8p_7.5t_40d_1g + r_8p_7.5t_40d_2g
+ + r_8p_7.5t_40d_3g + r_8p_8.5t_10d_1g + r_8p_8.5t_10d_2g + r_8p_8.5t_40d_1g
+ + r_8p_8.5t_40d_2g + r_8p_8.5t_40d_3g >= 15
+R_threshold_row_9: r_9p_0.5t_10d_1g + r_9p_0.5t_10d_2g + r_9p_0.5t_40d_1g
+ + r_9p_0.5t_40d_2g + r_9p_0.5t_40d_3g + r_9p_1.5t_10d_1g + r_9p_1.5t_10d_2g
+ + r_9p_1.5t_40d_1g + r_9p_1.5t_40d_2g + r_9p_1.5t_40d_3g + r_9p_2.5t_10d_1g
+ + r_9p_2.5t_10d_2g + r_9p_2.5t_40d_1g + r_9p_2.5t_40d_2g + r_9p_2.5t_40d_3g
+ + r_9p_3.5t_10d_1g + r_9p_3.5t_10d_2g + r_9p_3.5t_40d_1g + r_9p_3.5t_40d_2g
+ + r_9p_3.5t_40d_3g + r_9p_4.5t_10d_1g + r_9p_4.5t_10d_2g + r_9p_4.5t_40d_1g
+ + r_9p_4.5t_40d_2g + r_9p_4.5t_40d_3g + r_9p_5.5t_10d_1g + r_9p_5.5t_10d_2g
+ + r_9p_5.5t_40d_1g + r_9p_5.5t_40d_2g + r_9p_5.5t_40d_3g + r_9p_6.5t_10d_1g
+ + r_9p_6.5t_10d_2g + r_9p_6.5t_40d_1g + r_9p_6.5t_40d_2g + r_9p_6.5t_40d_3g
+ + r_9p_7.5t_10d_1g + r_9p_7.5t_10d_2g + r_9p_7.5t_40d_1g + r_9p_7.5t_40d_2g
+ + r_9p_7.5t_40d_3g + r_9p_8.5t_10d_1g + r_9p_8.5t_10d_2g + r_9p_8.5t_40d_1g
+ + r_9p_8.5t_40d_2g + r_9p_8.5t_40d_3g >= 15
+U_threshold_row_1: u_1p_0.5t_10d_1g + u_1p_0.5t_10d_2g + u_1p_0.5t_40d_1g
+ + u_1p_0.5t_40d_2g + u_1p_0.5t_40d_3g + u_1p_1.5t_10d_1g + u_1p_1.5t_10d_2g
+ + u_1p_1.5t_40d_1g + u_1p_1.5t_40d_2g + u_1p_1.5t_40d_3g + u_1p_2.5t_10d_1g
+ + u_1p_2.5t_10d_2g + u_1p_2.5t_40d_1g + u_1p_2.5t_40d_2g + u_1p_2.5t_40d_3g
+ + u_1p_3.5t_10d_1g + u_1p_3.5t_10d_2g + u_1p_3.5t_40d_1g + u_1p_3.5t_40d_2g
+ + u_1p_3.5t_40d_3g + u_1p_4.5t_10d_1g + u_1p_4.5t_10d_2g + u_1p_4.5t_40d_1g
+ + u_1p_4.5t_40d_2g + u_1p_4.5t_40d_3g + u_1p_5.5t_10d_1g + u_1p_5.5t_10d_2g
+ + u_1p_5.5t_40d_1g + u_1p_5.5t_40d_2g + u_1p_5.5t_40d_3g + u_1p_6.5t_10d_1g
+ + u_1p_6.5t_10d_2g + u_1p_6.5t_40d_1g + u_1p_6.5t_40d_2g + u_1p_6.5t_40d_3g
+ + u_1p_7.5t_10d_1g + u_1p_7.5t_10d_2g + u_1p_7.5t_40d_1g + u_1p_7.5t_40d_2g
+ + u_1p_7.5t_40d_3g + u_1p_8.5t_10d_1g + u_1p_8.5t_10d_2g + u_1p_8.5t_40d_1g
+ + u_1p_8.5t_40d_2g + u_1p_8.5t_40d_3g >= 41
+U_threshold_row_2: u_2p_0.5t_10d_1g + u_2p_0.5t_10d_2g + u_2p_0.5t_40d_1g
+ + u_2p_0.5t_40d_2g + u_2p_0.5t_40d_3g + u_2p_1.5t_10d_1g + u_2p_1.5t_10d_2g
+ + u_2p_1.5t_40d_1g + u_2p_1.5t_40d_2g + u_2p_1.5t_40d_3g + u_2p_2.5t_10d_1g
+ + u_2p_2.5t_10d_2g + u_2p_2.5t_40d_1g + u_2p_2.5t_40d_2g + u_2p_2.5t_40d_3g
+ + u_2p_3.5t_10d_1g + u_2p_3.5t_10d_2g + u_2p_3.5t_40d_1g + u_2p_3.5t_40d_2g
+ + u_2p_3.5t_40d_3g + u_2p_4.5t_10d_1g + u_2p_4.5t_10d_2g + u_2p_4.5t_40d_1g
+ + u_2p_4.5t_40d_2g + u_2p_4.5t_40d_3g + u_2p_5.5t_10d_1g + u_2p_5.5t_10d_2g
+ + u_2p_5.5t_40d_1g + u_2p_5.5t_40d_2g + u_2p_5.5t_40d_3g + u_2p_6.5t_10d_1g
+ + u_2p_6.5t_10d_2g + u_2p_6.5t_40d_1g + u_2p_6.5t_40d_2g + u_2p_6.5t_40d_3g
+ + u_2p_7.5t_10d_1g + u_2p_7.5t_10d_2g + u_2p_7.5t_40d_1g + u_2p_7.5t_40d_2g
+ + u_2p_7.5t_40d_3g + u_2p_8.5t_10d_1g + u_2p_8.5t_10d_2g + u_2p_8.5t_40d_1g
+ + u_2p_8.5t_40d_2g + u_2p_8.5t_40d_3g >= 41
+U_threshold_row_4: u_4p_0.5t_10d_1g + u_4p_0.5t_10d_2g + u_4p_0.5t_40d_1g
+ + u_4p_0.5t_40d_2g + u_4p_0.5t_40d_3g + u_4p_1.5t_10d_1g + u_4p_1.5t_10d_2g
+ + u_4p_1.5t_40d_1g + u_4p_1.5t_40d_2g + u_4p_1.5t_40d_3g + u_4p_2.5t_10d_1g
+ + u_4p_2.5t_10d_2g + u_4p_2.5t_40d_1g + u_4p_2.5t_40d_2g + u_4p_2.5t_40d_3g
+ + u_4p_3.5t_10d_1g + u_4p_3.5t_10d_2g + u_4p_3.5t_40d_1g + u_4p_3.5t_40d_2g
+ + u_4p_3.5t_40d_3g + u_4p_4.5t_10d_1g + u_4p_4.5t_10d_2g + u_4p_4.5t_40d_1g
+ + u_4p_4.5t_40d_2g + u_4p_4.5t_40d_3g + u_4p_5.5t_10d_1g + u_4p_5.5t_10d_2g
+ + u_4p_5.5t_40d_1g + u_4p_5.5t_40d_2g + u_4p_5.5t_40d_3g + u_4p_6.5t_10d_1g
+ + u_4p_6.5t_10d_2g + u_4p_6.5t_40d_1g + u_4p_6.5t_40d_2g + u_4p_6.5t_40d_3g
+ + u_4p_7.5t_10d_1g + u_4p_7.5t_10d_2g + u_4p_7.5t_40d_1g + u_4p_7.5t_40d_2g
+ + u_4p_7.5t_40d_3g + u_4p_8.5t_10d_1g + u_4p_8.5t_10d_2g + u_4p_8.5t_40d_1g
+ + u_4p_8.5t_40d_2g + u_4p_8.5t_40d_3g >= 41
+U_threshold_row_5: u_5p_0.5t_10d_1g + u_5p_0.5t_10d_2g + u_5p_0.5t_40d_1g
+ + u_5p_0.5t_40d_2g + u_5p_0.5t_40d_3g + u_5p_1.5t_10d_1g + u_5p_1.5t_10d_2g
+ + u_5p_1.5t_40d_1g + u_5p_1.5t_40d_2g + u_5p_1.5t_40d_3g + u_5p_2.5t_10d_1g
+ + u_5p_2.5t_10d_2g + u_5p_2.5t_40d_1g + u_5p_2.5t_40d_2g + u_5p_2.5t_40d_3g
+ + u_5p_3.5t_10d_1g + u_5p_3.5t_10d_2g + u_5p_3.5t_40d_1g + u_5p_3.5t_40d_2g
+ + u_5p_3.5t_40d_3g + u_5p_4.5t_10d_1g + u_5p_4.5t_10d_2g + u_5p_4.5t_40d_1g
+ + u_5p_4.5t_40d_2g + u_5p_4.5t_40d_3g + u_5p_5.5t_10d_1g + u_5p_5.5t_10d_2g
+ + u_5p_5.5t_40d_1g + u_5p_5.5t_40d_2g + u_5p_5.5t_40d_3g + u_5p_6.5t_10d_1g
+ + u_5p_6.5t_10d_2g + u_5p_6.5t_40d_1g + u_5p_6.5t_40d_2g + u_5p_6.5t_40d_3g
+ + u_5p_7.5t_10d_1g + u_5p_7.5t_10d_2g + u_5p_7.5t_40d_1g + u_5p_7.5t_40d_2g
+ + u_5p_7.5t_40d_3g + u_5p_8.5t_10d_1g + u_5p_8.5t_10d_2g + u_5p_8.5t_40d_1g
+ + u_5p_8.5t_40d_2g + u_5p_8.5t_40d_3g >= 41
+U_threshold_row_6: u_6p_0.5t_10d_1g + u_6p_0.5t_10d_2g + u_6p_0.5t_40d_1g
+ + u_6p_0.5t_40d_2g + u_6p_0.5t_40d_3g + u_6p_1.5t_10d_1g + u_6p_1.5t_10d_2g
+ + u_6p_1.5t_40d_1g + u_6p_1.5t_40d_2g + u_6p_1.5t_40d_3g + u_6p_2.5t_10d_1g
+ + u_6p_2.5t_10d_2g + u_6p_2.5t_40d_1g + u_6p_2.5t_40d_2g + u_6p_2.5t_40d_3g
+ + u_6p_3.5t_10d_1g + u_6p_3.5t_10d_2g + u_6p_3.5t_40d_1g + u_6p_3.5t_40d_2g
+ + u_6p_3.5t_40d_3g + u_6p_4.5t_10d_1g + u_6p_4.5t_10d_2g + u_6p_4.5t_40d_1g
+ + u_6p_4.5t_40d_2g + u_6p_4.5t_40d_3g + u_6p_5.5t_10d_1g + u_6p_5.5t_10d_2g
+ + u_6p_5.5t_40d_1g + u_6p_5.5t_40d_2g + u_6p_5.5t_40d_3g + u_6p_6.5t_10d_1g
+ + u_6p_6.5t_10d_2g + u_6p_6.5t_40d_1g + u_6p_6.5t_40d_2g + u_6p_6.5t_40d_3g
+ + u_6p_7.5t_10d_1g + u_6p_7.5t_10d_2g + u_6p_7.5t_40d_1g + u_6p_7.5t_40d_2g
+ + u_6p_7.5t_40d_3g + u_6p_8.5t_10d_1g + u_6p_8.5t_10d_2g + u_6p_8.5t_40d_1g
+ + u_6p_8.5t_40d_2g + u_6p_8.5t_40d_3g >= 41
+U_threshold_row_7: u_7p_0.5t_10d_1g + u_7p_0.5t_10d_2g + u_7p_0.5t_40d_1g
+ + u_7p_0.5t_40d_2g + u_7p_0.5t_40d_3g + u_7p_1.5t_10d_1g + u_7p_1.5t_10d_2g
+ + u_7p_1.5t_40d_1g + u_7p_1.5t_40d_2g + u_7p_1.5t_40d_3g + u_7p_2.5t_10d_1g
+ + u_7p_2.5t_10d_2g + u_7p_2.5t_40d_1g + u_7p_2.5t_40d_2g + u_7p_2.5t_40d_3g
+ + u_7p_3.5t_10d_1g + u_7p_3.5t_10d_2g + u_7p_3.5t_40d_1g + u_7p_3.5t_40d_2g
+ + u_7p_3.5t_40d_3g + u_7p_4.5t_10d_1g + u_7p_4.5t_10d_2g + u_7p_4.5t_40d_1g
+ + u_7p_4.5t_40d_2g + u_7p_4.5t_40d_3g + u_7p_5.5t_10d_1g + u_7p_5.5t_10d_2g
+ + u_7p_5.5t_40d_1g + u_7p_5.5t_40d_2g + u_7p_5.5t_40d_3g + u_7p_6.5t_10d_1g
+ + u_7p_6.5t_10d_2g + u_7p_6.5t_40d_1g + u_7p_6.5t_40d_2g + u_7p_6.5t_40d_3g
+ + u_7p_7.5t_10d_1g + u_7p_7.5t_10d_2g + u_7p_7.5t_40d_1g + u_7p_7.5t_40d_2g
+ + u_7p_7.5t_40d_3g + u_7p_8.5t_10d_1g + u_7p_8.5t_10d_2g + u_7p_8.5t_40d_1g
+ + u_7p_8.5t_40d_2g + u_7p_8.5t_40d_3g >= 41
+U_threshold_row_8: u_8p_0.5t_10d_1g + u_8p_0.5t_10d_2g + u_8p_0.5t_40d_1g
+ + u_8p_0.5t_40d_2g + u_8p_0.5t_40d_3g + u_8p_1.5t_10d_1g + u_8p_1.5t_10d_2g
+ + u_8p_1.5t_40d_1g + u_8p_1.5t_40d_2g + u_8p_1.5t_40d_3g + u_8p_2.5t_10d_1g
+ + u_8p_2.5t_10d_2g + u_8p_2.5t_40d_1g + u_8p_2.5t_40d_2g + u_8p_2.5t_40d_3g
+ + u_8p_3.5t_10d_1g + u_8p_3.5t_10d_2g + u_8p_3.5t_40d_1g + u_8p_3.5t_40d_2g
+ + u_8p_3.5t_40d_3g + u_8p_4.5t_10d_1g + u_8p_4.5t_10d_2g + u_8p_4.5t_40d_1g
+ + u_8p_4.5t_40d_2g + u_8p_4.5t_40d_3g + u_8p_5.5t_10d_1g + u_8p_5.5t_10d_2g
+ + u_8p_5.5t_40d_1g + u_8p_5.5t_40d_2g + u_8p_5.5t_40d_3g + u_8p_6.5t_10d_1g
+ + u_8p_6.5t_10d_2g + u_8p_6.5t_40d_1g + u_8p_6.5t_40d_2g + u_8p_6.5t_40d_3g
+ + u_8p_7.5t_10d_1g + u_8p_7.5t_10d_2g + u_8p_7.5t_40d_1g + u_8p_7.5t_40d_2g
+ + u_8p_7.5t_40d_3g + u_8p_8.5t_10d_1g + u_8p_8.5t_10d_2g + u_8p_8.5t_40d_1g
+ + u_8p_8.5t_40d_2g + u_8p_8.5t_40d_3g >= 41
+U_threshold_row_9: u_9p_0.5t_10d_1g + u_9p_0.5t_10d_2g + u_9p_0.5t_40d_1g
+ + u_9p_0.5t_40d_2g + u_9p_0.5t_40d_3g + u_9p_1.5t_10d_1g + u_9p_1.5t_10d_2g
+ + u_9p_1.5t_40d_1g + u_9p_1.5t_40d_2g + u_9p_1.5t_40d_3g + u_9p_2.5t_10d_1g
+ + u_9p_2.5t_10d_2g + u_9p_2.5t_40d_1g + u_9p_2.5t_40d_2g + u_9p_2.5t_40d_3g
+ + u_9p_3.5t_10d_1g + u_9p_3.5t_10d_2g + u_9p_3.5t_40d_1g + u_9p_3.5t_40d_2g
+ + u_9p_3.5t_40d_3g + u_9p_4.5t_10d_1g + u_9p_4.5t_10d_2g + u_9p_4.5t_40d_1g
+ + u_9p_4.5t_40d_2g + u_9p_4.5t_40d_3g + u_9p_5.5t_10d_1g + u_9p_5.5t_10d_2g
+ + u_9p_5.5t_40d_1g + u_9p_5.5t_40d_2g + u_9p_5.5t_40d_3g + u_9p_6.5t_10d_1g
+ + u_9p_6.5t_10d_2g + u_9p_6.5t_40d_1g + u_9p_6.5t_40d_2g + u_9p_6.5t_40d_3g
+ + u_9p_7.5t_10d_1g + u_9p_7.5t_10d_2g + u_9p_7.5t_40d_1g + u_9p_7.5t_40d_2g
+ + u_9p_7.5t_40d_3g + u_9p_8.5t_10d_1g + u_9p_8.5t_10d_2g + u_9p_8.5t_40d_1g
+ + u_9p_8.5t_40d_2g + u_9p_8.5t_40d_3g >= 41
+big_m_con_on_m@1p_0.5t_10d_1g: m_1p_0.5t_10d_1g + 100 y_1p_0.5t_10d_1g >= 100
+big_m_con_on_m@1p_0.5t_10d_2g: m_1p_0.5t_10d_2g + 100 y_1p_0.5t_10d_2g >= 100
+big_m_con_on_m@1p_0.5t_40d_1g: m_1p_0.5t_40d_1g + 100 y_1p_0.5t_40d_1g >= 100
+big_m_con_on_m@1p_0.5t_40d_2g: m_1p_0.5t_40d_2g + 100 y_1p_0.5t_40d_2g >= 100
+big_m_con_on_m@1p_0.5t_40d_3g: m_1p_0.5t_40d_3g + 100 y_1p_0.5t_40d_3g >= 100
+big_m_con_on_m@1p_1.5t_10d_1g: m_1p_1.5t_10d_1g + 100 y_1p_1.5t_10d_1g >= 100
+big_m_con_on_m@1p_1.5t_10d_2g: m_1p_1.5t_10d_2g + 100 y_1p_1.5t_10d_2g >= 100
+big_m_con_on_m@1p_1.5t_40d_1g: m_1p_1.5t_40d_1g + 100 y_1p_1.5t_40d_1g >= 100
+big_m_con_on_m@1p_1.5t_40d_2g: m_1p_1.5t_40d_2g + 100 y_1p_1.5t_40d_2g >= 100
+big_m_con_on_m@1p_1.5t_40d_3g: m_1p_1.5t_40d_3g + 100 y_1p_1.5t_40d_3g >= 100
+big_m_con_on_m@1p_2.5t_10d_1g: m_1p_2.5t_10d_1g + 100 y_1p_2.5t_10d_1g >= 100
+big_m_con_on_m@1p_2.5t_10d_2g: m_1p_2.5t_10d_2g + 100 y_1p_2.5t_10d_2g >= 100
+big_m_con_on_m@1p_2.5t_40d_1g: m_1p_2.5t_40d_1g + 100 y_1p_2.5t_40d_1g >= 100
+big_m_con_on_m@1p_2.5t_40d_2g: m_1p_2.5t_40d_2g + 100 y_1p_2.5t_40d_2g >= 100
+big_m_con_on_m@1p_2.5t_40d_3g: m_1p_2.5t_40d_3g + 100 y_1p_2.5t_40d_3g >= 100
+big_m_con_on_m@1p_3.5t_10d_1g: m_1p_3.5t_10d_1g + 100 y_1p_3.5t_10d_1g >= 100
+big_m_con_on_m@1p_3.5t_10d_2g: m_1p_3.5t_10d_2g + 100 y_1p_3.5t_10d_2g >= 100
+big_m_con_on_m@1p_3.5t_40d_1g: m_1p_3.5t_40d_1g + 100 y_1p_3.5t_40d_1g >= 100
+big_m_con_on_m@1p_3.5t_40d_2g: m_1p_3.5t_40d_2g + 100 y_1p_3.5t_40d_2g >= 100
+big_m_con_on_m@1p_3.5t_40d_3g: m_1p_3.5t_40d_3g + 100 y_1p_3.5t_40d_3g >= 100
+big_m_con_on_m@1p_4.5t_10d_1g: m_1p_4.5t_10d_1g + 100 y_1p_4.5t_10d_1g >= 100
+big_m_con_on_m@1p_4.5t_10d_2g: m_1p_4.5t_10d_2g + 100 y_1p_4.5t_10d_2g >= 100
+big_m_con_on_m@1p_4.5t_40d_1g: m_1p_4.5t_40d_1g + 100 y_1p_4.5t_40d_1g >= 100
+big_m_con_on_m@1p_4.5t_40d_2g: m_1p_4.5t_40d_2g + 100 y_1p_4.5t_40d_2g >= 100
+big_m_con_on_m@1p_4.5t_40d_3g: m_1p_4.5t_40d_3g + 100 y_1p_4.5t_40d_3g >= 100
+big_m_con_on_m@1p_5.5t_10d_1g: m_1p_5.5t_10d_1g + 100 y_1p_5.5t_10d_1g >= 100
+big_m_con_on_m@1p_5.5t_10d_2g: m_1p_5.5t_10d_2g + 100 y_1p_5.5t_10d_2g >= 100
+big_m_con_on_m@1p_5.5t_40d_1g: m_1p_5.5t_40d_1g + 100 y_1p_5.5t_40d_1g >= 100
+big_m_con_on_m@1p_5.5t_40d_2g: m_1p_5.5t_40d_2g + 100 y_1p_5.5t_40d_2g >= 100
+big_m_con_on_m@1p_5.5t_40d_3g: m_1p_5.5t_40d_3g + 100 y_1p_5.5t_40d_3g >= 100
+big_m_con_on_m@1p_6.5t_10d_1g: m_1p_6.5t_10d_1g + 100 y_1p_6.5t_10d_1g >= 100
+big_m_con_on_m@1p_6.5t_10d_2g: m_1p_6.5t_10d_2g + 100 y_1p_6.5t_10d_2g >= 100
+big_m_con_on_m@1p_6.5t_40d_1g: m_1p_6.5t_40d_1g + 100 y_1p_6.5t_40d_1g >= 100
+big_m_con_on_m@1p_6.5t_40d_2g: m_1p_6.5t_40d_2g + 100 y_1p_6.5t_40d_2g >= 100
+big_m_con_on_m@1p_6.5t_40d_3g: m_1p_6.5t_40d_3g + 100 y_1p_6.5t_40d_3g >= 100
+big_m_con_on_m@1p_7.5t_10d_1g: m_1p_7.5t_10d_1g + 100 y_1p_7.5t_10d_1g >= 100
+big_m_con_on_m@1p_7.5t_10d_2g: m_1p_7.5t_10d_2g + 100 y_1p_7.5t_10d_2g >= 100
+big_m_con_on_m@1p_7.5t_40d_1g: m_1p_7.5t_40d_1g + 100 y_1p_7.5t_40d_1g >= 100
+big_m_con_on_m@1p_7.5t_40d_2g: m_1p_7.5t_40d_2g + 100 y_1p_7.5t_40d_2g >= 100
+big_m_con_on_m@1p_7.5t_40d_3g: m_1p_7.5t_40d_3g + 100 y_1p_7.5t_40d_3g >= 100
+big_m_con_on_m@1p_8.5t_10d_1g: m_1p_8.5t_10d_1g + 100 y_1p_8.5t_10d_1g >= 100
+big_m_con_on_m@1p_8.5t_10d_2g: m_1p_8.5t_10d_2g + 100 y_1p_8.5t_10d_2g >= 100
+big_m_con_on_m@1p_8.5t_40d_1g: m_1p_8.5t_40d_1g + 100 y_1p_8.5t_40d_1g >= 100
+big_m_con_on_m@1p_8.5t_40d_2g: m_1p_8.5t_40d_2g + 100 y_1p_8.5t_40d_2g >= 100
+big_m_con_on_m@1p_8.5t_40d_3g: m_1p_8.5t_40d_3g + 100 y_1p_8.5t_40d_3g >= 100
+big_m_con_on_m@2p_0.5t_10d_1g: m_2p_0.5t_10d_1g + 100 y_2p_0.5t_10d_1g >= 100
+big_m_con_on_m@2p_0.5t_10d_2g: m_2p_0.5t_10d_2g + 100 y_2p_0.5t_10d_2g >= 100
+big_m_con_on_m@2p_0.5t_40d_1g: m_2p_0.5t_40d_1g + 100 y_2p_0.5t_40d_1g >= 100
+big_m_con_on_m@2p_0.5t_40d_2g: m_2p_0.5t_40d_2g + 100 y_2p_0.5t_40d_2g >= 100
+big_m_con_on_m@2p_0.5t_40d_3g: m_2p_0.5t_40d_3g + 100 y_2p_0.5t_40d_3g >= 100
+big_m_con_on_m@2p_1.5t_10d_1g: m_2p_1.5t_10d_1g + 100 y_2p_1.5t_10d_1g >= 100
+big_m_con_on_m@2p_1.5t_10d_2g: m_2p_1.5t_10d_2g + 100 y_2p_1.5t_10d_2g >= 100
+big_m_con_on_m@2p_1.5t_40d_1g: m_2p_1.5t_40d_1g + 100 y_2p_1.5t_40d_1g >= 100
+big_m_con_on_m@2p_1.5t_40d_2g: m_2p_1.5t_40d_2g + 100 y_2p_1.5t_40d_2g >= 100
+big_m_con_on_m@2p_1.5t_40d_3g: m_2p_1.5t_40d_3g + 100 y_2p_1.5t_40d_3g >= 100
+big_m_con_on_m@2p_2.5t_10d_1g: m_2p_2.5t_10d_1g + 100 y_2p_2.5t_10d_1g >= 100
+big_m_con_on_m@2p_2.5t_10d_2g: m_2p_2.5t_10d_2g + 100 y_2p_2.5t_10d_2g >= 100
+big_m_con_on_m@2p_2.5t_40d_1g: m_2p_2.5t_40d_1g + 100 y_2p_2.5t_40d_1g >= 100
+big_m_con_on_m@2p_2.5t_40d_2g: m_2p_2.5t_40d_2g + 100 y_2p_2.5t_40d_2g >= 100
+big_m_con_on_m@2p_2.5t_40d_3g: m_2p_2.5t_40d_3g + 100 y_2p_2.5t_40d_3g >= 100
+big_m_con_on_m@2p_3.5t_10d_1g: m_2p_3.5t_10d_1g + 100 y_2p_3.5t_10d_1g >= 100
+big_m_con_on_m@2p_3.5t_10d_2g: m_2p_3.5t_10d_2g + 100 y_2p_3.5t_10d_2g >= 100
+big_m_con_on_m@2p_3.5t_40d_1g: m_2p_3.5t_40d_1g + 100 y_2p_3.5t_40d_1g >= 100
+big_m_con_on_m@2p_3.5t_40d_2g: m_2p_3.5t_40d_2g + 100 y_2p_3.5t_40d_2g >= 100
+big_m_con_on_m@2p_3.5t_40d_3g: m_2p_3.5t_40d_3g + 100 y_2p_3.5t_40d_3g >= 100
+big_m_con_on_m@2p_4.5t_10d_1g: m_2p_4.5t_10d_1g + 100 y_2p_4.5t_10d_1g >= 100
+big_m_con_on_m@2p_4.5t_10d_2g: m_2p_4.5t_10d_2g + 100 y_2p_4.5t_10d_2g >= 100
+big_m_con_on_m@2p_4.5t_40d_1g: m_2p_4.5t_40d_1g + 100 y_2p_4.5t_40d_1g >= 100
+big_m_con_on_m@2p_4.5t_40d_2g: m_2p_4.5t_40d_2g + 100 y_2p_4.5t_40d_2g >= 100
+big_m_con_on_m@2p_4.5t_40d_3g: m_2p_4.5t_40d_3g + 100 y_2p_4.5t_40d_3g >= 100
+big_m_con_on_m@2p_5.5t_10d_1g: m_2p_5.5t_10d_1g + 100 y_2p_5.5t_10d_1g >= 100
+big_m_con_on_m@2p_5.5t_10d_2g: m_2p_5.5t_10d_2g + 100 y_2p_5.5t_10d_2g >= 100
+big_m_con_on_m@2p_5.5t_40d_1g: m_2p_5.5t_40d_1g + 100 y_2p_5.5t_40d_1g >= 100
+big_m_con_on_m@2p_5.5t_40d_2g: m_2p_5.5t_40d_2g + 100 y_2p_5.5t_40d_2g >= 100
+big_m_con_on_m@2p_5.5t_40d_3g: m_2p_5.5t_40d_3g + 100 y_2p_5.5t_40d_3g >= 100
+big_m_con_on_m@2p_6.5t_10d_1g: m_2p_6.5t_10d_1g + 100 y_2p_6.5t_10d_1g >= 100
+big_m_con_on_m@2p_6.5t_10d_2g: m_2p_6.5t_10d_2g + 100 y_2p_6.5t_10d_2g >= 100
+big_m_con_on_m@2p_6.5t_40d_1g: m_2p_6.5t_40d_1g + 100 y_2p_6.5t_40d_1g >= 100
+big_m_con_on_m@2p_6.5t_40d_2g: m_2p_6.5t_40d_2g + 100 y_2p_6.5t_40d_2g >= 100
+big_m_con_on_m@2p_6.5t_40d_3g: m_2p_6.5t_40d_3g + 100 y_2p_6.5t_40d_3g >= 100
+big_m_con_on_m@2p_7.5t_10d_1g: m_2p_7.5t_10d_1g + 100 y_2p_7.5t_10d_1g >= 100
+big_m_con_on_m@2p_7.5t_10d_2g: m_2p_7.5t_10d_2g + 100 y_2p_7.5t_10d_2g >= 100
+big_m_con_on_m@2p_7.5t_40d_1g: m_2p_7.5t_40d_1g + 100 y_2p_7.5t_40d_1g >= 100
+big_m_con_on_m@2p_7.5t_40d_2g: m_2p_7.5t_40d_2g + 100 y_2p_7.5t_40d_2g >= 100
+big_m_con_on_m@2p_7.5t_40d_3g: m_2p_7.5t_40d_3g + 100 y_2p_7.5t_40d_3g >= 100
+big_m_con_on_m@2p_8.5t_10d_1g: m_2p_8.5t_10d_1g + 100 y_2p_8.5t_10d_1g >= 100
+big_m_con_on_m@2p_8.5t_10d_2g: m_2p_8.5t_10d_2g + 100 y_2p_8.5t_10d_2g >= 100
+big_m_con_on_m@2p_8.5t_40d_1g: m_2p_8.5t_40d_1g + 100 y_2p_8.5t_40d_1g >= 100
+big_m_con_on_m@2p_8.5t_40d_2g: m_2p_8.5t_40d_2g + 100 y_2p_8.5t_40d_2g >= 100
+big_m_con_on_m@2p_8.5t_40d_3g: m_2p_8.5t_40d_3g + 100 y_2p_8.5t_40d_3g >= 100
+big_m_con_on_m@4p_0.5t_10d_1g: m_4p_0.5t_10d_1g + 100 y_4p_0.5t_10d_1g >= 100
+big_m_con_on_m@4p_0.5t_10d_2g: m_4p_0.5t_10d_2g + 100 y_4p_0.5t_10d_2g >= 100
+big_m_con_on_m@4p_0.5t_40d_1g: m_4p_0.5t_40d_1g + 100 y_4p_0.5t_40d_1g >= 100
+big_m_con_on_m@4p_0.5t_40d_2g: m_4p_0.5t_40d_2g + 100 y_4p_0.5t_40d_2g >= 100
+big_m_con_on_m@4p_0.5t_40d_3g: m_4p_0.5t_40d_3g + 100 y_4p_0.5t_40d_3g >= 100
+big_m_con_on_m@4p_1.5t_10d_1g: m_4p_1.5t_10d_1g + 100 y_4p_1.5t_10d_1g >= 100
+big_m_con_on_m@4p_1.5t_10d_2g: m_4p_1.5t_10d_2g + 100 y_4p_1.5t_10d_2g >= 100
+big_m_con_on_m@4p_1.5t_40d_1g: m_4p_1.5t_40d_1g + 100 y_4p_1.5t_40d_1g >= 100
+big_m_con_on_m@4p_1.5t_40d_2g: m_4p_1.5t_40d_2g + 100 y_4p_1.5t_40d_2g >= 100
+big_m_con_on_m@4p_1.5t_40d_3g: m_4p_1.5t_40d_3g + 100 y_4p_1.5t_40d_3g >= 100
+big_m_con_on_m@4p_2.5t_10d_1g: m_4p_2.5t_10d_1g + 100 y_4p_2.5t_10d_1g >= 100
+big_m_con_on_m@4p_2.5t_10d_2g: m_4p_2.5t_10d_2g + 100 y_4p_2.5t_10d_2g >= 100
+big_m_con_on_m@4p_2.5t_40d_1g: m_4p_2.5t_40d_1g + 100 y_4p_2.5t_40d_1g >= 100
+big_m_con_on_m@4p_2.5t_40d_2g: m_4p_2.5t_40d_2g + 100 y_4p_2.5t_40d_2g >= 100
+big_m_con_on_m@4p_2.5t_40d_3g: m_4p_2.5t_40d_3g + 100 y_4p_2.5t_40d_3g >= 100
+big_m_con_on_m@4p_3.5t_10d_1g: m_4p_3.5t_10d_1g + 100 y_4p_3.5t_10d_1g >= 100
+big_m_con_on_m@4p_3.5t_10d_2g: m_4p_3.5t_10d_2g + 100 y_4p_3.5t_10d_2g >= 100
+big_m_con_on_m@4p_3.5t_40d_1g: m_4p_3.5t_40d_1g + 100 y_4p_3.5t_40d_1g >= 100
+big_m_con_on_m@4p_3.5t_40d_2g: m_4p_3.5t_40d_2g + 100 y_4p_3.5t_40d_2g >= 100
+big_m_con_on_m@4p_3.5t_40d_3g: m_4p_3.5t_40d_3g + 100 y_4p_3.5t_40d_3g >= 100
+big_m_con_on_m@4p_4.5t_10d_1g: m_4p_4.5t_10d_1g + 100 y_4p_4.5t_10d_1g >= 100
+big_m_con_on_m@4p_4.5t_10d_2g: m_4p_4.5t_10d_2g + 100 y_4p_4.5t_10d_2g >= 100
+big_m_con_on_m@4p_4.5t_40d_1g: m_4p_4.5t_40d_1g + 100 y_4p_4.5t_40d_1g >= 100
+big_m_con_on_m@4p_4.5t_40d_2g: m_4p_4.5t_40d_2g + 100 y_4p_4.5t_40d_2g >= 100
+big_m_con_on_m@4p_4.5t_40d_3g: m_4p_4.5t_40d_3g + 100 y_4p_4.5t_40d_3g >= 100
+big_m_con_on_m@4p_5.5t_10d_1g: m_4p_5.5t_10d_1g + 100 y_4p_5.5t_10d_1g >= 100
+big_m_con_on_m@4p_5.5t_10d_2g: m_4p_5.5t_10d_2g + 100 y_4p_5.5t_10d_2g >= 100
+big_m_con_on_m@4p_5.5t_40d_1g: m_4p_5.5t_40d_1g + 100 y_4p_5.5t_40d_1g >= 100
+big_m_con_on_m@4p_5.5t_40d_2g: m_4p_5.5t_40d_2g + 100 y_4p_5.5t_40d_2g >= 100
+big_m_con_on_m@4p_5.5t_40d_3g: m_4p_5.5t_40d_3g + 100 y_4p_5.5t_40d_3g >= 100
+big_m_con_on_m@4p_6.5t_10d_1g: m_4p_6.5t_10d_1g + 100 y_4p_6.5t_10d_1g >= 100
+big_m_con_on_m@4p_6.5t_10d_2g: m_4p_6.5t_10d_2g + 100 y_4p_6.5t_10d_2g >= 100
+big_m_con_on_m@4p_6.5t_40d_1g: m_4p_6.5t_40d_1g + 100 y_4p_6.5t_40d_1g >= 100
+big_m_con_on_m@4p_6.5t_40d_2g: m_4p_6.5t_40d_2g + 100 y_4p_6.5t_40d_2g >= 100
+big_m_con_on_m@4p_6.5t_40d_3g: m_4p_6.5t_40d_3g + 100 y_4p_6.5t_40d_3g >= 100
+big_m_con_on_m@4p_7.5t_10d_1g: m_4p_7.5t_10d_1g + 100 y_4p_7.5t_10d_1g >= 100
+big_m_con_on_m@4p_7.5t_10d_2g: m_4p_7.5t_10d_2g + 100 y_4p_7.5t_10d_2g >= 100
+big_m_con_on_m@4p_7.5t_40d_1g: m_4p_7.5t_40d_1g + 100 y_4p_7.5t_40d_1g >= 100
+big_m_con_on_m@4p_7.5t_40d_2g: m_4p_7.5t_40d_2g + 100 y_4p_7.5t_40d_2g >= 100
+big_m_con_on_m@4p_7.5t_40d_3g: m_4p_7.5t_40d_3g + 100 y_4p_7.5t_40d_3g >= 100
+big_m_con_on_m@4p_8.5t_10d_1g: m_4p_8.5t_10d_1g + 100 y_4p_8.5t_10d_1g >= 100
+big_m_con_on_m@4p_8.5t_10d_2g: m_4p_8.5t_10d_2g + 100 y_4p_8.5t_10d_2g >= 100
+big_m_con_on_m@4p_8.5t_40d_1g: m_4p_8.5t_40d_1g + 100 y_4p_8.5t_40d_1g >= 100
+big_m_con_on_m@4p_8.5t_40d_2g: m_4p_8.5t_40d_2g + 100 y_4p_8.5t_40d_2g >= 100
+big_m_con_on_m@4p_8.5t_40d_3g: m_4p_8.5t_40d_3g + 100 y_4p_8.5t_40d_3g >= 100
+big_m_con_on_m@5p_0.5t_10d_1g: m_5p_0.5t_10d_1g + 100 y_5p_0.5t_10d_1g >= 100
+big_m_con_on_m@5p_0.5t_10d_2g: m_5p_0.5t_10d_2g + 100 y_5p_0.5t_10d_2g >= 100
+big_m_con_on_m@5p_0.5t_40d_1g: m_5p_0.5t_40d_1g + 100 y_5p_0.5t_40d_1g >= 100
+big_m_con_on_m@5p_0.5t_40d_2g: m_5p_0.5t_40d_2g + 100 y_5p_0.5t_40d_2g >= 100
+big_m_con_on_m@5p_0.5t_40d_3g: m_5p_0.5t_40d_3g + 100 y_5p_0.5t_40d_3g >= 100
+big_m_con_on_m@5p_1.5t_10d_1g: m_5p_1.5t_10d_1g + 100 y_5p_1.5t_10d_1g >= 100
+big_m_con_on_m@5p_1.5t_10d_2g: m_5p_1.5t_10d_2g + 100 y_5p_1.5t_10d_2g >= 100
+big_m_con_on_m@5p_1.5t_40d_1g: m_5p_1.5t_40d_1g + 100 y_5p_1.5t_40d_1g >= 100
+big_m_con_on_m@5p_1.5t_40d_2g: m_5p_1.5t_40d_2g + 100 y_5p_1.5t_40d_2g >= 100
+big_m_con_on_m@5p_1.5t_40d_3g: m_5p_1.5t_40d_3g + 100 y_5p_1.5t_40d_3g >= 100
+big_m_con_on_m@5p_2.5t_10d_1g: m_5p_2.5t_10d_1g + 100 y_5p_2.5t_10d_1g >= 100
+big_m_con_on_m@5p_2.5t_10d_2g: m_5p_2.5t_10d_2g + 100 y_5p_2.5t_10d_2g >= 100
+big_m_con_on_m@5p_2.5t_40d_1g: m_5p_2.5t_40d_1g + 100 y_5p_2.5t_40d_1g >= 100
+big_m_con_on_m@5p_2.5t_40d_2g: m_5p_2.5t_40d_2g + 100 y_5p_2.5t_40d_2g >= 100
+big_m_con_on_m@5p_2.5t_40d_3g: m_5p_2.5t_40d_3g + 100 y_5p_2.5t_40d_3g >= 100
+big_m_con_on_m@5p_3.5t_10d_1g: m_5p_3.5t_10d_1g + 100 y_5p_3.5t_10d_1g >= 100
+big_m_con_on_m@5p_3.5t_10d_2g: m_5p_3.5t_10d_2g + 100 y_5p_3.5t_10d_2g >= 100
+big_m_con_on_m@5p_3.5t_40d_1g: m_5p_3.5t_40d_1g + 100 y_5p_3.5t_40d_1g >= 100
+big_m_con_on_m@5p_3.5t_40d_2g: m_5p_3.5t_40d_2g + 100 y_5p_3.5t_40d_2g >= 100
+big_m_con_on_m@5p_3.5t_40d_3g: m_5p_3.5t_40d_3g + 100 y_5p_3.5t_40d_3g >= 100
+big_m_con_on_m@5p_4.5t_10d_1g: m_5p_4.5t_10d_1g + 100 y_5p_4.5t_10d_1g >= 100
+big_m_con_on_m@5p_4.5t_10d_2g: m_5p_4.5t_10d_2g + 100 y_5p_4.5t_10d_2g >= 100
+big_m_con_on_m@5p_4.5t_40d_1g: m_5p_4.5t_40d_1g + 100 y_5p_4.5t_40d_1g >= 100
+big_m_con_on_m@5p_4.5t_40d_2g: m_5p_4.5t_40d_2g + 100 y_5p_4.5t_40d_2g >= 100
+big_m_con_on_m@5p_4.5t_40d_3g: m_5p_4.5t_40d_3g + 100 y_5p_4.5t_40d_3g >= 100
+big_m_con_on_m@5p_5.5t_10d_1g: m_5p_5.5t_10d_1g + 100 y_5p_5.5t_10d_1g >= 100
+big_m_con_on_m@5p_5.5t_10d_2g: m_5p_5.5t_10d_2g + 100 y_5p_5.5t_10d_2g >= 100
+big_m_con_on_m@5p_5.5t_40d_1g: m_5p_5.5t_40d_1g + 100 y_5p_5.5t_40d_1g >= 100
+big_m_con_on_m@5p_5.5t_40d_2g: m_5p_5.5t_40d_2g + 100 y_5p_5.5t_40d_2g >= 100
+big_m_con_on_m@5p_5.5t_40d_3g: m_5p_5.5t_40d_3g + 100 y_5p_5.5t_40d_3g >= 100
+big_m_con_on_m@5p_6.5t_10d_1g: m_5p_6.5t_10d_1g + 100 y_5p_6.5t_10d_1g >= 100
+big_m_con_on_m@5p_6.5t_10d_2g: m_5p_6.5t_10d_2g + 100 y_5p_6.5t_10d_2g >= 100
+big_m_con_on_m@5p_6.5t_40d_1g: m_5p_6.5t_40d_1g + 100 y_5p_6.5t_40d_1g >= 100
+big_m_con_on_m@5p_6.5t_40d_2g: m_5p_6.5t_40d_2g + 100 y_5p_6.5t_40d_2g >= 100
+big_m_con_on_m@5p_6.5t_40d_3g: m_5p_6.5t_40d_3g + 100 y_5p_6.5t_40d_3g >= 100
+big_m_con_on_m@5p_7.5t_10d_1g: m_5p_7.5t_10d_1g + 100 y_5p_7.5t_10d_1g >= 100
+big_m_con_on_m@5p_7.5t_10d_2g: m_5p_7.5t_10d_2g + 100 y_5p_7.5t_10d_2g >= 100
+big_m_con_on_m@5p_7.5t_40d_1g: m_5p_7.5t_40d_1g + 100 y_5p_7.5t_40d_1g >= 100
+big_m_con_on_m@5p_7.5t_40d_2g: m_5p_7.5t_40d_2g + 100 y_5p_7.5t_40d_2g >= 100
+big_m_con_on_m@5p_7.5t_40d_3g: m_5p_7.5t_40d_3g + 100 y_5p_7.5t_40d_3g >= 100
+big_m_con_on_m@5p_8.5t_10d_1g: m_5p_8.5t_10d_1g + 100 y_5p_8.5t_10d_1g >= 100
+big_m_con_on_m@5p_8.5t_10d_2g: m_5p_8.5t_10d_2g + 100 y_5p_8.5t_10d_2g >= 100
+big_m_con_on_m@5p_8.5t_40d_1g: m_5p_8.5t_40d_1g + 100 y_5p_8.5t_40d_1g >= 100
+big_m_con_on_m@5p_8.5t_40d_2g: m_5p_8.5t_40d_2g + 100 y_5p_8.5t_40d_2g >= 100
+big_m_con_on_m@5p_8.5t_40d_3g: m_5p_8.5t_40d_3g + 100 y_5p_8.5t_40d_3g >= 100
+big_m_con_on_m@6p_0.5t_10d_1g: m_6p_0.5t_10d_1g + 100 y_6p_0.5t_10d_1g >= 100
+big_m_con_on_m@6p_0.5t_10d_2g: m_6p_0.5t_10d_2g + 100 y_6p_0.5t_10d_2g >= 100
+big_m_con_on_m@6p_0.5t_40d_1g: m_6p_0.5t_40d_1g + 100 y_6p_0.5t_40d_1g >= 100
+big_m_con_on_m@6p_0.5t_40d_2g: m_6p_0.5t_40d_2g + 100 y_6p_0.5t_40d_2g >= 100
+big_m_con_on_m@6p_0.5t_40d_3g: m_6p_0.5t_40d_3g + 100 y_6p_0.5t_40d_3g >= 100
+big_m_con_on_m@6p_1.5t_10d_1g: m_6p_1.5t_10d_1g + 100 y_6p_1.5t_10d_1g >= 100
+big_m_con_on_m@6p_1.5t_10d_2g: m_6p_1.5t_10d_2g + 100 y_6p_1.5t_10d_2g >= 100
+big_m_con_on_m@6p_1.5t_40d_1g: m_6p_1.5t_40d_1g + 100 y_6p_1.5t_40d_1g >= 100
+big_m_con_on_m@6p_1.5t_40d_2g: m_6p_1.5t_40d_2g + 100 y_6p_1.5t_40d_2g >= 100
+big_m_con_on_m@6p_1.5t_40d_3g: m_6p_1.5t_40d_3g + 100 y_6p_1.5t_40d_3g >= 100
+big_m_con_on_m@6p_2.5t_10d_1g: m_6p_2.5t_10d_1g + 100 y_6p_2.5t_10d_1g >= 100
+big_m_con_on_m@6p_2.5t_10d_2g: m_6p_2.5t_10d_2g + 100 y_6p_2.5t_10d_2g >= 100
+big_m_con_on_m@6p_2.5t_40d_1g: m_6p_2.5t_40d_1g + 100 y_6p_2.5t_40d_1g >= 100
+big_m_con_on_m@6p_2.5t_40d_2g: m_6p_2.5t_40d_2g + 100 y_6p_2.5t_40d_2g >= 100
+big_m_con_on_m@6p_2.5t_40d_3g: m_6p_2.5t_40d_3g + 100 y_6p_2.5t_40d_3g >= 100
+big_m_con_on_m@6p_3.5t_10d_1g: m_6p_3.5t_10d_1g + 100 y_6p_3.5t_10d_1g >= 100
+big_m_con_on_m@6p_3.5t_10d_2g: m_6p_3.5t_10d_2g + 100 y_6p_3.5t_10d_2g >= 100
+big_m_con_on_m@6p_3.5t_40d_1g: m_6p_3.5t_40d_1g + 100 y_6p_3.5t_40d_1g >= 100
+big_m_con_on_m@6p_3.5t_40d_2g: m_6p_3.5t_40d_2g + 100 y_6p_3.5t_40d_2g >= 100
+big_m_con_on_m@6p_3.5t_40d_3g: m_6p_3.5t_40d_3g + 100 y_6p_3.5t_40d_3g >= 100
+big_m_con_on_m@6p_4.5t_10d_1g: m_6p_4.5t_10d_1g + 100 y_6p_4.5t_10d_1g >= 100
+big_m_con_on_m@6p_4.5t_10d_2g: m_6p_4.5t_10d_2g + 100 y_6p_4.5t_10d_2g >= 100
+big_m_con_on_m@6p_4.5t_40d_1g: m_6p_4.5t_40d_1g + 100 y_6p_4.5t_40d_1g >= 100
+big_m_con_on_m@6p_4.5t_40d_2g: m_6p_4.5t_40d_2g + 100 y_6p_4.5t_40d_2g >= 100
+big_m_con_on_m@6p_4.5t_40d_3g: m_6p_4.5t_40d_3g + 100 y_6p_4.5t_40d_3g >= 100
+big_m_con_on_m@6p_5.5t_10d_1g: m_6p_5.5t_10d_1g + 100 y_6p_5.5t_10d_1g >= 100
+big_m_con_on_m@6p_5.5t_10d_2g: m_6p_5.5t_10d_2g + 100 y_6p_5.5t_10d_2g >= 100
+big_m_con_on_m@6p_5.5t_40d_1g: m_6p_5.5t_40d_1g + 100 y_6p_5.5t_40d_1g >= 100
+big_m_con_on_m@6p_5.5t_40d_2g: m_6p_5.5t_40d_2g + 100 y_6p_5.5t_40d_2g >= 100
+big_m_con_on_m@6p_5.5t_40d_3g: m_6p_5.5t_40d_3g + 100 y_6p_5.5t_40d_3g >= 100
+big_m_con_on_m@6p_6.5t_10d_1g: m_6p_6.5t_10d_1g + 100 y_6p_6.5t_10d_1g >= 100
+big_m_con_on_m@6p_6.5t_10d_2g: m_6p_6.5t_10d_2g + 100 y_6p_6.5t_10d_2g >= 100
+big_m_con_on_m@6p_6.5t_40d_1g: m_6p_6.5t_40d_1g + 100 y_6p_6.5t_40d_1g >= 100
+big_m_con_on_m@6p_6.5t_40d_2g: m_6p_6.5t_40d_2g + 100 y_6p_6.5t_40d_2g >= 100
+big_m_con_on_m@6p_6.5t_40d_3g: m_6p_6.5t_40d_3g + 100 y_6p_6.5t_40d_3g >= 100
+big_m_con_on_m@6p_7.5t_10d_1g: m_6p_7.5t_10d_1g + 100 y_6p_7.5t_10d_1g >= 100
+big_m_con_on_m@6p_7.5t_10d_2g: m_6p_7.5t_10d_2g + 100 y_6p_7.5t_10d_2g >= 100
+big_m_con_on_m@6p_7.5t_40d_1g: m_6p_7.5t_40d_1g + 100 y_6p_7.5t_40d_1g >= 100
+big_m_con_on_m@6p_7.5t_40d_2g: m_6p_7.5t_40d_2g + 100 y_6p_7.5t_40d_2g >= 100
+big_m_con_on_m@6p_7.5t_40d_3g: m_6p_7.5t_40d_3g + 100 y_6p_7.5t_40d_3g >= 100
+big_m_con_on_m@6p_8.5t_10d_1g: m_6p_8.5t_10d_1g + 100 y_6p_8.5t_10d_1g >= 100
+big_m_con_on_m@6p_8.5t_10d_2g: m_6p_8.5t_10d_2g + 100 y_6p_8.5t_10d_2g >= 100
+big_m_con_on_m@6p_8.5t_40d_1g: m_6p_8.5t_40d_1g + 100 y_6p_8.5t_40d_1g >= 100
+big_m_con_on_m@6p_8.5t_40d_2g: m_6p_8.5t_40d_2g + 100 y_6p_8.5t_40d_2g >= 100
+big_m_con_on_m@6p_8.5t_40d_3g: m_6p_8.5t_40d_3g + 100 y_6p_8.5t_40d_3g >= 100
+big_m_con_on_m@7p_0.5t_10d_1g: m_7p_0.5t_10d_1g + 100 y_7p_0.5t_10d_1g >= 100
+big_m_con_on_m@7p_0.5t_10d_2g: m_7p_0.5t_10d_2g + 100 y_7p_0.5t_10d_2g >= 100
+big_m_con_on_m@7p_0.5t_40d_1g: m_7p_0.5t_40d_1g + 100 y_7p_0.5t_40d_1g >= 100
+big_m_con_on_m@7p_0.5t_40d_2g: m_7p_0.5t_40d_2g + 100 y_7p_0.5t_40d_2g >= 100
+big_m_con_on_m@7p_0.5t_40d_3g: m_7p_0.5t_40d_3g + 100 y_7p_0.5t_40d_3g >= 100
+big_m_con_on_m@7p_1.5t_10d_1g: m_7p_1.5t_10d_1g + 100 y_7p_1.5t_10d_1g >= 100
+big_m_con_on_m@7p_1.5t_10d_2g: m_7p_1.5t_10d_2g + 100 y_7p_1.5t_10d_2g >= 100
+big_m_con_on_m@7p_1.5t_40d_1g: m_7p_1.5t_40d_1g + 100 y_7p_1.5t_40d_1g >= 100
+big_m_con_on_m@7p_1.5t_40d_2g: m_7p_1.5t_40d_2g + 100 y_7p_1.5t_40d_2g >= 100
+big_m_con_on_m@7p_1.5t_40d_3g: m_7p_1.5t_40d_3g + 100 y_7p_1.5t_40d_3g >= 100
+big_m_con_on_m@7p_2.5t_10d_1g: m_7p_2.5t_10d_1g + 100 y_7p_2.5t_10d_1g >= 100
+big_m_con_on_m@7p_2.5t_10d_2g: m_7p_2.5t_10d_2g + 100 y_7p_2.5t_10d_2g >= 100
+big_m_con_on_m@7p_2.5t_40d_1g: m_7p_2.5t_40d_1g + 100 y_7p_2.5t_40d_1g >= 100
+big_m_con_on_m@7p_2.5t_40d_2g: m_7p_2.5t_40d_2g + 100 y_7p_2.5t_40d_2g >= 100
+big_m_con_on_m@7p_2.5t_40d_3g: m_7p_2.5t_40d_3g + 100 y_7p_2.5t_40d_3g >= 100
+big_m_con_on_m@7p_3.5t_10d_1g: m_7p_3.5t_10d_1g + 100 y_7p_3.5t_10d_1g >= 100
+big_m_con_on_m@7p_3.5t_10d_2g: m_7p_3.5t_10d_2g + 100 y_7p_3.5t_10d_2g >= 100
+big_m_con_on_m@7p_3.5t_40d_1g: m_7p_3.5t_40d_1g + 100 y_7p_3.5t_40d_1g >= 100
+big_m_con_on_m@7p_3.5t_40d_2g: m_7p_3.5t_40d_2g + 100 y_7p_3.5t_40d_2g >= 100
+big_m_con_on_m@7p_3.5t_40d_3g: m_7p_3.5t_40d_3g + 100 y_7p_3.5t_40d_3g >= 100
+big_m_con_on_m@7p_4.5t_10d_1g: m_7p_4.5t_10d_1g + 100 y_7p_4.5t_10d_1g >= 100
+big_m_con_on_m@7p_4.5t_10d_2g: m_7p_4.5t_10d_2g + 100 y_7p_4.5t_10d_2g >= 100
+big_m_con_on_m@7p_4.5t_40d_1g: m_7p_4.5t_40d_1g + 100 y_7p_4.5t_40d_1g >= 100
+big_m_con_on_m@7p_4.5t_40d_2g: m_7p_4.5t_40d_2g + 100 y_7p_4.5t_40d_2g >= 100
+big_m_con_on_m@7p_4.5t_40d_3g: m_7p_4.5t_40d_3g + 100 y_7p_4.5t_40d_3g >= 100
+big_m_con_on_m@7p_5.5t_10d_1g: m_7p_5.5t_10d_1g + 100 y_7p_5.5t_10d_1g >= 100
+big_m_con_on_m@7p_5.5t_10d_2g: m_7p_5.5t_10d_2g + 100 y_7p_5.5t_10d_2g >= 100
+big_m_con_on_m@7p_5.5t_40d_1g: m_7p_5.5t_40d_1g + 100 y_7p_5.5t_40d_1g >= 100
+big_m_con_on_m@7p_5.5t_40d_2g: m_7p_5.5t_40d_2g + 100 y_7p_5.5t_40d_2g >= 100
+big_m_con_on_m@7p_5.5t_40d_3g: m_7p_5.5t_40d_3g + 100 y_7p_5.5t_40d_3g >= 100
+big_m_con_on_m@7p_6.5t_10d_1g: m_7p_6.5t_10d_1g + 100 y_7p_6.5t_10d_1g >= 100
+big_m_con_on_m@7p_6.5t_10d_2g: m_7p_6.5t_10d_2g + 100 y_7p_6.5t_10d_2g >= 100
+big_m_con_on_m@7p_6.5t_40d_1g: m_7p_6.5t_40d_1g + 100 y_7p_6.5t_40d_1g >= 100
+big_m_con_on_m@7p_6.5t_40d_2g: m_7p_6.5t_40d_2g + 100 y_7p_6.5t_40d_2g >= 100
+big_m_con_on_m@7p_6.5t_40d_3g: m_7p_6.5t_40d_3g + 100 y_7p_6.5t_40d_3g >= 100
+big_m_con_on_m@7p_7.5t_10d_1g: m_7p_7.5t_10d_1g + 100 y_7p_7.5t_10d_1g >= 100
+big_m_con_on_m@7p_7.5t_10d_2g: m_7p_7.5t_10d_2g + 100 y_7p_7.5t_10d_2g >= 100
+big_m_con_on_m@7p_7.5t_40d_1g: m_7p_7.5t_40d_1g + 100 y_7p_7.5t_40d_1g >= 100
+big_m_con_on_m@7p_7.5t_40d_2g: m_7p_7.5t_40d_2g + 100 y_7p_7.5t_40d_2g >= 100
+big_m_con_on_m@7p_7.5t_40d_3g: m_7p_7.5t_40d_3g + 100 y_7p_7.5t_40d_3g >= 100
+big_m_con_on_m@7p_8.5t_10d_1g: m_7p_8.5t_10d_1g + 100 y_7p_8.5t_10d_1g >= 100
+big_m_con_on_m@7p_8.5t_10d_2g: m_7p_8.5t_10d_2g + 100 y_7p_8.5t_10d_2g >= 100
+big_m_con_on_m@7p_8.5t_40d_1g: m_7p_8.5t_40d_1g + 100 y_7p_8.5t_40d_1g >= 100
+big_m_con_on_m@7p_8.5t_40d_2g: m_7p_8.5t_40d_2g + 100 y_7p_8.5t_40d_2g >= 100
+big_m_con_on_m@7p_8.5t_40d_3g: m_7p_8.5t_40d_3g + 100 y_7p_8.5t_40d_3g >= 100
+big_m_con_on_m@8p_0.5t_10d_1g: m_8p_0.5t_10d_1g + 100 y_8p_0.5t_10d_1g >= 100
+big_m_con_on_m@8p_0.5t_10d_2g: m_8p_0.5t_10d_2g + 100 y_8p_0.5t_10d_2g >= 100
+big_m_con_on_m@8p_0.5t_40d_1g: m_8p_0.5t_40d_1g + 100 y_8p_0.5t_40d_1g >= 100
+big_m_con_on_m@8p_0.5t_40d_2g: m_8p_0.5t_40d_2g + 100 y_8p_0.5t_40d_2g >= 100
+big_m_con_on_m@8p_0.5t_40d_3g: m_8p_0.5t_40d_3g + 100 y_8p_0.5t_40d_3g >= 100
+big_m_con_on_m@8p_1.5t_10d_1g: m_8p_1.5t_10d_1g + 100 y_8p_1.5t_10d_1g >= 100
+big_m_con_on_m@8p_1.5t_10d_2g: m_8p_1.5t_10d_2g + 100 y_8p_1.5t_10d_2g >= 100
+big_m_con_on_m@8p_1.5t_40d_1g: m_8p_1.5t_40d_1g + 100 y_8p_1.5t_40d_1g >= 100
+big_m_con_on_m@8p_1.5t_40d_2g: m_8p_1.5t_40d_2g + 100 y_8p_1.5t_40d_2g >= 100
+big_m_con_on_m@8p_1.5t_40d_3g: m_8p_1.5t_40d_3g + 100 y_8p_1.5t_40d_3g >= 100
+big_m_con_on_m@8p_2.5t_10d_1g: m_8p_2.5t_10d_1g + 100 y_8p_2.5t_10d_1g >= 100
+big_m_con_on_m@8p_2.5t_10d_2g: m_8p_2.5t_10d_2g + 100 y_8p_2.5t_10d_2g >= 100
+big_m_con_on_m@8p_2.5t_40d_1g: m_8p_2.5t_40d_1g + 100 y_8p_2.5t_40d_1g >= 100
+big_m_con_on_m@8p_2.5t_40d_2g: m_8p_2.5t_40d_2g + 100 y_8p_2.5t_40d_2g >= 100
+big_m_con_on_m@8p_2.5t_40d_3g: m_8p_2.5t_40d_3g + 100 y_8p_2.5t_40d_3g >= 100
+big_m_con_on_m@8p_3.5t_10d_1g: m_8p_3.5t_10d_1g + 100 y_8p_3.5t_10d_1g >= 100
+big_m_con_on_m@8p_3.5t_10d_2g: m_8p_3.5t_10d_2g + 100 y_8p_3.5t_10d_2g >= 100
+big_m_con_on_m@8p_3.5t_40d_1g: m_8p_3.5t_40d_1g + 100 y_8p_3.5t_40d_1g >= 100
+big_m_con_on_m@8p_3.5t_40d_2g: m_8p_3.5t_40d_2g + 100 y_8p_3.5t_40d_2g >= 100
+big_m_con_on_m@8p_3.5t_40d_3g: m_8p_3.5t_40d_3g + 100 y_8p_3.5t_40d_3g >= 100
+big_m_con_on_m@8p_4.5t_10d_1g: m_8p_4.5t_10d_1g + 100 y_8p_4.5t_10d_1g >= 100
+big_m_con_on_m@8p_4.5t_10d_2g: m_8p_4.5t_10d_2g + 100 y_8p_4.5t_10d_2g >= 100
+big_m_con_on_m@8p_4.5t_40d_1g: m_8p_4.5t_40d_1g + 100 y_8p_4.5t_40d_1g >= 100
+big_m_con_on_m@8p_4.5t_40d_2g: m_8p_4.5t_40d_2g + 100 y_8p_4.5t_40d_2g >= 100
+big_m_con_on_m@8p_4.5t_40d_3g: m_8p_4.5t_40d_3g + 100 y_8p_4.5t_40d_3g >= 100
+big_m_con_on_m@8p_5.5t_10d_1g: m_8p_5.5t_10d_1g + 100 y_8p_5.5t_10d_1g >= 100
+big_m_con_on_m@8p_5.5t_10d_2g: m_8p_5.5t_10d_2g + 100 y_8p_5.5t_10d_2g >= 100
+big_m_con_on_m@8p_5.5t_40d_1g: m_8p_5.5t_40d_1g + 100 y_8p_5.5t_40d_1g >= 100
+big_m_con_on_m@8p_5.5t_40d_2g: m_8p_5.5t_40d_2g + 100 y_8p_5.5t_40d_2g >= 100
+big_m_con_on_m@8p_5.5t_40d_3g: m_8p_5.5t_40d_3g + 100 y_8p_5.5t_40d_3g >= 100
+big_m_con_on_m@8p_6.5t_10d_1g: m_8p_6.5t_10d_1g + 100 y_8p_6.5t_10d_1g >= 100
+big_m_con_on_m@8p_6.5t_10d_2g: m_8p_6.5t_10d_2g + 100 y_8p_6.5t_10d_2g >= 100
+big_m_con_on_m@8p_6.5t_40d_1g: m_8p_6.5t_40d_1g + 100 y_8p_6.5t_40d_1g >= 100
+big_m_con_on_m@8p_6.5t_40d_2g: m_8p_6.5t_40d_2g + 100 y_8p_6.5t_40d_2g >= 100
+big_m_con_on_m@8p_6.5t_40d_3g: m_8p_6.5t_40d_3g + 100 y_8p_6.5t_40d_3g >= 100
+big_m_con_on_m@8p_7.5t_10d_1g: m_8p_7.5t_10d_1g + 100 y_8p_7.5t_10d_1g >= 100
+big_m_con_on_m@8p_7.5t_10d_2g: m_8p_7.5t_10d_2g + 100 y_8p_7.5t_10d_2g >= 100
+big_m_con_on_m@8p_7.5t_40d_1g: m_8p_7.5t_40d_1g + 100 y_8p_7.5t_40d_1g >= 100
+big_m_con_on_m@8p_7.5t_40d_2g: m_8p_7.5t_40d_2g + 100 y_8p_7.5t_40d_2g >= 100
+big_m_con_on_m@8p_7.5t_40d_3g: m_8p_7.5t_40d_3g + 100 y_8p_7.5t_40d_3g >= 100
+big_m_con_on_m@8p_8.5t_10d_1g: m_8p_8.5t_10d_1g + 100 y_8p_8.5t_10d_1g >= 100
+big_m_con_on_m@8p_8.5t_10d_2g: m_8p_8.5t_10d_2g + 100 y_8p_8.5t_10d_2g >= 100
+big_m_con_on_m@8p_8.5t_40d_1g: m_8p_8.5t_40d_1g + 100 y_8p_8.5t_40d_1g >= 100
+big_m_con_on_m@8p_8.5t_40d_2g: m_8p_8.5t_40d_2g + 100 y_8p_8.5t_40d_2g >= 100
+big_m_con_on_m@8p_8.5t_40d_3g: m_8p_8.5t_40d_3g + 100 y_8p_8.5t_40d_3g >= 100
+big_m_con_on_m@9p_0.5t_10d_1g: m_9p_0.5t_10d_1g + 100 y_9p_0.5t_10d_1g >= 100
+big_m_con_on_m@9p_0.5t_10d_2g: m_9p_0.5t_10d_2g + 100 y_9p_0.5t_10d_2g >= 100
+big_m_con_on_m@9p_0.5t_40d_1g: m_9p_0.5t_40d_1g + 100 y_9p_0.5t_40d_1g >= 100
+big_m_con_on_m@9p_0.5t_40d_2g: m_9p_0.5t_40d_2g + 100 y_9p_0.5t_40d_2g >= 100
+big_m_con_on_m@9p_0.5t_40d_3g: m_9p_0.5t_40d_3g + 100 y_9p_0.5t_40d_3g >= 100
+big_m_con_on_m@9p_1.5t_10d_1g: m_9p_1.5t_10d_1g + 100 y_9p_1.5t_10d_1g >= 100
+big_m_con_on_m@9p_1.5t_10d_2g: m_9p_1.5t_10d_2g + 100 y_9p_1.5t_10d_2g >= 100
+big_m_con_on_m@9p_1.5t_40d_1g: m_9p_1.5t_40d_1g + 100 y_9p_1.5t_40d_1g >= 100
+big_m_con_on_m@9p_1.5t_40d_2g: m_9p_1.5t_40d_2g + 100 y_9p_1.5t_40d_2g >= 100
+big_m_con_on_m@9p_1.5t_40d_3g: m_9p_1.5t_40d_3g + 100 y_9p_1.5t_40d_3g >= 100
+big_m_con_on_m@9p_2.5t_10d_1g: m_9p_2.5t_10d_1g + 100 y_9p_2.5t_10d_1g >= 100
+big_m_con_on_m@9p_2.5t_10d_2g: m_9p_2.5t_10d_2g + 100 y_9p_2.5t_10d_2g >= 100
+big_m_con_on_m@9p_2.5t_40d_1g: m_9p_2.5t_40d_1g + 100 y_9p_2.5t_40d_1g >= 100
+big_m_con_on_m@9p_2.5t_40d_2g: m_9p_2.5t_40d_2g + 100 y_9p_2.5t_40d_2g >= 100
+big_m_con_on_m@9p_2.5t_40d_3g: m_9p_2.5t_40d_3g + 100 y_9p_2.5t_40d_3g >= 100
+big_m_con_on_m@9p_3.5t_10d_1g: m_9p_3.5t_10d_1g + 100 y_9p_3.5t_10d_1g >= 100
+big_m_con_on_m@9p_3.5t_10d_2g: m_9p_3.5t_10d_2g + 100 y_9p_3.5t_10d_2g >= 100
+big_m_con_on_m@9p_3.5t_40d_1g: m_9p_3.5t_40d_1g + 100 y_9p_3.5t_40d_1g >= 100
+big_m_con_on_m@9p_3.5t_40d_2g: m_9p_3.5t_40d_2g + 100 y_9p_3.5t_40d_2g >= 100
+big_m_con_on_m@9p_3.5t_40d_3g: m_9p_3.5t_40d_3g + 100 y_9p_3.5t_40d_3g >= 100
+big_m_con_on_m@9p_4.5t_10d_1g: m_9p_4.5t_10d_1g + 100 y_9p_4.5t_10d_1g >= 100
+big_m_con_on_m@9p_4.5t_10d_2g: m_9p_4.5t_10d_2g + 100 y_9p_4.5t_10d_2g >= 100
+big_m_con_on_m@9p_4.5t_40d_1g: m_9p_4.5t_40d_1g + 100 y_9p_4.5t_40d_1g >= 100
+big_m_con_on_m@9p_4.5t_40d_2g: m_9p_4.5t_40d_2g + 100 y_9p_4.5t_40d_2g >= 100
+big_m_con_on_m@9p_4.5t_40d_3g: m_9p_4.5t_40d_3g + 100 y_9p_4.5t_40d_3g >= 100
+big_m_con_on_m@9p_5.5t_10d_1g: m_9p_5.5t_10d_1g + 100 y_9p_5.5t_10d_1g >= 100
+big_m_con_on_m@9p_5.5t_10d_2g: m_9p_5.5t_10d_2g + 100 y_9p_5.5t_10d_2g >= 100
+big_m_con_on_m@9p_5.5t_40d_1g: m_9p_5.5t_40d_1g + 100 y_9p_5.5t_40d_1g >= 100
+big_m_con_on_m@9p_5.5t_40d_2g: m_9p_5.5t_40d_2g + 100 y_9p_5.5t_40d_2g >= 100
+big_m_con_on_m@9p_5.5t_40d_3g: m_9p_5.5t_40d_3g + 100 y_9p_5.5t_40d_3g >= 100
+big_m_con_on_m@9p_6.5t_10d_1g: m_9p_6.5t_10d_1g + 100 y_9p_6.5t_10d_1g >= 100
+big_m_con_on_m@9p_6.5t_10d_2g: m_9p_6.5t_10d_2g + 100 y_9p_6.5t_10d_2g >= 100
+big_m_con_on_m@9p_6.5t_40d_1g: m_9p_6.5t_40d_1g + 100 y_9p_6.5t_40d_1g >= 100
+big_m_con_on_m@9p_6.5t_40d_2g: m_9p_6.5t_40d_2g + 100 y_9p_6.5t_40d_2g >= 100
+big_m_con_on_m@9p_6.5t_40d_3g: m_9p_6.5t_40d_3g + 100 y_9p_6.5t_40d_3g >= 100
+big_m_con_on_m@9p_7.5t_10d_1g: m_9p_7.5t_10d_1g + 100 y_9p_7.5t_10d_1g >= 100
+big_m_con_on_m@9p_7.5t_10d_2g: m_9p_7.5t_10d_2g + 100 y_9p_7.5t_10d_2g >= 100
+big_m_con_on_m@9p_7.5t_40d_1g: m_9p_7.5t_40d_1g + 100 y_9p_7.5t_40d_1g >= 100
+big_m_con_on_m@9p_7.5t_40d_2g: m_9p_7.5t_40d_2g + 100 y_9p_7.5t_40d_2g >= 100
+big_m_con_on_m@9p_7.5t_40d_3g: m_9p_7.5t_40d_3g + 100 y_9p_7.5t_40d_3g >= 100
+big_m_con_on_m@9p_8.5t_10d_1g: m_9p_8.5t_10d_1g + 100 y_9p_8.5t_10d_1g >= 100
+big_m_con_on_m@9p_8.5t_10d_2g: m_9p_8.5t_10d_2g + 100 y_9p_8.5t_10d_2g >= 100
+big_m_con_on_m@9p_8.5t_40d_1g: m_9p_8.5t_40d_1g + 100 y_9p_8.5t_40d_1g >= 100
+big_m_con_on_m@9p_8.5t_40d_2g: m_9p_8.5t_40d_2g + 100 y_9p_8.5t_40d_2g >= 100
+big_m_con_on_m@9p_8.5t_40d_3g: m_9p_8.5t_40d_3g + 100 y_9p_8.5t_40d_3g >= 100
+big_m_con_on_r@1p_0.5t_10d_1g: r_1p_0.5t_10d_1g + 100 y_1p_0.5t_10d_1g >= 100
+big_m_con_on_r@1p_0.5t_10d_2g: r_1p_0.5t_10d_2g + 100 y_1p_0.5t_10d_2g >= 100
+big_m_con_on_r@1p_0.5t_40d_1g: r_1p_0.5t_40d_1g + 100 y_1p_0.5t_40d_1g >= 100
+big_m_con_on_r@1p_0.5t_40d_2g: r_1p_0.5t_40d_2g + 100 y_1p_0.5t_40d_2g >= 100
+big_m_con_on_r@1p_0.5t_40d_3g: r_1p_0.5t_40d_3g + 100 y_1p_0.5t_40d_3g >= 100
+big_m_con_on_r@1p_1.5t_10d_1g: r_1p_1.5t_10d_1g + 100 y_1p_1.5t_10d_1g >= 100
+big_m_con_on_r@1p_1.5t_10d_2g: r_1p_1.5t_10d_2g + 100 y_1p_1.5t_10d_2g >= 100
+big_m_con_on_r@1p_1.5t_40d_1g: r_1p_1.5t_40d_1g + 100 y_1p_1.5t_40d_1g >= 100
+big_m_con_on_r@1p_1.5t_40d_2g: r_1p_1.5t_40d_2g + 100 y_1p_1.5t_40d_2g >= 100
+big_m_con_on_r@1p_1.5t_40d_3g: r_1p_1.5t_40d_3g + 100 y_1p_1.5t_40d_3g >= 100
+big_m_con_on_r@1p_2.5t_10d_1g: r_1p_2.5t_10d_1g + 100 y_1p_2.5t_10d_1g >= 100
+big_m_con_on_r@1p_2.5t_10d_2g: r_1p_2.5t_10d_2g + 100 y_1p_2.5t_10d_2g >= 100
+big_m_con_on_r@1p_2.5t_40d_1g: r_1p_2.5t_40d_1g + 100 y_1p_2.5t_40d_1g >= 100
+big_m_con_on_r@1p_2.5t_40d_2g: r_1p_2.5t_40d_2g + 100 y_1p_2.5t_40d_2g >= 100
+big_m_con_on_r@1p_2.5t_40d_3g: r_1p_2.5t_40d_3g + 100 y_1p_2.5t_40d_3g >= 100
+big_m_con_on_r@1p_3.5t_10d_1g: r_1p_3.5t_10d_1g + 100 y_1p_3.5t_10d_1g >= 100
+big_m_con_on_r@1p_3.5t_10d_2g: r_1p_3.5t_10d_2g + 100 y_1p_3.5t_10d_2g >= 100
+big_m_con_on_r@1p_3.5t_40d_1g: r_1p_3.5t_40d_1g + 100 y_1p_3.5t_40d_1g >= 100
+big_m_con_on_r@1p_3.5t_40d_2g: r_1p_3.5t_40d_2g + 100 y_1p_3.5t_40d_2g >= 100
+big_m_con_on_r@1p_3.5t_40d_3g: r_1p_3.5t_40d_3g + 100 y_1p_3.5t_40d_3g >= 100
+big_m_con_on_r@1p_4.5t_10d_1g: r_1p_4.5t_10d_1g + 100 y_1p_4.5t_10d_1g >= 100
+big_m_con_on_r@1p_4.5t_10d_2g: r_1p_4.5t_10d_2g + 100 y_1p_4.5t_10d_2g >= 100
+big_m_con_on_r@1p_4.5t_40d_1g: r_1p_4.5t_40d_1g + 100 y_1p_4.5t_40d_1g >= 100
+big_m_con_on_r@1p_4.5t_40d_2g: r_1p_4.5t_40d_2g + 100 y_1p_4.5t_40d_2g >= 100
+big_m_con_on_r@1p_4.5t_40d_3g: r_1p_4.5t_40d_3g + 100 y_1p_4.5t_40d_3g >= 100
+big_m_con_on_r@1p_5.5t_10d_1g: r_1p_5.5t_10d_1g + 100 y_1p_5.5t_10d_1g >= 100
+big_m_con_on_r@1p_5.5t_10d_2g: r_1p_5.5t_10d_2g + 100 y_1p_5.5t_10d_2g >= 100
+big_m_con_on_r@1p_5.5t_40d_1g: r_1p_5.5t_40d_1g + 100 y_1p_5.5t_40d_1g >= 100
+big_m_con_on_r@1p_5.5t_40d_2g: r_1p_5.5t_40d_2g + 100 y_1p_5.5t_40d_2g >= 100
+big_m_con_on_r@1p_5.5t_40d_3g: r_1p_5.5t_40d_3g + 100 y_1p_5.5t_40d_3g >= 100
+big_m_con_on_r@1p_6.5t_10d_1g: r_1p_6.5t_10d_1g + 100 y_1p_6.5t_10d_1g >= 100
+big_m_con_on_r@1p_6.5t_10d_2g: r_1p_6.5t_10d_2g + 100 y_1p_6.5t_10d_2g >= 100
+big_m_con_on_r@1p_6.5t_40d_1g: r_1p_6.5t_40d_1g + 100 y_1p_6.5t_40d_1g >= 100
+big_m_con_on_r@1p_6.5t_40d_2g: r_1p_6.5t_40d_2g + 100 y_1p_6.5t_40d_2g >= 100
+big_m_con_on_r@1p_6.5t_40d_3g: r_1p_6.5t_40d_3g + 100 y_1p_6.5t_40d_3g >= 100
+big_m_con_on_r@1p_7.5t_10d_1g: r_1p_7.5t_10d_1g + 100 y_1p_7.5t_10d_1g >= 100
+big_m_con_on_r@1p_7.5t_10d_2g: r_1p_7.5t_10d_2g + 100 y_1p_7.5t_10d_2g >= 100
+big_m_con_on_r@1p_7.5t_40d_1g: r_1p_7.5t_40d_1g + 100 y_1p_7.5t_40d_1g >= 100
+big_m_con_on_r@1p_7.5t_40d_2g: r_1p_7.5t_40d_2g + 100 y_1p_7.5t_40d_2g >= 100
+big_m_con_on_r@1p_7.5t_40d_3g: r_1p_7.5t_40d_3g + 100 y_1p_7.5t_40d_3g >= 100
+big_m_con_on_r@1p_8.5t_10d_1g: r_1p_8.5t_10d_1g + 100 y_1p_8.5t_10d_1g >= 100
+big_m_con_on_r@1p_8.5t_10d_2g: r_1p_8.5t_10d_2g + 100 y_1p_8.5t_10d_2g >= 100
+big_m_con_on_r@1p_8.5t_40d_1g: r_1p_8.5t_40d_1g + 100 y_1p_8.5t_40d_1g >= 100
+big_m_con_on_r@1p_8.5t_40d_2g: r_1p_8.5t_40d_2g + 100 y_1p_8.5t_40d_2g >= 100
+big_m_con_on_r@1p_8.5t_40d_3g: r_1p_8.5t_40d_3g + 100 y_1p_8.5t_40d_3g >= 100
+big_m_con_on_r@2p_0.5t_10d_1g: r_2p_0.5t_10d_1g + 100 y_2p_0.5t_10d_1g >= 100
+big_m_con_on_r@2p_0.5t_10d_2g: r_2p_0.5t_10d_2g + 100 y_2p_0.5t_10d_2g >= 100
+big_m_con_on_r@2p_0.5t_40d_1g: r_2p_0.5t_40d_1g + 100 y_2p_0.5t_40d_1g >= 100
+big_m_con_on_r@2p_0.5t_40d_2g: r_2p_0.5t_40d_2g + 100 y_2p_0.5t_40d_2g >= 100
+big_m_con_on_r@2p_0.5t_40d_3g: r_2p_0.5t_40d_3g + 100 y_2p_0.5t_40d_3g >= 100
+big_m_con_on_r@2p_1.5t_10d_1g: r_2p_1.5t_10d_1g + 100 y_2p_1.5t_10d_1g >= 100
+big_m_con_on_r@2p_1.5t_10d_2g: r_2p_1.5t_10d_2g + 100 y_2p_1.5t_10d_2g >= 100
+big_m_con_on_r@2p_1.5t_40d_1g: r_2p_1.5t_40d_1g + 100 y_2p_1.5t_40d_1g >= 100
+big_m_con_on_r@2p_1.5t_40d_2g: r_2p_1.5t_40d_2g + 100 y_2p_1.5t_40d_2g >= 100
+big_m_con_on_r@2p_1.5t_40d_3g: r_2p_1.5t_40d_3g + 100 y_2p_1.5t_40d_3g >= 100
+big_m_con_on_r@2p_2.5t_10d_1g: r_2p_2.5t_10d_1g + 100 y_2p_2.5t_10d_1g >= 100
+big_m_con_on_r@2p_2.5t_10d_2g: r_2p_2.5t_10d_2g + 100 y_2p_2.5t_10d_2g >= 100
+big_m_con_on_r@2p_2.5t_40d_1g: r_2p_2.5t_40d_1g + 100 y_2p_2.5t_40d_1g >= 100
+big_m_con_on_r@2p_2.5t_40d_2g: r_2p_2.5t_40d_2g + 100 y_2p_2.5t_40d_2g >= 100
+big_m_con_on_r@2p_2.5t_40d_3g: r_2p_2.5t_40d_3g + 100 y_2p_2.5t_40d_3g >= 100
+big_m_con_on_r@2p_3.5t_10d_1g: r_2p_3.5t_10d_1g + 100 y_2p_3.5t_10d_1g >= 100
+big_m_con_on_r@2p_3.5t_10d_2g: r_2p_3.5t_10d_2g + 100 y_2p_3.5t_10d_2g >= 100
+big_m_con_on_r@2p_3.5t_40d_1g: r_2p_3.5t_40d_1g + 100 y_2p_3.5t_40d_1g >= 100
+big_m_con_on_r@2p_3.5t_40d_2g: r_2p_3.5t_40d_2g + 100 y_2p_3.5t_40d_2g >= 100
+big_m_con_on_r@2p_3.5t_40d_3g: r_2p_3.5t_40d_3g + 100 y_2p_3.5t_40d_3g >= 100
+big_m_con_on_r@2p_4.5t_10d_1g: r_2p_4.5t_10d_1g + 100 y_2p_4.5t_10d_1g >= 100
+big_m_con_on_r@2p_4.5t_10d_2g: r_2p_4.5t_10d_2g + 100 y_2p_4.5t_10d_2g >= 100
+big_m_con_on_r@2p_4.5t_40d_1g: r_2p_4.5t_40d_1g + 100 y_2p_4.5t_40d_1g >= 100
+big_m_con_on_r@2p_4.5t_40d_2g: r_2p_4.5t_40d_2g + 100 y_2p_4.5t_40d_2g >= 100
+big_m_con_on_r@2p_4.5t_40d_3g: r_2p_4.5t_40d_3g + 100 y_2p_4.5t_40d_3g >= 100
+big_m_con_on_r@2p_5.5t_10d_1g: r_2p_5.5t_10d_1g + 100 y_2p_5.5t_10d_1g >= 100
+big_m_con_on_r@2p_5.5t_10d_2g: r_2p_5.5t_10d_2g + 100 y_2p_5.5t_10d_2g >= 100
+big_m_con_on_r@2p_5.5t_40d_1g: r_2p_5.5t_40d_1g + 100 y_2p_5.5t_40d_1g >= 100
+big_m_con_on_r@2p_5.5t_40d_2g: r_2p_5.5t_40d_2g + 100 y_2p_5.5t_40d_2g >= 100
+big_m_con_on_r@2p_5.5t_40d_3g: r_2p_5.5t_40d_3g + 100 y_2p_5.5t_40d_3g >= 100
+big_m_con_on_r@2p_6.5t_10d_1g: r_2p_6.5t_10d_1g + 100 y_2p_6.5t_10d_1g >= 100
+big_m_con_on_r@2p_6.5t_10d_2g: r_2p_6.5t_10d_2g + 100 y_2p_6.5t_10d_2g >= 100
+big_m_con_on_r@2p_6.5t_40d_1g: r_2p_6.5t_40d_1g + 100 y_2p_6.5t_40d_1g >= 100
+big_m_con_on_r@2p_6.5t_40d_2g: r_2p_6.5t_40d_2g + 100 y_2p_6.5t_40d_2g >= 100
+big_m_con_on_r@2p_6.5t_40d_3g: r_2p_6.5t_40d_3g + 100 y_2p_6.5t_40d_3g >= 100
+big_m_con_on_r@2p_7.5t_10d_1g: r_2p_7.5t_10d_1g + 100 y_2p_7.5t_10d_1g >= 100
+big_m_con_on_r@2p_7.5t_10d_2g: r_2p_7.5t_10d_2g + 100 y_2p_7.5t_10d_2g >= 100
+big_m_con_on_r@2p_7.5t_40d_1g: r_2p_7.5t_40d_1g + 100 y_2p_7.5t_40d_1g >= 100
+big_m_con_on_r@2p_7.5t_40d_2g: r_2p_7.5t_40d_2g + 100 y_2p_7.5t_40d_2g >= 100
+big_m_con_on_r@2p_7.5t_40d_3g: r_2p_7.5t_40d_3g + 100 y_2p_7.5t_40d_3g >= 100
+big_m_con_on_r@2p_8.5t_10d_1g: r_2p_8.5t_10d_1g + 100 y_2p_8.5t_10d_1g >= 100
+big_m_con_on_r@2p_8.5t_10d_2g: r_2p_8.5t_10d_2g + 100 y_2p_8.5t_10d_2g >= 100
+big_m_con_on_r@2p_8.5t_40d_1g: r_2p_8.5t_40d_1g + 100 y_2p_8.5t_40d_1g >= 100
+big_m_con_on_r@2p_8.5t_40d_2g: r_2p_8.5t_40d_2g + 100 y_2p_8.5t_40d_2g >= 100
+big_m_con_on_r@2p_8.5t_40d_3g: r_2p_8.5t_40d_3g + 100 y_2p_8.5t_40d_3g >= 100
+big_m_con_on_r@4p_0.5t_10d_1g: r_4p_0.5t_10d_1g + 100 y_4p_0.5t_10d_1g >= 100
+big_m_con_on_r@4p_0.5t_10d_2g: r_4p_0.5t_10d_2g + 100 y_4p_0.5t_10d_2g >= 100
+big_m_con_on_r@4p_0.5t_40d_1g: r_4p_0.5t_40d_1g + 100 y_4p_0.5t_40d_1g >= 100
+big_m_con_on_r@4p_0.5t_40d_2g: r_4p_0.5t_40d_2g + 100 y_4p_0.5t_40d_2g >= 100
+big_m_con_on_r@4p_0.5t_40d_3g: r_4p_0.5t_40d_3g + 100 y_4p_0.5t_40d_3g >= 100
+big_m_con_on_r@4p_1.5t_10d_1g: r_4p_1.5t_10d_1g + 100 y_4p_1.5t_10d_1g >= 100
+big_m_con_on_r@4p_1.5t_10d_2g: r_4p_1.5t_10d_2g + 100 y_4p_1.5t_10d_2g >= 100
+big_m_con_on_r@4p_1.5t_40d_1g: r_4p_1.5t_40d_1g + 100 y_4p_1.5t_40d_1g >= 100
+big_m_con_on_r@4p_1.5t_40d_2g: r_4p_1.5t_40d_2g + 100 y_4p_1.5t_40d_2g >= 100
+big_m_con_on_r@4p_1.5t_40d_3g: r_4p_1.5t_40d_3g + 100 y_4p_1.5t_40d_3g >= 100
+big_m_con_on_r@4p_2.5t_10d_1g: r_4p_2.5t_10d_1g + 100 y_4p_2.5t_10d_1g >= 100
+big_m_con_on_r@4p_2.5t_10d_2g: r_4p_2.5t_10d_2g + 100 y_4p_2.5t_10d_2g >= 100
+big_m_con_on_r@4p_2.5t_40d_1g: r_4p_2.5t_40d_1g + 100 y_4p_2.5t_40d_1g >= 100
+big_m_con_on_r@4p_2.5t_40d_2g: r_4p_2.5t_40d_2g + 100 y_4p_2.5t_40d_2g >= 100
+big_m_con_on_r@4p_2.5t_40d_3g: r_4p_2.5t_40d_3g + 100 y_4p_2.5t_40d_3g >= 100
+big_m_con_on_r@4p_3.5t_10d_1g: r_4p_3.5t_10d_1g + 100 y_4p_3.5t_10d_1g >= 100
+big_m_con_on_r@4p_3.5t_10d_2g: r_4p_3.5t_10d_2g + 100 y_4p_3.5t_10d_2g >= 100
+big_m_con_on_r@4p_3.5t_40d_1g: r_4p_3.5t_40d_1g + 100 y_4p_3.5t_40d_1g >= 100
+big_m_con_on_r@4p_3.5t_40d_2g: r_4p_3.5t_40d_2g + 100 y_4p_3.5t_40d_2g >= 100
+big_m_con_on_r@4p_3.5t_40d_3g: r_4p_3.5t_40d_3g + 100 y_4p_3.5t_40d_3g >= 100
+big_m_con_on_r@4p_4.5t_10d_1g: r_4p_4.5t_10d_1g + 100 y_4p_4.5t_10d_1g >= 100
+big_m_con_on_r@4p_4.5t_10d_2g: r_4p_4.5t_10d_2g + 100 y_4p_4.5t_10d_2g >= 100
+big_m_con_on_r@4p_4.5t_40d_1g: r_4p_4.5t_40d_1g + 100 y_4p_4.5t_40d_1g >= 100
+big_m_con_on_r@4p_4.5t_40d_2g: r_4p_4.5t_40d_2g + 100 y_4p_4.5t_40d_2g >= 100
+big_m_con_on_r@4p_4.5t_40d_3g: r_4p_4.5t_40d_3g + 100 y_4p_4.5t_40d_3g >= 100
+big_m_con_on_r@4p_5.5t_10d_1g: r_4p_5.5t_10d_1g + 100 y_4p_5.5t_10d_1g >= 100
+big_m_con_on_r@4p_5.5t_10d_2g: r_4p_5.5t_10d_2g + 100 y_4p_5.5t_10d_2g >= 100
+big_m_con_on_r@4p_5.5t_40d_1g: r_4p_5.5t_40d_1g + 100 y_4p_5.5t_40d_1g >= 100
+big_m_con_on_r@4p_5.5t_40d_2g: r_4p_5.5t_40d_2g + 100 y_4p_5.5t_40d_2g >= 100
+big_m_con_on_r@4p_5.5t_40d_3g: r_4p_5.5t_40d_3g + 100 y_4p_5.5t_40d_3g >= 100
+big_m_con_on_r@4p_6.5t_10d_1g: r_4p_6.5t_10d_1g + 100 y_4p_6.5t_10d_1g >= 100
+big_m_con_on_r@4p_6.5t_10d_2g: r_4p_6.5t_10d_2g + 100 y_4p_6.5t_10d_2g >= 100
+big_m_con_on_r@4p_6.5t_40d_1g: r_4p_6.5t_40d_1g + 100 y_4p_6.5t_40d_1g >= 100
+big_m_con_on_r@4p_6.5t_40d_2g: r_4p_6.5t_40d_2g + 100 y_4p_6.5t_40d_2g >= 100
+big_m_con_on_r@4p_6.5t_40d_3g: r_4p_6.5t_40d_3g + 100 y_4p_6.5t_40d_3g >= 100
+big_m_con_on_r@4p_7.5t_10d_1g: r_4p_7.5t_10d_1g + 100 y_4p_7.5t_10d_1g >= 100
+big_m_con_on_r@4p_7.5t_10d_2g: r_4p_7.5t_10d_2g + 100 y_4p_7.5t_10d_2g >= 100
+big_m_con_on_r@4p_7.5t_40d_1g: r_4p_7.5t_40d_1g + 100 y_4p_7.5t_40d_1g >= 100
+big_m_con_on_r@4p_7.5t_40d_2g: r_4p_7.5t_40d_2g + 100 y_4p_7.5t_40d_2g >= 100
+big_m_con_on_r@4p_7.5t_40d_3g: r_4p_7.5t_40d_3g + 100 y_4p_7.5t_40d_3g >= 100
+big_m_con_on_r@4p_8.5t_10d_1g: r_4p_8.5t_10d_1g + 100 y_4p_8.5t_10d_1g >= 100
+big_m_con_on_r@4p_8.5t_10d_2g: r_4p_8.5t_10d_2g + 100 y_4p_8.5t_10d_2g >= 100
+big_m_con_on_r@4p_8.5t_40d_1g: r_4p_8.5t_40d_1g + 100 y_4p_8.5t_40d_1g >= 100
+big_m_con_on_r@4p_8.5t_40d_2g: r_4p_8.5t_40d_2g + 100 y_4p_8.5t_40d_2g >= 100
+big_m_con_on_r@4p_8.5t_40d_3g: r_4p_8.5t_40d_3g + 100 y_4p_8.5t_40d_3g >= 100
+big_m_con_on_r@5p_0.5t_10d_1g: r_5p_0.5t_10d_1g + 100 y_5p_0.5t_10d_1g >= 100
+big_m_con_on_r@5p_0.5t_10d_2g: r_5p_0.5t_10d_2g + 100 y_5p_0.5t_10d_2g >= 100
+big_m_con_on_r@5p_0.5t_40d_1g: r_5p_0.5t_40d_1g + 100 y_5p_0.5t_40d_1g >= 100
+big_m_con_on_r@5p_0.5t_40d_2g: r_5p_0.5t_40d_2g + 100 y_5p_0.5t_40d_2g >= 100
+big_m_con_on_r@5p_0.5t_40d_3g: r_5p_0.5t_40d_3g + 100 y_5p_0.5t_40d_3g >= 100
+big_m_con_on_r@5p_1.5t_10d_1g: r_5p_1.5t_10d_1g + 100 y_5p_1.5t_10d_1g >= 100
+big_m_con_on_r@5p_1.5t_10d_2g: r_5p_1.5t_10d_2g + 100 y_5p_1.5t_10d_2g >= 100
+big_m_con_on_r@5p_1.5t_40d_1g: r_5p_1.5t_40d_1g + 100 y_5p_1.5t_40d_1g >= 100
+big_m_con_on_r@5p_1.5t_40d_2g: r_5p_1.5t_40d_2g + 100 y_5p_1.5t_40d_2g >= 100
+big_m_con_on_r@5p_1.5t_40d_3g: r_5p_1.5t_40d_3g + 100 y_5p_1.5t_40d_3g >= 100
+big_m_con_on_r@5p_2.5t_10d_1g: r_5p_2.5t_10d_1g + 100 y_5p_2.5t_10d_1g >= 100
+big_m_con_on_r@5p_2.5t_10d_2g: r_5p_2.5t_10d_2g + 100 y_5p_2.5t_10d_2g >= 100
+big_m_con_on_r@5p_2.5t_40d_1g: r_5p_2.5t_40d_1g + 100 y_5p_2.5t_40d_1g >= 100
+big_m_con_on_r@5p_2.5t_40d_2g: r_5p_2.5t_40d_2g + 100 y_5p_2.5t_40d_2g >= 100
+big_m_con_on_r@5p_2.5t_40d_3g: r_5p_2.5t_40d_3g + 100 y_5p_2.5t_40d_3g >= 100
+big_m_con_on_r@5p_3.5t_10d_1g: r_5p_3.5t_10d_1g + 100 y_5p_3.5t_10d_1g >= 100
+big_m_con_on_r@5p_3.5t_10d_2g: r_5p_3.5t_10d_2g + 100 y_5p_3.5t_10d_2g >= 100
+big_m_con_on_r@5p_3.5t_40d_1g: r_5p_3.5t_40d_1g + 100 y_5p_3.5t_40d_1g >= 100
+big_m_con_on_r@5p_3.5t_40d_2g: r_5p_3.5t_40d_2g + 100 y_5p_3.5t_40d_2g >= 100
+big_m_con_on_r@5p_3.5t_40d_3g: r_5p_3.5t_40d_3g + 100 y_5p_3.5t_40d_3g >= 100
+big_m_con_on_r@5p_4.5t_10d_1g: r_5p_4.5t_10d_1g + 100 y_5p_4.5t_10d_1g >= 100
+big_m_con_on_r@5p_4.5t_10d_2g: r_5p_4.5t_10d_2g + 100 y_5p_4.5t_10d_2g >= 100
+big_m_con_on_r@5p_4.5t_40d_1g: r_5p_4.5t_40d_1g + 100 y_5p_4.5t_40d_1g >= 100
+big_m_con_on_r@5p_4.5t_40d_2g: r_5p_4.5t_40d_2g + 100 y_5p_4.5t_40d_2g >= 100
+big_m_con_on_r@5p_4.5t_40d_3g: r_5p_4.5t_40d_3g + 100 y_5p_4.5t_40d_3g >= 100
+big_m_con_on_r@5p_5.5t_10d_1g: r_5p_5.5t_10d_1g + 100 y_5p_5.5t_10d_1g >= 100
+big_m_con_on_r@5p_5.5t_10d_2g: r_5p_5.5t_10d_2g + 100 y_5p_5.5t_10d_2g >= 100
+big_m_con_on_r@5p_5.5t_40d_1g: r_5p_5.5t_40d_1g + 100 y_5p_5.5t_40d_1g >= 100
+big_m_con_on_r@5p_5.5t_40d_2g: r_5p_5.5t_40d_2g + 100 y_5p_5.5t_40d_2g >= 100
+big_m_con_on_r@5p_5.5t_40d_3g: r_5p_5.5t_40d_3g + 100 y_5p_5.5t_40d_3g >= 100
+big_m_con_on_r@5p_6.5t_10d_1g: r_5p_6.5t_10d_1g + 100 y_5p_6.5t_10d_1g >= 100
+big_m_con_on_r@5p_6.5t_10d_2g: r_5p_6.5t_10d_2g + 100 y_5p_6.5t_10d_2g >= 100
+big_m_con_on_r@5p_6.5t_40d_1g: r_5p_6.5t_40d_1g + 100 y_5p_6.5t_40d_1g >= 100
+big_m_con_on_r@5p_6.5t_40d_2g: r_5p_6.5t_40d_2g + 100 y_5p_6.5t_40d_2g >= 100
+big_m_con_on_r@5p_6.5t_40d_3g: r_5p_6.5t_40d_3g + 100 y_5p_6.5t_40d_3g >= 100
+big_m_con_on_r@5p_7.5t_10d_1g: r_5p_7.5t_10d_1g + 100 y_5p_7.5t_10d_1g >= 100
+big_m_con_on_r@5p_7.5t_10d_2g: r_5p_7.5t_10d_2g + 100 y_5p_7.5t_10d_2g >= 100
+big_m_con_on_r@5p_7.5t_40d_1g: r_5p_7.5t_40d_1g + 100 y_5p_7.5t_40d_1g >= 100
+big_m_con_on_r@5p_7.5t_40d_2g: r_5p_7.5t_40d_2g + 100 y_5p_7.5t_40d_2g >= 100
+big_m_con_on_r@5p_7.5t_40d_3g: r_5p_7.5t_40d_3g + 100 y_5p_7.5t_40d_3g >= 100
+big_m_con_on_r@5p_8.5t_10d_1g: r_5p_8.5t_10d_1g + 100 y_5p_8.5t_10d_1g >= 100
+big_m_con_on_r@5p_8.5t_10d_2g: r_5p_8.5t_10d_2g + 100 y_5p_8.5t_10d_2g >= 100
+big_m_con_on_r@5p_8.5t_40d_1g: r_5p_8.5t_40d_1g + 100 y_5p_8.5t_40d_1g >= 100
+big_m_con_on_r@5p_8.5t_40d_2g: r_5p_8.5t_40d_2g + 100 y_5p_8.5t_40d_2g >= 100
+big_m_con_on_r@5p_8.5t_40d_3g: r_5p_8.5t_40d_3g + 100 y_5p_8.5t_40d_3g >= 100
+big_m_con_on_r@6p_0.5t_10d_1g: r_6p_0.5t_10d_1g + 100 y_6p_0.5t_10d_1g >= 100
+big_m_con_on_r@6p_0.5t_10d_2g: r_6p_0.5t_10d_2g + 100 y_6p_0.5t_10d_2g >= 100
+big_m_con_on_r@6p_0.5t_40d_1g: r_6p_0.5t_40d_1g + 100 y_6p_0.5t_40d_1g >= 100
+big_m_con_on_r@6p_0.5t_40d_2g: r_6p_0.5t_40d_2g + 100 y_6p_0.5t_40d_2g >= 100
+big_m_con_on_r@6p_0.5t_40d_3g: r_6p_0.5t_40d_3g + 100 y_6p_0.5t_40d_3g >= 100
+big_m_con_on_r@6p_1.5t_10d_1g: r_6p_1.5t_10d_1g + 100 y_6p_1.5t_10d_1g >= 100
+big_m_con_on_r@6p_1.5t_10d_2g: r_6p_1.5t_10d_2g + 100 y_6p_1.5t_10d_2g >= 100
+big_m_con_on_r@6p_1.5t_40d_1g: r_6p_1.5t_40d_1g + 100 y_6p_1.5t_40d_1g >= 100
+big_m_con_on_r@6p_1.5t_40d_2g: r_6p_1.5t_40d_2g + 100 y_6p_1.5t_40d_2g >= 100
+big_m_con_on_r@6p_1.5t_40d_3g: r_6p_1.5t_40d_3g + 100 y_6p_1.5t_40d_3g >= 100
+big_m_con_on_r@6p_2.5t_10d_1g: r_6p_2.5t_10d_1g + 100 y_6p_2.5t_10d_1g >= 100
+big_m_con_on_r@6p_2.5t_10d_2g: r_6p_2.5t_10d_2g + 100 y_6p_2.5t_10d_2g >= 100
+big_m_con_on_r@6p_2.5t_40d_1g: r_6p_2.5t_40d_1g + 100 y_6p_2.5t_40d_1g >= 100
+big_m_con_on_r@6p_2.5t_40d_2g: r_6p_2.5t_40d_2g + 100 y_6p_2.5t_40d_2g >= 100
+big_m_con_on_r@6p_2.5t_40d_3g: r_6p_2.5t_40d_3g + 100 y_6p_2.5t_40d_3g >= 100
+big_m_con_on_r@6p_3.5t_10d_1g: r_6p_3.5t_10d_1g + 100 y_6p_3.5t_10d_1g >= 100
+big_m_con_on_r@6p_3.5t_10d_2g: r_6p_3.5t_10d_2g + 100 y_6p_3.5t_10d_2g >= 100
+big_m_con_on_r@6p_3.5t_40d_1g: r_6p_3.5t_40d_1g + 100 y_6p_3.5t_40d_1g >= 100
+big_m_con_on_r@6p_3.5t_40d_2g: r_6p_3.5t_40d_2g + 100 y_6p_3.5t_40d_2g >= 100
+big_m_con_on_r@6p_3.5t_40d_3g: r_6p_3.5t_40d_3g + 100 y_6p_3.5t_40d_3g >= 100
+big_m_con_on_r@6p_4.5t_10d_1g: r_6p_4.5t_10d_1g + 100 y_6p_4.5t_10d_1g >= 100
+big_m_con_on_r@6p_4.5t_10d_2g: r_6p_4.5t_10d_2g + 100 y_6p_4.5t_10d_2g >= 100
+big_m_con_on_r@6p_4.5t_40d_1g: r_6p_4.5t_40d_1g + 100 y_6p_4.5t_40d_1g >= 100
+big_m_con_on_r@6p_4.5t_40d_2g: r_6p_4.5t_40d_2g + 100 y_6p_4.5t_40d_2g >= 100
+big_m_con_on_r@6p_4.5t_40d_3g: r_6p_4.5t_40d_3g + 100 y_6p_4.5t_40d_3g >= 100
+big_m_con_on_r@6p_5.5t_10d_1g: r_6p_5.5t_10d_1g + 100 y_6p_5.5t_10d_1g >= 100
+big_m_con_on_r@6p_5.5t_10d_2g: r_6p_5.5t_10d_2g + 100 y_6p_5.5t_10d_2g >= 100
+big_m_con_on_r@6p_5.5t_40d_1g: r_6p_5.5t_40d_1g + 100 y_6p_5.5t_40d_1g >= 100
+big_m_con_on_r@6p_5.5t_40d_2g: r_6p_5.5t_40d_2g + 100 y_6p_5.5t_40d_2g >= 100
+big_m_con_on_r@6p_5.5t_40d_3g: r_6p_5.5t_40d_3g + 100 y_6p_5.5t_40d_3g >= 100
+big_m_con_on_r@6p_6.5t_10d_1g: r_6p_6.5t_10d_1g + 100 y_6p_6.5t_10d_1g >= 100
+big_m_con_on_r@6p_6.5t_10d_2g: r_6p_6.5t_10d_2g + 100 y_6p_6.5t_10d_2g >= 100
+big_m_con_on_r@6p_6.5t_40d_1g: r_6p_6.5t_40d_1g + 100 y_6p_6.5t_40d_1g >= 100
+big_m_con_on_r@6p_6.5t_40d_2g: r_6p_6.5t_40d_2g + 100 y_6p_6.5t_40d_2g >= 100
+big_m_con_on_r@6p_6.5t_40d_3g: r_6p_6.5t_40d_3g + 100 y_6p_6.5t_40d_3g >= 100
+big_m_con_on_r@6p_7.5t_10d_1g: r_6p_7.5t_10d_1g + 100 y_6p_7.5t_10d_1g >= 100
+big_m_con_on_r@6p_7.5t_10d_2g: r_6p_7.5t_10d_2g + 100 y_6p_7.5t_10d_2g >= 100
+big_m_con_on_r@6p_7.5t_40d_1g: r_6p_7.5t_40d_1g + 100 y_6p_7.5t_40d_1g >= 100
+big_m_con_on_r@6p_7.5t_40d_2g: r_6p_7.5t_40d_2g + 100 y_6p_7.5t_40d_2g >= 100
+big_m_con_on_r@6p_7.5t_40d_3g: r_6p_7.5t_40d_3g + 100 y_6p_7.5t_40d_3g >= 100
+big_m_con_on_r@6p_8.5t_10d_1g: r_6p_8.5t_10d_1g + 100 y_6p_8.5t_10d_1g >= 100
+big_m_con_on_r@6p_8.5t_10d_2g: r_6p_8.5t_10d_2g + 100 y_6p_8.5t_10d_2g >= 100
+big_m_con_on_r@6p_8.5t_40d_1g: r_6p_8.5t_40d_1g + 100 y_6p_8.5t_40d_1g >= 100
+big_m_con_on_r@6p_8.5t_40d_2g: r_6p_8.5t_40d_2g + 100 y_6p_8.5t_40d_2g >= 100
+big_m_con_on_r@6p_8.5t_40d_3g: r_6p_8.5t_40d_3g + 100 y_6p_8.5t_40d_3g >= 100
+big_m_con_on_r@7p_0.5t_10d_1g: r_7p_0.5t_10d_1g + 100 y_7p_0.5t_10d_1g >= 100
+big_m_con_on_r@7p_0.5t_10d_2g: r_7p_0.5t_10d_2g + 100 y_7p_0.5t_10d_2g >= 100
+big_m_con_on_r@7p_0.5t_40d_1g: r_7p_0.5t_40d_1g + 100 y_7p_0.5t_40d_1g >= 100
+big_m_con_on_r@7p_0.5t_40d_2g: r_7p_0.5t_40d_2g + 100 y_7p_0.5t_40d_2g >= 100
+big_m_con_on_r@7p_0.5t_40d_3g: r_7p_0.5t_40d_3g + 100 y_7p_0.5t_40d_3g >= 100
+big_m_con_on_r@7p_1.5t_10d_1g: r_7p_1.5t_10d_1g + 100 y_7p_1.5t_10d_1g >= 100
+big_m_con_on_r@7p_1.5t_10d_2g: r_7p_1.5t_10d_2g + 100 y_7p_1.5t_10d_2g >= 100
+big_m_con_on_r@7p_1.5t_40d_1g: r_7p_1.5t_40d_1g + 100 y_7p_1.5t_40d_1g >= 100
+big_m_con_on_r@7p_1.5t_40d_2g: r_7p_1.5t_40d_2g + 100 y_7p_1.5t_40d_2g >= 100
+big_m_con_on_r@7p_1.5t_40d_3g: r_7p_1.5t_40d_3g + 100 y_7p_1.5t_40d_3g >= 100
+big_m_con_on_r@7p_2.5t_10d_1g: r_7p_2.5t_10d_1g + 100 y_7p_2.5t_10d_1g >= 100
+big_m_con_on_r@7p_2.5t_10d_2g: r_7p_2.5t_10d_2g + 100 y_7p_2.5t_10d_2g >= 100
+big_m_con_on_r@7p_2.5t_40d_1g: r_7p_2.5t_40d_1g + 100 y_7p_2.5t_40d_1g >= 100
+big_m_con_on_r@7p_2.5t_40d_2g: r_7p_2.5t_40d_2g + 100 y_7p_2.5t_40d_2g >= 100
+big_m_con_on_r@7p_2.5t_40d_3g: r_7p_2.5t_40d_3g + 100 y_7p_2.5t_40d_3g >= 100
+big_m_con_on_r@7p_3.5t_10d_1g: r_7p_3.5t_10d_1g + 100 y_7p_3.5t_10d_1g >= 100
+big_m_con_on_r@7p_3.5t_10d_2g: r_7p_3.5t_10d_2g + 100 y_7p_3.5t_10d_2g >= 100
+big_m_con_on_r@7p_3.5t_40d_1g: r_7p_3.5t_40d_1g + 100 y_7p_3.5t_40d_1g >= 100
+big_m_con_on_r@7p_3.5t_40d_2g: r_7p_3.5t_40d_2g + 100 y_7p_3.5t_40d_2g >= 100
+big_m_con_on_r@7p_3.5t_40d_3g: r_7p_3.5t_40d_3g + 100 y_7p_3.5t_40d_3g >= 100
+big_m_con_on_r@7p_4.5t_10d_1g: r_7p_4.5t_10d_1g + 100 y_7p_4.5t_10d_1g >= 100
+big_m_con_on_r@7p_4.5t_10d_2g: r_7p_4.5t_10d_2g + 100 y_7p_4.5t_10d_2g >= 100
+big_m_con_on_r@7p_4.5t_40d_1g: r_7p_4.5t_40d_1g + 100 y_7p_4.5t_40d_1g >= 100
+big_m_con_on_r@7p_4.5t_40d_2g: r_7p_4.5t_40d_2g + 100 y_7p_4.5t_40d_2g >= 100
+big_m_con_on_r@7p_4.5t_40d_3g: r_7p_4.5t_40d_3g + 100 y_7p_4.5t_40d_3g >= 100
+big_m_con_on_r@7p_5.5t_10d_1g: r_7p_5.5t_10d_1g + 100 y_7p_5.5t_10d_1g >= 100
+big_m_con_on_r@7p_5.5t_10d_2g: r_7p_5.5t_10d_2g + 100 y_7p_5.5t_10d_2g >= 100
+big_m_con_on_r@7p_5.5t_40d_1g: r_7p_5.5t_40d_1g + 100 y_7p_5.5t_40d_1g >= 100
+big_m_con_on_r@7p_5.5t_40d_2g: r_7p_5.5t_40d_2g + 100 y_7p_5.5t_40d_2g >= 100
+big_m_con_on_r@7p_5.5t_40d_3g: r_7p_5.5t_40d_3g + 100 y_7p_5.5t_40d_3g >= 100
+big_m_con_on_r@7p_6.5t_10d_1g: r_7p_6.5t_10d_1g + 100 y_7p_6.5t_10d_1g >= 100
+big_m_con_on_r@7p_6.5t_10d_2g: r_7p_6.5t_10d_2g + 100 y_7p_6.5t_10d_2g >= 100
+big_m_con_on_r@7p_6.5t_40d_1g: r_7p_6.5t_40d_1g + 100 y_7p_6.5t_40d_1g >= 100
+big_m_con_on_r@7p_6.5t_40d_2g: r_7p_6.5t_40d_2g + 100 y_7p_6.5t_40d_2g >= 100
+big_m_con_on_r@7p_6.5t_40d_3g: r_7p_6.5t_40d_3g + 100 y_7p_6.5t_40d_3g >= 100
+big_m_con_on_r@7p_7.5t_10d_1g: r_7p_7.5t_10d_1g + 100 y_7p_7.5t_10d_1g >= 100
+big_m_con_on_r@7p_7.5t_10d_2g: r_7p_7.5t_10d_2g + 100 y_7p_7.5t_10d_2g >= 100
+big_m_con_on_r@7p_7.5t_40d_1g: r_7p_7.5t_40d_1g + 100 y_7p_7.5t_40d_1g >= 100
+big_m_con_on_r@7p_7.5t_40d_2g: r_7p_7.5t_40d_2g + 100 y_7p_7.5t_40d_2g >= 100
+big_m_con_on_r@7p_7.5t_40d_3g: r_7p_7.5t_40d_3g + 100 y_7p_7.5t_40d_3g >= 100
+big_m_con_on_r@7p_8.5t_10d_1g: r_7p_8.5t_10d_1g + 100 y_7p_8.5t_10d_1g >= 100
+big_m_con_on_r@7p_8.5t_10d_2g: r_7p_8.5t_10d_2g + 100 y_7p_8.5t_10d_2g >= 100
+big_m_con_on_r@7p_8.5t_40d_1g: r_7p_8.5t_40d_1g + 100 y_7p_8.5t_40d_1g >= 100
+big_m_con_on_r@7p_8.5t_40d_2g: r_7p_8.5t_40d_2g + 100 y_7p_8.5t_40d_2g >= 100
+big_m_con_on_r@7p_8.5t_40d_3g: r_7p_8.5t_40d_3g + 100 y_7p_8.5t_40d_3g >= 100
+big_m_con_on_r@8p_0.5t_10d_1g: r_8p_0.5t_10d_1g + 100 y_8p_0.5t_10d_1g >= 100
+big_m_con_on_r@8p_0.5t_10d_2g: r_8p_0.5t_10d_2g + 100 y_8p_0.5t_10d_2g >= 100
+big_m_con_on_r@8p_0.5t_40d_1g: r_8p_0.5t_40d_1g + 100 y_8p_0.5t_40d_1g >= 100
+big_m_con_on_r@8p_0.5t_40d_2g: r_8p_0.5t_40d_2g + 100 y_8p_0.5t_40d_2g >= 100
+big_m_con_on_r@8p_0.5t_40d_3g: r_8p_0.5t_40d_3g + 100 y_8p_0.5t_40d_3g >= 100
+big_m_con_on_r@8p_1.5t_10d_1g: r_8p_1.5t_10d_1g + 100 y_8p_1.5t_10d_1g >= 100
+big_m_con_on_r@8p_1.5t_10d_2g: r_8p_1.5t_10d_2g + 100 y_8p_1.5t_10d_2g >= 100
+big_m_con_on_r@8p_1.5t_40d_1g: r_8p_1.5t_40d_1g + 100 y_8p_1.5t_40d_1g >= 100
+big_m_con_on_r@8p_1.5t_40d_2g: r_8p_1.5t_40d_2g + 100 y_8p_1.5t_40d_2g >= 100
+big_m_con_on_r@8p_1.5t_40d_3g: r_8p_1.5t_40d_3g + 100 y_8p_1.5t_40d_3g >= 100
+big_m_con_on_r@8p_2.5t_10d_1g: r_8p_2.5t_10d_1g + 100 y_8p_2.5t_10d_1g >= 100
+big_m_con_on_r@8p_2.5t_10d_2g: r_8p_2.5t_10d_2g + 100 y_8p_2.5t_10d_2g >= 100
+big_m_con_on_r@8p_2.5t_40d_1g: r_8p_2.5t_40d_1g + 100 y_8p_2.5t_40d_1g >= 100
+big_m_con_on_r@8p_2.5t_40d_2g: r_8p_2.5t_40d_2g + 100 y_8p_2.5t_40d_2g >= 100
+big_m_con_on_r@8p_2.5t_40d_3g: r_8p_2.5t_40d_3g + 100 y_8p_2.5t_40d_3g >= 100
+big_m_con_on_r@8p_3.5t_10d_1g: r_8p_3.5t_10d_1g + 100 y_8p_3.5t_10d_1g >= 100
+big_m_con_on_r@8p_3.5t_10d_2g: r_8p_3.5t_10d_2g + 100 y_8p_3.5t_10d_2g >= 100
+big_m_con_on_r@8p_3.5t_40d_1g: r_8p_3.5t_40d_1g + 100 y_8p_3.5t_40d_1g >= 100
+big_m_con_on_r@8p_3.5t_40d_2g: r_8p_3.5t_40d_2g + 100 y_8p_3.5t_40d_2g >= 100
+big_m_con_on_r@8p_3.5t_40d_3g: r_8p_3.5t_40d_3g + 100 y_8p_3.5t_40d_3g >= 100
+big_m_con_on_r@8p_4.5t_10d_1g: r_8p_4.5t_10d_1g + 100 y_8p_4.5t_10d_1g >= 100
+big_m_con_on_r@8p_4.5t_10d_2g: r_8p_4.5t_10d_2g + 100 y_8p_4.5t_10d_2g >= 100
+big_m_con_on_r@8p_4.5t_40d_1g: r_8p_4.5t_40d_1g + 100 y_8p_4.5t_40d_1g >= 100
+big_m_con_on_r@8p_4.5t_40d_2g: r_8p_4.5t_40d_2g + 100 y_8p_4.5t_40d_2g >= 100
+big_m_con_on_r@8p_4.5t_40d_3g: r_8p_4.5t_40d_3g + 100 y_8p_4.5t_40d_3g >= 100
+big_m_con_on_r@8p_5.5t_10d_1g: r_8p_5.5t_10d_1g + 100 y_8p_5.5t_10d_1g >= 100
+big_m_con_on_r@8p_5.5t_10d_2g: r_8p_5.5t_10d_2g + 100 y_8p_5.5t_10d_2g >= 100
+big_m_con_on_r@8p_5.5t_40d_1g: r_8p_5.5t_40d_1g + 100 y_8p_5.5t_40d_1g >= 100
+big_m_con_on_r@8p_5.5t_40d_2g: r_8p_5.5t_40d_2g + 100 y_8p_5.5t_40d_2g >= 100
+big_m_con_on_r@8p_5.5t_40d_3g: r_8p_5.5t_40d_3g + 100 y_8p_5.5t_40d_3g >= 100
+big_m_con_on_r@8p_6.5t_10d_1g: r_8p_6.5t_10d_1g + 100 y_8p_6.5t_10d_1g >= 100
+big_m_con_on_r@8p_6.5t_10d_2g: r_8p_6.5t_10d_2g + 100 y_8p_6.5t_10d_2g >= 100
+big_m_con_on_r@8p_6.5t_40d_1g: r_8p_6.5t_40d_1g + 100 y_8p_6.5t_40d_1g >= 100
+big_m_con_on_r@8p_6.5t_40d_2g: r_8p_6.5t_40d_2g + 100 y_8p_6.5t_40d_2g >= 100
+big_m_con_on_r@8p_6.5t_40d_3g: r_8p_6.5t_40d_3g + 100 y_8p_6.5t_40d_3g >= 100
+big_m_con_on_r@8p_7.5t_10d_1g: r_8p_7.5t_10d_1g + 100 y_8p_7.5t_10d_1g >= 100
+big_m_con_on_r@8p_7.5t_10d_2g: r_8p_7.5t_10d_2g + 100 y_8p_7.5t_10d_2g >= 100
+big_m_con_on_r@8p_7.5t_40d_1g: r_8p_7.5t_40d_1g + 100 y_8p_7.5t_40d_1g >= 100
+big_m_con_on_r@8p_7.5t_40d_2g: r_8p_7.5t_40d_2g + 100 y_8p_7.5t_40d_2g >= 100
+big_m_con_on_r@8p_7.5t_40d_3g: r_8p_7.5t_40d_3g + 100 y_8p_7.5t_40d_3g >= 100
+big_m_con_on_r@8p_8.5t_10d_1g: r_8p_8.5t_10d_1g + 100 y_8p_8.5t_10d_1g >= 100
+big_m_con_on_r@8p_8.5t_10d_2g: r_8p_8.5t_10d_2g + 100 y_8p_8.5t_10d_2g >= 100
+big_m_con_on_r@8p_8.5t_40d_1g: r_8p_8.5t_40d_1g + 100 y_8p_8.5t_40d_1g >= 100
+big_m_con_on_r@8p_8.5t_40d_2g: r_8p_8.5t_40d_2g + 100 y_8p_8.5t_40d_2g >= 100
+big_m_con_on_r@8p_8.5t_40d_3g: r_8p_8.5t_40d_3g + 100 y_8p_8.5t_40d_3g >= 100
+big_m_con_on_r@9p_0.5t_10d_1g: r_9p_0.5t_10d_1g + 100 y_9p_0.5t_10d_1g >= 100
+big_m_con_on_r@9p_0.5t_10d_2g: r_9p_0.5t_10d_2g + 100 y_9p_0.5t_10d_2g >= 100
+big_m_con_on_r@9p_0.5t_40d_1g: r_9p_0.5t_40d_1g + 100 y_9p_0.5t_40d_1g >= 100
+big_m_con_on_r@9p_0.5t_40d_2g: r_9p_0.5t_40d_2g + 100 y_9p_0.5t_40d_2g >= 100
+big_m_con_on_r@9p_0.5t_40d_3g: r_9p_0.5t_40d_3g + 100 y_9p_0.5t_40d_3g >= 100
+big_m_con_on_r@9p_1.5t_10d_1g: r_9p_1.5t_10d_1g + 100 y_9p_1.5t_10d_1g >= 100
+big_m_con_on_r@9p_1.5t_10d_2g: r_9p_1.5t_10d_2g + 100 y_9p_1.5t_10d_2g >= 100
+big_m_con_on_r@9p_1.5t_40d_1g: r_9p_1.5t_40d_1g + 100 y_9p_1.5t_40d_1g >= 100
+big_m_con_on_r@9p_1.5t_40d_2g: r_9p_1.5t_40d_2g + 100 y_9p_1.5t_40d_2g >= 100
+big_m_con_on_r@9p_1.5t_40d_3g: r_9p_1.5t_40d_3g + 100 y_9p_1.5t_40d_3g >= 100
+big_m_con_on_r@9p_2.5t_10d_1g: r_9p_2.5t_10d_1g + 100 y_9p_2.5t_10d_1g >= 100
+big_m_con_on_r@9p_2.5t_10d_2g: r_9p_2.5t_10d_2g + 100 y_9p_2.5t_10d_2g >= 100
+big_m_con_on_r@9p_2.5t_40d_1g: r_9p_2.5t_40d_1g + 100 y_9p_2.5t_40d_1g >= 100
+big_m_con_on_r@9p_2.5t_40d_2g: r_9p_2.5t_40d_2g + 100 y_9p_2.5t_40d_2g >= 100
+big_m_con_on_r@9p_2.5t_40d_3g: r_9p_2.5t_40d_3g + 100 y_9p_2.5t_40d_3g >= 100
+big_m_con_on_r@9p_3.5t_10d_1g: r_9p_3.5t_10d_1g + 100 y_9p_3.5t_10d_1g >= 100
+big_m_con_on_r@9p_3.5t_10d_2g: r_9p_3.5t_10d_2g + 100 y_9p_3.5t_10d_2g >= 100
+big_m_con_on_r@9p_3.5t_40d_1g: r_9p_3.5t_40d_1g + 100 y_9p_3.5t_40d_1g >= 100
+big_m_con_on_r@9p_3.5t_40d_2g: r_9p_3.5t_40d_2g + 100 y_9p_3.5t_40d_2g >= 100
+big_m_con_on_r@9p_3.5t_40d_3g: r_9p_3.5t_40d_3g + 100 y_9p_3.5t_40d_3g >= 100
+big_m_con_on_r@9p_4.5t_10d_1g: r_9p_4.5t_10d_1g + 100 y_9p_4.5t_10d_1g >= 100
+big_m_con_on_r@9p_4.5t_10d_2g: r_9p_4.5t_10d_2g + 100 y_9p_4.5t_10d_2g >= 100
+big_m_con_on_r@9p_4.5t_40d_1g: r_9p_4.5t_40d_1g + 100 y_9p_4.5t_40d_1g >= 100
+big_m_con_on_r@9p_4.5t_40d_2g: r_9p_4.5t_40d_2g + 100 y_9p_4.5t_40d_2g >= 100
+big_m_con_on_r@9p_4.5t_40d_3g: r_9p_4.5t_40d_3g + 100 y_9p_4.5t_40d_3g >= 100
+big_m_con_on_r@9p_5.5t_10d_1g: r_9p_5.5t_10d_1g + 100 y_9p_5.5t_10d_1g >= 100
+big_m_con_on_r@9p_5.5t_10d_2g: r_9p_5.5t_10d_2g + 100 y_9p_5.5t_10d_2g >= 100
+big_m_con_on_r@9p_5.5t_40d_1g: r_9p_5.5t_40d_1g + 100 y_9p_5.5t_40d_1g >= 100
+big_m_con_on_r@9p_5.5t_40d_2g: r_9p_5.5t_40d_2g + 100 y_9p_5.5t_40d_2g >= 100
+big_m_con_on_r@9p_5.5t_40d_3g: r_9p_5.5t_40d_3g + 100 y_9p_5.5t_40d_3g >= 100
+big_m_con_on_r@9p_6.5t_10d_1g: r_9p_6.5t_10d_1g + 100 y_9p_6.5t_10d_1g >= 100
+big_m_con_on_r@9p_6.5t_10d_2g: r_9p_6.5t_10d_2g + 100 y_9p_6.5t_10d_2g >= 100
+big_m_con_on_r@9p_6.5t_40d_1g: r_9p_6.5t_40d_1g + 100 y_9p_6.5t_40d_1g >= 100
+big_m_con_on_r@9p_6.5t_40d_2g: r_9p_6.5t_40d_2g + 100 y_9p_6.5t_40d_2g >= 100
+big_m_con_on_r@9p_6.5t_40d_3g: r_9p_6.5t_40d_3g + 100 y_9p_6.5t_40d_3g >= 100
+big_m_con_on_r@9p_7.5t_10d_1g: r_9p_7.5t_10d_1g + 100 y_9p_7.5t_10d_1g >= 100
+big_m_con_on_r@9p_7.5t_10d_2g: r_9p_7.5t_10d_2g + 100 y_9p_7.5t_10d_2g >= 100
+big_m_con_on_r@9p_7.5t_40d_1g: r_9p_7.5t_40d_1g + 100 y_9p_7.5t_40d_1g >= 100
+big_m_con_on_r@9p_7.5t_40d_2g: r_9p_7.5t_40d_2g + 100 y_9p_7.5t_40d_2g >= 100
+big_m_con_on_r@9p_7.5t_40d_3g: r_9p_7.5t_40d_3g + 100 y_9p_7.5t_40d_3g >= 100
+big_m_con_on_r@9p_8.5t_10d_1g: r_9p_8.5t_10d_1g + 100 y_9p_8.5t_10d_1g >= 100
+big_m_con_on_r@9p_8.5t_10d_2g: r_9p_8.5t_10d_2g + 100 y_9p_8.5t_10d_2g >= 100
+big_m_con_on_r@9p_8.5t_40d_1g: r_9p_8.5t_40d_1g + 100 y_9p_8.5t_40d_1g >= 100
+big_m_con_on_r@9p_8.5t_40d_2g: r_9p_8.5t_40d_2g + 100 y_9p_8.5t_40d_2g >= 100
+big_m_con_on_r@9p_8.5t_40d_3g: r_9p_8.5t_40d_3g + 100 y_9p_8.5t_40d_3g >= 100
+big_m_con_on_u@1p_0.5t_10d_1g: u_1p_0.5t_10d_1g + 100 y_1p_0.5t_10d_1g >= 100
+big_m_con_on_u@1p_0.5t_10d_2g: u_1p_0.5t_10d_2g + 100 y_1p_0.5t_10d_2g >= 100
+big_m_con_on_u@1p_0.5t_40d_1g: u_1p_0.5t_40d_1g + 100 y_1p_0.5t_40d_1g >= 100
+big_m_con_on_u@1p_0.5t_40d_2g: u_1p_0.5t_40d_2g + 100 y_1p_0.5t_40d_2g >= 100
+big_m_con_on_u@1p_0.5t_40d_3g: u_1p_0.5t_40d_3g + 100 y_1p_0.5t_40d_3g >= 100
+big_m_con_on_u@1p_1.5t_10d_1g: u_1p_1.5t_10d_1g + 100 y_1p_1.5t_10d_1g >= 100
+big_m_con_on_u@1p_1.5t_10d_2g: u_1p_1.5t_10d_2g + 100 y_1p_1.5t_10d_2g >= 100
+big_m_con_on_u@1p_1.5t_40d_1g: u_1p_1.5t_40d_1g + 100 y_1p_1.5t_40d_1g >= 100
+big_m_con_on_u@1p_1.5t_40d_2g: u_1p_1.5t_40d_2g + 100 y_1p_1.5t_40d_2g >= 100
+big_m_con_on_u@1p_1.5t_40d_3g: u_1p_1.5t_40d_3g + 100 y_1p_1.5t_40d_3g >= 100
+big_m_con_on_u@1p_2.5t_10d_1g: u_1p_2.5t_10d_1g + 100 y_1p_2.5t_10d_1g >= 100
+big_m_con_on_u@1p_2.5t_10d_2g: u_1p_2.5t_10d_2g + 100 y_1p_2.5t_10d_2g >= 100
+big_m_con_on_u@1p_2.5t_40d_1g: u_1p_2.5t_40d_1g + 100 y_1p_2.5t_40d_1g >= 100
+big_m_con_on_u@1p_2.5t_40d_2g: u_1p_2.5t_40d_2g + 100 y_1p_2.5t_40d_2g >= 100
+big_m_con_on_u@1p_2.5t_40d_3g: u_1p_2.5t_40d_3g + 100 y_1p_2.5t_40d_3g >= 100
+big_m_con_on_u@1p_3.5t_10d_1g: u_1p_3.5t_10d_1g + 100 y_1p_3.5t_10d_1g >= 100
+big_m_con_on_u@1p_3.5t_10d_2g: u_1p_3.5t_10d_2g + 100 y_1p_3.5t_10d_2g >= 100
+big_m_con_on_u@1p_3.5t_40d_1g: u_1p_3.5t_40d_1g + 100 y_1p_3.5t_40d_1g >= 100
+big_m_con_on_u@1p_3.5t_40d_2g: u_1p_3.5t_40d_2g + 100 y_1p_3.5t_40d_2g >= 100
+big_m_con_on_u@1p_3.5t_40d_3g: u_1p_3.5t_40d_3g + 100 y_1p_3.5t_40d_3g >= 100
+big_m_con_on_u@1p_4.5t_10d_1g: u_1p_4.5t_10d_1g + 100 y_1p_4.5t_10d_1g >= 100
+big_m_con_on_u@1p_4.5t_10d_2g: u_1p_4.5t_10d_2g + 100 y_1p_4.5t_10d_2g >= 100
+big_m_con_on_u@1p_4.5t_40d_1g: u_1p_4.5t_40d_1g + 100 y_1p_4.5t_40d_1g >= 100
+big_m_con_on_u@1p_4.5t_40d_2g: u_1p_4.5t_40d_2g + 100 y_1p_4.5t_40d_2g >= 100
+big_m_con_on_u@1p_4.5t_40d_3g: u_1p_4.5t_40d_3g + 100 y_1p_4.5t_40d_3g >= 100
+big_m_con_on_u@1p_5.5t_10d_1g: u_1p_5.5t_10d_1g + 100 y_1p_5.5t_10d_1g >= 100
+big_m_con_on_u@1p_5.5t_10d_2g: u_1p_5.5t_10d_2g + 100 y_1p_5.5t_10d_2g >= 100
+big_m_con_on_u@1p_5.5t_40d_1g: u_1p_5.5t_40d_1g + 100 y_1p_5.5t_40d_1g >= 100
+big_m_con_on_u@1p_5.5t_40d_2g: u_1p_5.5t_40d_2g + 100 y_1p_5.5t_40d_2g >= 100
+big_m_con_on_u@1p_5.5t_40d_3g: u_1p_5.5t_40d_3g + 100 y_1p_5.5t_40d_3g >= 100
+big_m_con_on_u@1p_6.5t_10d_1g: u_1p_6.5t_10d_1g + 100 y_1p_6.5t_10d_1g >= 100
+big_m_con_on_u@1p_6.5t_10d_2g: u_1p_6.5t_10d_2g + 100 y_1p_6.5t_10d_2g >= 100
+big_m_con_on_u@1p_6.5t_40d_1g: u_1p_6.5t_40d_1g + 100 y_1p_6.5t_40d_1g >= 100
+big_m_con_on_u@1p_6.5t_40d_2g: u_1p_6.5t_40d_2g + 100 y_1p_6.5t_40d_2g >= 100
+big_m_con_on_u@1p_6.5t_40d_3g: u_1p_6.5t_40d_3g + 100 y_1p_6.5t_40d_3g >= 100
+big_m_con_on_u@1p_7.5t_10d_1g: u_1p_7.5t_10d_1g + 100 y_1p_7.5t_10d_1g >= 100
+big_m_con_on_u@1p_7.5t_10d_2g: u_1p_7.5t_10d_2g + 100 y_1p_7.5t_10d_2g >= 100
+big_m_con_on_u@1p_7.5t_40d_1g: u_1p_7.5t_40d_1g + 100 y_1p_7.5t_40d_1g >= 100
+big_m_con_on_u@1p_7.5t_40d_2g: u_1p_7.5t_40d_2g + 100 y_1p_7.5t_40d_2g >= 100
+big_m_con_on_u@1p_7.5t_40d_3g: u_1p_7.5t_40d_3g + 100 y_1p_7.5t_40d_3g >= 100
+big_m_con_on_u@1p_8.5t_10d_1g: u_1p_8.5t_10d_1g + 100 y_1p_8.5t_10d_1g >= 100
+big_m_con_on_u@1p_8.5t_10d_2g: u_1p_8.5t_10d_2g + 100 y_1p_8.5t_10d_2g >= 100
+big_m_con_on_u@1p_8.5t_40d_1g: u_1p_8.5t_40d_1g + 100 y_1p_8.5t_40d_1g >= 100
+big_m_con_on_u@1p_8.5t_40d_2g: u_1p_8.5t_40d_2g + 100 y_1p_8.5t_40d_2g >= 100
+big_m_con_on_u@1p_8.5t_40d_3g: u_1p_8.5t_40d_3g + 100 y_1p_8.5t_40d_3g >= 100
+big_m_con_on_u@2p_0.5t_10d_1g: u_2p_0.5t_10d_1g + 100 y_2p_0.5t_10d_1g >= 100
+big_m_con_on_u@2p_0.5t_10d_2g: u_2p_0.5t_10d_2g + 100 y_2p_0.5t_10d_2g >= 100
+big_m_con_on_u@2p_0.5t_40d_1g: u_2p_0.5t_40d_1g + 100 y_2p_0.5t_40d_1g >= 100
+big_m_con_on_u@2p_0.5t_40d_2g: u_2p_0.5t_40d_2g + 100 y_2p_0.5t_40d_2g >= 100
+big_m_con_on_u@2p_0.5t_40d_3g: u_2p_0.5t_40d_3g + 100 y_2p_0.5t_40d_3g >= 100
+big_m_con_on_u@2p_1.5t_10d_1g: u_2p_1.5t_10d_1g + 100 y_2p_1.5t_10d_1g >= 100
+big_m_con_on_u@2p_1.5t_10d_2g: u_2p_1.5t_10d_2g + 100 y_2p_1.5t_10d_2g >= 100
+big_m_con_on_u@2p_1.5t_40d_1g: u_2p_1.5t_40d_1g + 100 y_2p_1.5t_40d_1g >= 100
+big_m_con_on_u@2p_1.5t_40d_2g: u_2p_1.5t_40d_2g + 100 y_2p_1.5t_40d_2g >= 100
+big_m_con_on_u@2p_1.5t_40d_3g: u_2p_1.5t_40d_3g + 100 y_2p_1.5t_40d_3g >= 100
+big_m_con_on_u@2p_2.5t_10d_1g: u_2p_2.5t_10d_1g + 100 y_2p_2.5t_10d_1g >= 100
+big_m_con_on_u@2p_2.5t_10d_2g: u_2p_2.5t_10d_2g + 100 y_2p_2.5t_10d_2g >= 100
+big_m_con_on_u@2p_2.5t_40d_1g: u_2p_2.5t_40d_1g + 100 y_2p_2.5t_40d_1g >= 100
+big_m_con_on_u@2p_2.5t_40d_2g: u_2p_2.5t_40d_2g + 100 y_2p_2.5t_40d_2g >= 100
+big_m_con_on_u@2p_2.5t_40d_3g: u_2p_2.5t_40d_3g + 100 y_2p_2.5t_40d_3g >= 100
+big_m_con_on_u@2p_3.5t_10d_1g: u_2p_3.5t_10d_1g + 100 y_2p_3.5t_10d_1g >= 100
+big_m_con_on_u@2p_3.5t_10d_2g: u_2p_3.5t_10d_2g + 100 y_2p_3.5t_10d_2g >= 100
+big_m_con_on_u@2p_3.5t_40d_1g: u_2p_3.5t_40d_1g + 100 y_2p_3.5t_40d_1g >= 100
+big_m_con_on_u@2p_3.5t_40d_2g: u_2p_3.5t_40d_2g + 100 y_2p_3.5t_40d_2g >= 100
+big_m_con_on_u@2p_3.5t_40d_3g: u_2p_3.5t_40d_3g + 100 y_2p_3.5t_40d_3g >= 100
+big_m_con_on_u@2p_4.5t_10d_1g: u_2p_4.5t_10d_1g + 100 y_2p_4.5t_10d_1g >= 100
+big_m_con_on_u@2p_4.5t_10d_2g: u_2p_4.5t_10d_2g + 100 y_2p_4.5t_10d_2g >= 100
+big_m_con_on_u@2p_4.5t_40d_1g: u_2p_4.5t_40d_1g + 100 y_2p_4.5t_40d_1g >= 100
+big_m_con_on_u@2p_4.5t_40d_2g: u_2p_4.5t_40d_2g + 100 y_2p_4.5t_40d_2g >= 100
+big_m_con_on_u@2p_4.5t_40d_3g: u_2p_4.5t_40d_3g + 100 y_2p_4.5t_40d_3g >= 100
+big_m_con_on_u@2p_5.5t_10d_1g: u_2p_5.5t_10d_1g + 100 y_2p_5.5t_10d_1g >= 100
+big_m_con_on_u@2p_5.5t_10d_2g: u_2p_5.5t_10d_2g + 100 y_2p_5.5t_10d_2g >= 100
+big_m_con_on_u@2p_5.5t_40d_1g: u_2p_5.5t_40d_1g + 100 y_2p_5.5t_40d_1g >= 100
+big_m_con_on_u@2p_5.5t_40d_2g: u_2p_5.5t_40d_2g + 100 y_2p_5.5t_40d_2g >= 100
+big_m_con_on_u@2p_5.5t_40d_3g: u_2p_5.5t_40d_3g + 100 y_2p_5.5t_40d_3g >= 100
+big_m_con_on_u@2p_6.5t_10d_1g: u_2p_6.5t_10d_1g + 100 y_2p_6.5t_10d_1g >= 100
+big_m_con_on_u@2p_6.5t_10d_2g: u_2p_6.5t_10d_2g + 100 y_2p_6.5t_10d_2g >= 100
+big_m_con_on_u@2p_6.5t_40d_1g: u_2p_6.5t_40d_1g + 100 y_2p_6.5t_40d_1g >= 100
+big_m_con_on_u@2p_6.5t_40d_2g: u_2p_6.5t_40d_2g + 100 y_2p_6.5t_40d_2g >= 100
+big_m_con_on_u@2p_6.5t_40d_3g: u_2p_6.5t_40d_3g + 100 y_2p_6.5t_40d_3g >= 100
+big_m_con_on_u@2p_7.5t_10d_1g: u_2p_7.5t_10d_1g + 100 y_2p_7.5t_10d_1g >= 100
+big_m_con_on_u@2p_7.5t_10d_2g: u_2p_7.5t_10d_2g + 100 y_2p_7.5t_10d_2g >= 100
+big_m_con_on_u@2p_7.5t_40d_1g: u_2p_7.5t_40d_1g + 100 y_2p_7.5t_40d_1g >= 100
+big_m_con_on_u@2p_7.5t_40d_2g: u_2p_7.5t_40d_2g + 100 y_2p_7.5t_40d_2g >= 100
+big_m_con_on_u@2p_7.5t_40d_3g: u_2p_7.5t_40d_3g + 100 y_2p_7.5t_40d_3g >= 100
+big_m_con_on_u@2p_8.5t_10d_1g: u_2p_8.5t_10d_1g + 100 y_2p_8.5t_10d_1g >= 100
+big_m_con_on_u@2p_8.5t_10d_2g: u_2p_8.5t_10d_2g + 100 y_2p_8.5t_10d_2g >= 100
+big_m_con_on_u@2p_8.5t_40d_1g: u_2p_8.5t_40d_1g + 100 y_2p_8.5t_40d_1g >= 100
+big_m_con_on_u@2p_8.5t_40d_2g: u_2p_8.5t_40d_2g + 100 y_2p_8.5t_40d_2g >= 100
+big_m_con_on_u@2p_8.5t_40d_3g: u_2p_8.5t_40d_3g + 100 y_2p_8.5t_40d_3g >= 100
+big_m_con_on_u@4p_0.5t_10d_1g: u_4p_0.5t_10d_1g + 100 y_4p_0.5t_10d_1g >= 100
+big_m_con_on_u@4p_0.5t_10d_2g: u_4p_0.5t_10d_2g + 100 y_4p_0.5t_10d_2g >= 100
+big_m_con_on_u@4p_0.5t_40d_1g: u_4p_0.5t_40d_1g + 100 y_4p_0.5t_40d_1g >= 100
+big_m_con_on_u@4p_0.5t_40d_2g: u_4p_0.5t_40d_2g + 100 y_4p_0.5t_40d_2g >= 100
+big_m_con_on_u@4p_0.5t_40d_3g: u_4p_0.5t_40d_3g + 100 y_4p_0.5t_40d_3g >= 100
+big_m_con_on_u@4p_1.5t_10d_1g: u_4p_1.5t_10d_1g + 100 y_4p_1.5t_10d_1g >= 100
+big_m_con_on_u@4p_1.5t_10d_2g: u_4p_1.5t_10d_2g + 100 y_4p_1.5t_10d_2g >= 100
+big_m_con_on_u@4p_1.5t_40d_1g: u_4p_1.5t_40d_1g + 100 y_4p_1.5t_40d_1g >= 100
+big_m_con_on_u@4p_1.5t_40d_2g: u_4p_1.5t_40d_2g + 100 y_4p_1.5t_40d_2g >= 100
+big_m_con_on_u@4p_1.5t_40d_3g: u_4p_1.5t_40d_3g + 100 y_4p_1.5t_40d_3g >= 100
+big_m_con_on_u@4p_2.5t_10d_1g: u_4p_2.5t_10d_1g + 100 y_4p_2.5t_10d_1g >= 100
+big_m_con_on_u@4p_2.5t_10d_2g: u_4p_2.5t_10d_2g + 100 y_4p_2.5t_10d_2g >= 100
+big_m_con_on_u@4p_2.5t_40d_1g: u_4p_2.5t_40d_1g + 100 y_4p_2.5t_40d_1g >= 100
+big_m_con_on_u@4p_2.5t_40d_2g: u_4p_2.5t_40d_2g + 100 y_4p_2.5t_40d_2g >= 100
+big_m_con_on_u@4p_2.5t_40d_3g: u_4p_2.5t_40d_3g + 100 y_4p_2.5t_40d_3g >= 100
+big_m_con_on_u@4p_3.5t_10d_1g: u_4p_3.5t_10d_1g + 100 y_4p_3.5t_10d_1g >= 100
+big_m_con_on_u@4p_3.5t_10d_2g: u_4p_3.5t_10d_2g + 100 y_4p_3.5t_10d_2g >= 100
+big_m_con_on_u@4p_3.5t_40d_1g: u_4p_3.5t_40d_1g + 100 y_4p_3.5t_40d_1g >= 100
+big_m_con_on_u@4p_3.5t_40d_2g: u_4p_3.5t_40d_2g + 100 y_4p_3.5t_40d_2g >= 100
+big_m_con_on_u@4p_3.5t_40d_3g: u_4p_3.5t_40d_3g + 100 y_4p_3.5t_40d_3g >= 100
+big_m_con_on_u@4p_4.5t_10d_1g: u_4p_4.5t_10d_1g + 100 y_4p_4.5t_10d_1g >= 100
+big_m_con_on_u@4p_4.5t_10d_2g: u_4p_4.5t_10d_2g + 100 y_4p_4.5t_10d_2g >= 100
+big_m_con_on_u@4p_4.5t_40d_1g: u_4p_4.5t_40d_1g + 100 y_4p_4.5t_40d_1g >= 100
+big_m_con_on_u@4p_4.5t_40d_2g: u_4p_4.5t_40d_2g + 100 y_4p_4.5t_40d_2g >= 100
+big_m_con_on_u@4p_4.5t_40d_3g: u_4p_4.5t_40d_3g + 100 y_4p_4.5t_40d_3g >= 100
+big_m_con_on_u@4p_5.5t_10d_1g: u_4p_5.5t_10d_1g + 100 y_4p_5.5t_10d_1g >= 100
+big_m_con_on_u@4p_5.5t_10d_2g: u_4p_5.5t_10d_2g + 100 y_4p_5.5t_10d_2g >= 100
+big_m_con_on_u@4p_5.5t_40d_1g: u_4p_5.5t_40d_1g + 100 y_4p_5.5t_40d_1g >= 100
+big_m_con_on_u@4p_5.5t_40d_2g: u_4p_5.5t_40d_2g + 100 y_4p_5.5t_40d_2g >= 100
+big_m_con_on_u@4p_5.5t_40d_3g: u_4p_5.5t_40d_3g + 100 y_4p_5.5t_40d_3g >= 100
+big_m_con_on_u@4p_6.5t_10d_1g: u_4p_6.5t_10d_1g + 100 y_4p_6.5t_10d_1g >= 100
+big_m_con_on_u@4p_6.5t_10d_2g: u_4p_6.5t_10d_2g + 100 y_4p_6.5t_10d_2g >= 100
+big_m_con_on_u@4p_6.5t_40d_1g: u_4p_6.5t_40d_1g + 100 y_4p_6.5t_40d_1g >= 100
+big_m_con_on_u@4p_6.5t_40d_2g: u_4p_6.5t_40d_2g + 100 y_4p_6.5t_40d_2g >= 100
+big_m_con_on_u@4p_6.5t_40d_3g: u_4p_6.5t_40d_3g + 100 y_4p_6.5t_40d_3g >= 100
+big_m_con_on_u@4p_7.5t_10d_1g: u_4p_7.5t_10d_1g + 100 y_4p_7.5t_10d_1g >= 100
+big_m_con_on_u@4p_7.5t_10d_2g: u_4p_7.5t_10d_2g + 100 y_4p_7.5t_10d_2g >= 100
+big_m_con_on_u@4p_7.5t_40d_1g: u_4p_7.5t_40d_1g + 100 y_4p_7.5t_40d_1g >= 100
+big_m_con_on_u@4p_7.5t_40d_2g: u_4p_7.5t_40d_2g + 100 y_4p_7.5t_40d_2g >= 100
+big_m_con_on_u@4p_7.5t_40d_3g: u_4p_7.5t_40d_3g + 100 y_4p_7.5t_40d_3g >= 100
+big_m_con_on_u@4p_8.5t_10d_1g: u_4p_8.5t_10d_1g + 100 y_4p_8.5t_10d_1g >= 100
+big_m_con_on_u@4p_8.5t_10d_2g: u_4p_8.5t_10d_2g + 100 y_4p_8.5t_10d_2g >= 100
+big_m_con_on_u@4p_8.5t_40d_1g: u_4p_8.5t_40d_1g + 100 y_4p_8.5t_40d_1g >= 100
+big_m_con_on_u@4p_8.5t_40d_2g: u_4p_8.5t_40d_2g + 100 y_4p_8.5t_40d_2g >= 100
+big_m_con_on_u@4p_8.5t_40d_3g: u_4p_8.5t_40d_3g + 100 y_4p_8.5t_40d_3g >= 100
+big_m_con_on_u@5p_0.5t_10d_1g: u_5p_0.5t_10d_1g + 100 y_5p_0.5t_10d_1g >= 100
+big_m_con_on_u@5p_0.5t_10d_2g: u_5p_0.5t_10d_2g + 100 y_5p_0.5t_10d_2g >= 100
+big_m_con_on_u@5p_0.5t_40d_1g: u_5p_0.5t_40d_1g + 100 y_5p_0.5t_40d_1g >= 100
+big_m_con_on_u@5p_0.5t_40d_2g: u_5p_0.5t_40d_2g + 100 y_5p_0.5t_40d_2g >= 100
+big_m_con_on_u@5p_0.5t_40d_3g: u_5p_0.5t_40d_3g + 100 y_5p_0.5t_40d_3g >= 100
+big_m_con_on_u@5p_1.5t_10d_1g: u_5p_1.5t_10d_1g + 100 y_5p_1.5t_10d_1g >= 100
+big_m_con_on_u@5p_1.5t_10d_2g: u_5p_1.5t_10d_2g + 100 y_5p_1.5t_10d_2g >= 100
+big_m_con_on_u@5p_1.5t_40d_1g: u_5p_1.5t_40d_1g + 100 y_5p_1.5t_40d_1g >= 100
+big_m_con_on_u@5p_1.5t_40d_2g: u_5p_1.5t_40d_2g + 100 y_5p_1.5t_40d_2g >= 100
+big_m_con_on_u@5p_1.5t_40d_3g: u_5p_1.5t_40d_3g + 100 y_5p_1.5t_40d_3g >= 100
+big_m_con_on_u@5p_2.5t_10d_1g: u_5p_2.5t_10d_1g + 100 y_5p_2.5t_10d_1g >= 100
+big_m_con_on_u@5p_2.5t_10d_2g: u_5p_2.5t_10d_2g + 100 y_5p_2.5t_10d_2g >= 100
+big_m_con_on_u@5p_2.5t_40d_1g: u_5p_2.5t_40d_1g + 100 y_5p_2.5t_40d_1g >= 100
+big_m_con_on_u@5p_2.5t_40d_2g: u_5p_2.5t_40d_2g + 100 y_5p_2.5t_40d_2g >= 100
+big_m_con_on_u@5p_2.5t_40d_3g: u_5p_2.5t_40d_3g + 100 y_5p_2.5t_40d_3g >= 100
+big_m_con_on_u@5p_3.5t_10d_1g: u_5p_3.5t_10d_1g + 100 y_5p_3.5t_10d_1g >= 100
+big_m_con_on_u@5p_3.5t_10d_2g: u_5p_3.5t_10d_2g + 100 y_5p_3.5t_10d_2g >= 100
+big_m_con_on_u@5p_3.5t_40d_1g: u_5p_3.5t_40d_1g + 100 y_5p_3.5t_40d_1g >= 100
+big_m_con_on_u@5p_3.5t_40d_2g: u_5p_3.5t_40d_2g + 100 y_5p_3.5t_40d_2g >= 100
+big_m_con_on_u@5p_3.5t_40d_3g: u_5p_3.5t_40d_3g + 100 y_5p_3.5t_40d_3g >= 100
+big_m_con_on_u@5p_4.5t_10d_1g: u_5p_4.5t_10d_1g + 100 y_5p_4.5t_10d_1g >= 100
+big_m_con_on_u@5p_4.5t_10d_2g: u_5p_4.5t_10d_2g + 100 y_5p_4.5t_10d_2g >= 100
+big_m_con_on_u@5p_4.5t_40d_1g: u_5p_4.5t_40d_1g + 100 y_5p_4.5t_40d_1g >= 100
+big_m_con_on_u@5p_4.5t_40d_2g: u_5p_4.5t_40d_2g + 100 y_5p_4.5t_40d_2g >= 100
+big_m_con_on_u@5p_4.5t_40d_3g: u_5p_4.5t_40d_3g + 100 y_5p_4.5t_40d_3g >= 100
+big_m_con_on_u@5p_5.5t_10d_1g: u_5p_5.5t_10d_1g + 100 y_5p_5.5t_10d_1g >= 100
+big_m_con_on_u@5p_5.5t_10d_2g: u_5p_5.5t_10d_2g + 100 y_5p_5.5t_10d_2g >= 100
+big_m_con_on_u@5p_5.5t_40d_1g: u_5p_5.5t_40d_1g + 100 y_5p_5.5t_40d_1g >= 100
+big_m_con_on_u@5p_5.5t_40d_2g: u_5p_5.5t_40d_2g + 100 y_5p_5.5t_40d_2g >= 100
+big_m_con_on_u@5p_5.5t_40d_3g: u_5p_5.5t_40d_3g + 100 y_5p_5.5t_40d_3g >= 100
+big_m_con_on_u@5p_6.5t_10d_1g: u_5p_6.5t_10d_1g + 100 y_5p_6.5t_10d_1g >= 100
+big_m_con_on_u@5p_6.5t_10d_2g: u_5p_6.5t_10d_2g + 100 y_5p_6.5t_10d_2g >= 100
+big_m_con_on_u@5p_6.5t_40d_1g: u_5p_6.5t_40d_1g + 100 y_5p_6.5t_40d_1g >= 100
+big_m_con_on_u@5p_6.5t_40d_2g: u_5p_6.5t_40d_2g + 100 y_5p_6.5t_40d_2g >= 100
+big_m_con_on_u@5p_6.5t_40d_3g: u_5p_6.5t_40d_3g + 100 y_5p_6.5t_40d_3g >= 100
+big_m_con_on_u@5p_7.5t_10d_1g: u_5p_7.5t_10d_1g + 100 y_5p_7.5t_10d_1g >= 100
+big_m_con_on_u@5p_7.5t_10d_2g: u_5p_7.5t_10d_2g + 100 y_5p_7.5t_10d_2g >= 100
+big_m_con_on_u@5p_7.5t_40d_1g: u_5p_7.5t_40d_1g + 100 y_5p_7.5t_40d_1g >= 100
+big_m_con_on_u@5p_7.5t_40d_2g: u_5p_7.5t_40d_2g + 100 y_5p_7.5t_40d_2g >= 100
+big_m_con_on_u@5p_7.5t_40d_3g: u_5p_7.5t_40d_3g + 100 y_5p_7.5t_40d_3g >= 100
+big_m_con_on_u@5p_8.5t_10d_1g: u_5p_8.5t_10d_1g + 100 y_5p_8.5t_10d_1g >= 100
+big_m_con_on_u@5p_8.5t_10d_2g: u_5p_8.5t_10d_2g + 100 y_5p_8.5t_10d_2g >= 100
+big_m_con_on_u@5p_8.5t_40d_1g: u_5p_8.5t_40d_1g + 100 y_5p_8.5t_40d_1g >= 100
+big_m_con_on_u@5p_8.5t_40d_2g: u_5p_8.5t_40d_2g + 100 y_5p_8.5t_40d_2g >= 100
+big_m_con_on_u@5p_8.5t_40d_3g: u_5p_8.5t_40d_3g + 100 y_5p_8.5t_40d_3g >= 100
+big_m_con_on_u@6p_0.5t_10d_1g: u_6p_0.5t_10d_1g + 100 y_6p_0.5t_10d_1g >= 100
+big_m_con_on_u@6p_0.5t_10d_2g: u_6p_0.5t_10d_2g + 100 y_6p_0.5t_10d_2g >= 100
+big_m_con_on_u@6p_0.5t_40d_1g: u_6p_0.5t_40d_1g + 100 y_6p_0.5t_40d_1g >= 100
+big_m_con_on_u@6p_0.5t_40d_2g: u_6p_0.5t_40d_2g + 100 y_6p_0.5t_40d_2g >= 100
+big_m_con_on_u@6p_0.5t_40d_3g: u_6p_0.5t_40d_3g + 100 y_6p_0.5t_40d_3g >= 100
+big_m_con_on_u@6p_1.5t_10d_1g: u_6p_1.5t_10d_1g + 100 y_6p_1.5t_10d_1g >= 100
+big_m_con_on_u@6p_1.5t_10d_2g: u_6p_1.5t_10d_2g + 100 y_6p_1.5t_10d_2g >= 100
+big_m_con_on_u@6p_1.5t_40d_1g: u_6p_1.5t_40d_1g + 100 y_6p_1.5t_40d_1g >= 100
+big_m_con_on_u@6p_1.5t_40d_2g: u_6p_1.5t_40d_2g + 100 y_6p_1.5t_40d_2g >= 100
+big_m_con_on_u@6p_1.5t_40d_3g: u_6p_1.5t_40d_3g + 100 y_6p_1.5t_40d_3g >= 100
+big_m_con_on_u@6p_2.5t_10d_1g: u_6p_2.5t_10d_1g + 100 y_6p_2.5t_10d_1g >= 100
+big_m_con_on_u@6p_2.5t_10d_2g: u_6p_2.5t_10d_2g + 100 y_6p_2.5t_10d_2g >= 100
+big_m_con_on_u@6p_2.5t_40d_1g: u_6p_2.5t_40d_1g + 100 y_6p_2.5t_40d_1g >= 100
+big_m_con_on_u@6p_2.5t_40d_2g: u_6p_2.5t_40d_2g + 100 y_6p_2.5t_40d_2g >= 100
+big_m_con_on_u@6p_2.5t_40d_3g: u_6p_2.5t_40d_3g + 100 y_6p_2.5t_40d_3g >= 100
+big_m_con_on_u@6p_3.5t_10d_1g: u_6p_3.5t_10d_1g + 100 y_6p_3.5t_10d_1g >= 100
+big_m_con_on_u@6p_3.5t_10d_2g: u_6p_3.5t_10d_2g + 100 y_6p_3.5t_10d_2g >= 100
+big_m_con_on_u@6p_3.5t_40d_1g: u_6p_3.5t_40d_1g + 100 y_6p_3.5t_40d_1g >= 100
+big_m_con_on_u@6p_3.5t_40d_2g: u_6p_3.5t_40d_2g + 100 y_6p_3.5t_40d_2g >= 100
+big_m_con_on_u@6p_3.5t_40d_3g: u_6p_3.5t_40d_3g + 100 y_6p_3.5t_40d_3g >= 100
+big_m_con_on_u@6p_4.5t_10d_1g: u_6p_4.5t_10d_1g + 100 y_6p_4.5t_10d_1g >= 100
+big_m_con_on_u@6p_4.5t_10d_2g: u_6p_4.5t_10d_2g + 100 y_6p_4.5t_10d_2g >= 100
+big_m_con_on_u@6p_4.5t_40d_1g: u_6p_4.5t_40d_1g + 100 y_6p_4.5t_40d_1g >= 100
+big_m_con_on_u@6p_4.5t_40d_2g: u_6p_4.5t_40d_2g + 100 y_6p_4.5t_40d_2g >= 100
+big_m_con_on_u@6p_4.5t_40d_3g: u_6p_4.5t_40d_3g + 100 y_6p_4.5t_40d_3g >= 100
+big_m_con_on_u@6p_5.5t_10d_1g: u_6p_5.5t_10d_1g + 100 y_6p_5.5t_10d_1g >= 100
+big_m_con_on_u@6p_5.5t_10d_2g: u_6p_5.5t_10d_2g + 100 y_6p_5.5t_10d_2g >= 100
+big_m_con_on_u@6p_5.5t_40d_1g: u_6p_5.5t_40d_1g + 100 y_6p_5.5t_40d_1g >= 100
+big_m_con_on_u@6p_5.5t_40d_2g: u_6p_5.5t_40d_2g + 100 y_6p_5.5t_40d_2g >= 100
+big_m_con_on_u@6p_5.5t_40d_3g: u_6p_5.5t_40d_3g + 100 y_6p_5.5t_40d_3g >= 100
+big_m_con_on_u@6p_6.5t_10d_1g: u_6p_6.5t_10d_1g + 100 y_6p_6.5t_10d_1g >= 100
+big_m_con_on_u@6p_6.5t_10d_2g: u_6p_6.5t_10d_2g + 100 y_6p_6.5t_10d_2g >= 100
+big_m_con_on_u@6p_6.5t_40d_1g: u_6p_6.5t_40d_1g + 100 y_6p_6.5t_40d_1g >= 100
+big_m_con_on_u@6p_6.5t_40d_2g: u_6p_6.5t_40d_2g + 100 y_6p_6.5t_40d_2g >= 100
+big_m_con_on_u@6p_6.5t_40d_3g: u_6p_6.5t_40d_3g + 100 y_6p_6.5t_40d_3g >= 100
+big_m_con_on_u@6p_7.5t_10d_1g: u_6p_7.5t_10d_1g + 100 y_6p_7.5t_10d_1g >= 100
+big_m_con_on_u@6p_7.5t_10d_2g: u_6p_7.5t_10d_2g + 100 y_6p_7.5t_10d_2g >= 100
+big_m_con_on_u@6p_7.5t_40d_1g: u_6p_7.5t_40d_1g + 100 y_6p_7.5t_40d_1g >= 100
+big_m_con_on_u@6p_7.5t_40d_2g: u_6p_7.5t_40d_2g + 100 y_6p_7.5t_40d_2g >= 100
+big_m_con_on_u@6p_7.5t_40d_3g: u_6p_7.5t_40d_3g + 100 y_6p_7.5t_40d_3g >= 100
+big_m_con_on_u@6p_8.5t_10d_1g: u_6p_8.5t_10d_1g + 100 y_6p_8.5t_10d_1g >= 100
+big_m_con_on_u@6p_8.5t_10d_2g: u_6p_8.5t_10d_2g + 100 y_6p_8.5t_10d_2g >= 100
+big_m_con_on_u@6p_8.5t_40d_1g: u_6p_8.5t_40d_1g + 100 y_6p_8.5t_40d_1g >= 100
+big_m_con_on_u@6p_8.5t_40d_2g: u_6p_8.5t_40d_2g + 100 y_6p_8.5t_40d_2g >= 100
+big_m_con_on_u@6p_8.5t_40d_3g: u_6p_8.5t_40d_3g + 100 y_6p_8.5t_40d_3g >= 100
+big_m_con_on_u@7p_0.5t_10d_1g: u_7p_0.5t_10d_1g + 100 y_7p_0.5t_10d_1g >= 100
+big_m_con_on_u@7p_0.5t_10d_2g: u_7p_0.5t_10d_2g + 100 y_7p_0.5t_10d_2g >= 100
+big_m_con_on_u@7p_0.5t_40d_1g: u_7p_0.5t_40d_1g + 100 y_7p_0.5t_40d_1g >= 100
+big_m_con_on_u@7p_0.5t_40d_2g: u_7p_0.5t_40d_2g + 100 y_7p_0.5t_40d_2g >= 100
+big_m_con_on_u@7p_0.5t_40d_3g: u_7p_0.5t_40d_3g + 100 y_7p_0.5t_40d_3g >= 100
+big_m_con_on_u@7p_1.5t_10d_1g: u_7p_1.5t_10d_1g + 100 y_7p_1.5t_10d_1g >= 100
+big_m_con_on_u@7p_1.5t_10d_2g: u_7p_1.5t_10d_2g + 100 y_7p_1.5t_10d_2g >= 100
+big_m_con_on_u@7p_1.5t_40d_1g: u_7p_1.5t_40d_1g + 100 y_7p_1.5t_40d_1g >= 100
+big_m_con_on_u@7p_1.5t_40d_2g: u_7p_1.5t_40d_2g + 100 y_7p_1.5t_40d_2g >= 100
+big_m_con_on_u@7p_1.5t_40d_3g: u_7p_1.5t_40d_3g + 100 y_7p_1.5t_40d_3g >= 100
+big_m_con_on_u@7p_2.5t_10d_1g: u_7p_2.5t_10d_1g + 100 y_7p_2.5t_10d_1g >= 100
+big_m_con_on_u@7p_2.5t_10d_2g: u_7p_2.5t_10d_2g + 100 y_7p_2.5t_10d_2g >= 100
+big_m_con_on_u@7p_2.5t_40d_1g: u_7p_2.5t_40d_1g + 100 y_7p_2.5t_40d_1g >= 100
+big_m_con_on_u@7p_2.5t_40d_2g: u_7p_2.5t_40d_2g + 100 y_7p_2.5t_40d_2g >= 100
+big_m_con_on_u@7p_2.5t_40d_3g: u_7p_2.5t_40d_3g + 100 y_7p_2.5t_40d_3g >= 100
+big_m_con_on_u@7p_3.5t_10d_1g: u_7p_3.5t_10d_1g + 100 y_7p_3.5t_10d_1g >= 100
+big_m_con_on_u@7p_3.5t_10d_2g: u_7p_3.5t_10d_2g + 100 y_7p_3.5t_10d_2g >= 100
+big_m_con_on_u@7p_3.5t_40d_1g: u_7p_3.5t_40d_1g + 100 y_7p_3.5t_40d_1g >= 100
+big_m_con_on_u@7p_3.5t_40d_2g: u_7p_3.5t_40d_2g + 100 y_7p_3.5t_40d_2g >= 100
+big_m_con_on_u@7p_3.5t_40d_3g: u_7p_3.5t_40d_3g + 100 y_7p_3.5t_40d_3g >= 100
+big_m_con_on_u@7p_4.5t_10d_1g: u_7p_4.5t_10d_1g + 100 y_7p_4.5t_10d_1g >= 100
+big_m_con_on_u@7p_4.5t_10d_2g: u_7p_4.5t_10d_2g + 100 y_7p_4.5t_10d_2g >= 100
+big_m_con_on_u@7p_4.5t_40d_1g: u_7p_4.5t_40d_1g + 100 y_7p_4.5t_40d_1g >= 100
+big_m_con_on_u@7p_4.5t_40d_2g: u_7p_4.5t_40d_2g + 100 y_7p_4.5t_40d_2g >= 100
+big_m_con_on_u@7p_4.5t_40d_3g: u_7p_4.5t_40d_3g + 100 y_7p_4.5t_40d_3g >= 100
+big_m_con_on_u@7p_5.5t_10d_1g: u_7p_5.5t_10d_1g + 100 y_7p_5.5t_10d_1g >= 100
+big_m_con_on_u@7p_5.5t_10d_2g: u_7p_5.5t_10d_2g + 100 y_7p_5.5t_10d_2g >= 100
+big_m_con_on_u@7p_5.5t_40d_1g: u_7p_5.5t_40d_1g + 100 y_7p_5.5t_40d_1g >= 100
+big_m_con_on_u@7p_5.5t_40d_2g: u_7p_5.5t_40d_2g + 100 y_7p_5.5t_40d_2g >= 100
+big_m_con_on_u@7p_5.5t_40d_3g: u_7p_5.5t_40d_3g + 100 y_7p_5.5t_40d_3g >= 100
+big_m_con_on_u@7p_6.5t_10d_1g: u_7p_6.5t_10d_1g + 100 y_7p_6.5t_10d_1g >= 100
+big_m_con_on_u@7p_6.5t_10d_2g: u_7p_6.5t_10d_2g + 100 y_7p_6.5t_10d_2g >= 100
+big_m_con_on_u@7p_6.5t_40d_1g: u_7p_6.5t_40d_1g + 100 y_7p_6.5t_40d_1g >= 100
+big_m_con_on_u@7p_6.5t_40d_2g: u_7p_6.5t_40d_2g + 100 y_7p_6.5t_40d_2g >= 100
+big_m_con_on_u@7p_6.5t_40d_3g: u_7p_6.5t_40d_3g + 100 y_7p_6.5t_40d_3g >= 100
+big_m_con_on_u@7p_7.5t_10d_1g: u_7p_7.5t_10d_1g + 100 y_7p_7.5t_10d_1g >= 100
+big_m_con_on_u@7p_7.5t_10d_2g: u_7p_7.5t_10d_2g + 100 y_7p_7.5t_10d_2g >= 100
+big_m_con_on_u@7p_7.5t_40d_1g: u_7p_7.5t_40d_1g + 100 y_7p_7.5t_40d_1g >= 100
+big_m_con_on_u@7p_7.5t_40d_2g: u_7p_7.5t_40d_2g + 100 y_7p_7.5t_40d_2g >= 100
+big_m_con_on_u@7p_7.5t_40d_3g: u_7p_7.5t_40d_3g + 100 y_7p_7.5t_40d_3g >= 100
+big_m_con_on_u@7p_8.5t_10d_1g: u_7p_8.5t_10d_1g + 100 y_7p_8.5t_10d_1g >= 100
+big_m_con_on_u@7p_8.5t_10d_2g: u_7p_8.5t_10d_2g + 100 y_7p_8.5t_10d_2g >= 100
+big_m_con_on_u@7p_8.5t_40d_1g: u_7p_8.5t_40d_1g + 100 y_7p_8.5t_40d_1g >= 100
+big_m_con_on_u@7p_8.5t_40d_2g: u_7p_8.5t_40d_2g + 100 y_7p_8.5t_40d_2g >= 100
+big_m_con_on_u@7p_8.5t_40d_3g: u_7p_8.5t_40d_3g + 100 y_7p_8.5t_40d_3g >= 100
+big_m_con_on_u@8p_0.5t_10d_1g: u_8p_0.5t_10d_1g + 100 y_8p_0.5t_10d_1g >= 100
+big_m_con_on_u@8p_0.5t_10d_2g: u_8p_0.5t_10d_2g + 100 y_8p_0.5t_10d_2g >= 100
+big_m_con_on_u@8p_0.5t_40d_1g: u_8p_0.5t_40d_1g + 100 y_8p_0.5t_40d_1g >= 100
+big_m_con_on_u@8p_0.5t_40d_2g: u_8p_0.5t_40d_2g + 100 y_8p_0.5t_40d_2g >= 100
+big_m_con_on_u@8p_0.5t_40d_3g: u_8p_0.5t_40d_3g + 100 y_8p_0.5t_40d_3g >= 100
+big_m_con_on_u@8p_1.5t_10d_1g: u_8p_1.5t_10d_1g + 100 y_8p_1.5t_10d_1g >= 100
+big_m_con_on_u@8p_1.5t_10d_2g: u_8p_1.5t_10d_2g + 100 y_8p_1.5t_10d_2g >= 100
+big_m_con_on_u@8p_1.5t_40d_1g: u_8p_1.5t_40d_1g + 100 y_8p_1.5t_40d_1g >= 100
+big_m_con_on_u@8p_1.5t_40d_2g: u_8p_1.5t_40d_2g + 100 y_8p_1.5t_40d_2g >= 100
+big_m_con_on_u@8p_1.5t_40d_3g: u_8p_1.5t_40d_3g + 100 y_8p_1.5t_40d_3g >= 100
+big_m_con_on_u@8p_2.5t_10d_1g: u_8p_2.5t_10d_1g + 100 y_8p_2.5t_10d_1g >= 100
+big_m_con_on_u@8p_2.5t_10d_2g: u_8p_2.5t_10d_2g + 100 y_8p_2.5t_10d_2g >= 100
+big_m_con_on_u@8p_2.5t_40d_1g: u_8p_2.5t_40d_1g + 100 y_8p_2.5t_40d_1g >= 100
+big_m_con_on_u@8p_2.5t_40d_2g: u_8p_2.5t_40d_2g + 100 y_8p_2.5t_40d_2g >= 100
+big_m_con_on_u@8p_2.5t_40d_3g: u_8p_2.5t_40d_3g + 100 y_8p_2.5t_40d_3g >= 100
+big_m_con_on_u@8p_3.5t_10d_1g: u_8p_3.5t_10d_1g + 100 y_8p_3.5t_10d_1g >= 100
+big_m_con_on_u@8p_3.5t_10d_2g: u_8p_3.5t_10d_2g + 100 y_8p_3.5t_10d_2g >= 100
+big_m_con_on_u@8p_3.5t_40d_1g: u_8p_3.5t_40d_1g + 100 y_8p_3.5t_40d_1g >= 100
+big_m_con_on_u@8p_3.5t_40d_2g: u_8p_3.5t_40d_2g + 100 y_8p_3.5t_40d_2g >= 100
+big_m_con_on_u@8p_3.5t_40d_3g: u_8p_3.5t_40d_3g + 100 y_8p_3.5t_40d_3g >= 100
+big_m_con_on_u@8p_4.5t_10d_1g: u_8p_4.5t_10d_1g + 100 y_8p_4.5t_10d_1g >= 100
+big_m_con_on_u@8p_4.5t_10d_2g: u_8p_4.5t_10d_2g + 100 y_8p_4.5t_10d_2g >= 100
+big_m_con_on_u@8p_4.5t_40d_1g: u_8p_4.5t_40d_1g + 100 y_8p_4.5t_40d_1g >= 100
+big_m_con_on_u@8p_4.5t_40d_2g: u_8p_4.5t_40d_2g + 100 y_8p_4.5t_40d_2g >= 100
+big_m_con_on_u@8p_4.5t_40d_3g: u_8p_4.5t_40d_3g + 100 y_8p_4.5t_40d_3g >= 100
+big_m_con_on_u@8p_5.5t_10d_1g: u_8p_5.5t_10d_1g + 100 y_8p_5.5t_10d_1g >= 100
+big_m_con_on_u@8p_5.5t_10d_2g: u_8p_5.5t_10d_2g + 100 y_8p_5.5t_10d_2g >= 100
+big_m_con_on_u@8p_5.5t_40d_1g: u_8p_5.5t_40d_1g + 100 y_8p_5.5t_40d_1g >= 100
+big_m_con_on_u@8p_5.5t_40d_2g: u_8p_5.5t_40d_2g + 100 y_8p_5.5t_40d_2g >= 100
+big_m_con_on_u@8p_5.5t_40d_3g: u_8p_5.5t_40d_3g + 100 y_8p_5.5t_40d_3g >= 100
+big_m_con_on_u@8p_6.5t_10d_1g: u_8p_6.5t_10d_1g + 100 y_8p_6.5t_10d_1g >= 100
+big_m_con_on_u@8p_6.5t_10d_2g: u_8p_6.5t_10d_2g + 100 y_8p_6.5t_10d_2g >= 100
+big_m_con_on_u@8p_6.5t_40d_1g: u_8p_6.5t_40d_1g + 100 y_8p_6.5t_40d_1g >= 100
+big_m_con_on_u@8p_6.5t_40d_2g: u_8p_6.5t_40d_2g + 100 y_8p_6.5t_40d_2g >= 100
+big_m_con_on_u@8p_6.5t_40d_3g: u_8p_6.5t_40d_3g + 100 y_8p_6.5t_40d_3g >= 100
+big_m_con_on_u@8p_7.5t_10d_1g: u_8p_7.5t_10d_1g + 100 y_8p_7.5t_10d_1g >= 100
+big_m_con_on_u@8p_7.5t_10d_2g: u_8p_7.5t_10d_2g + 100 y_8p_7.5t_10d_2g >= 100
+big_m_con_on_u@8p_7.5t_40d_1g: u_8p_7.5t_40d_1g + 100 y_8p_7.5t_40d_1g >= 100
+big_m_con_on_u@8p_7.5t_40d_2g: u_8p_7.5t_40d_2g + 100 y_8p_7.5t_40d_2g >= 100
+big_m_con_on_u@8p_7.5t_40d_3g: u_8p_7.5t_40d_3g + 100 y_8p_7.5t_40d_3g >= 100
+big_m_con_on_u@8p_8.5t_10d_1g: u_8p_8.5t_10d_1g + 100 y_8p_8.5t_10d_1g >= 100
+big_m_con_on_u@8p_8.5t_10d_2g: u_8p_8.5t_10d_2g + 100 y_8p_8.5t_10d_2g >= 100
+big_m_con_on_u@8p_8.5t_40d_1g: u_8p_8.5t_40d_1g + 100 y_8p_8.5t_40d_1g >= 100
+big_m_con_on_u@8p_8.5t_40d_2g: u_8p_8.5t_40d_2g + 100 y_8p_8.5t_40d_2g >= 100
+big_m_con_on_u@8p_8.5t_40d_3g: u_8p_8.5t_40d_3g + 100 y_8p_8.5t_40d_3g >= 100
+big_m_con_on_u@9p_0.5t_10d_1g: u_9p_0.5t_10d_1g + 100 y_9p_0.5t_10d_1g >= 100
+big_m_con_on_u@9p_0.5t_10d_2g: u_9p_0.5t_10d_2g + 100 y_9p_0.5t_10d_2g >= 100
+big_m_con_on_u@9p_0.5t_40d_1g: u_9p_0.5t_40d_1g + 100 y_9p_0.5t_40d_1g >= 100
+big_m_con_on_u@9p_0.5t_40d_2g: u_9p_0.5t_40d_2g + 100 y_9p_0.5t_40d_2g >= 100
+big_m_con_on_u@9p_0.5t_40d_3g: u_9p_0.5t_40d_3g + 100 y_9p_0.5t_40d_3g >= 100
+big_m_con_on_u@9p_1.5t_10d_1g: u_9p_1.5t_10d_1g + 100 y_9p_1.5t_10d_1g >= 100
+big_m_con_on_u@9p_1.5t_10d_2g: u_9p_1.5t_10d_2g + 100 y_9p_1.5t_10d_2g >= 100
+big_m_con_on_u@9p_1.5t_40d_1g: u_9p_1.5t_40d_1g + 100 y_9p_1.5t_40d_1g >= 100
+big_m_con_on_u@9p_1.5t_40d_2g: u_9p_1.5t_40d_2g + 100 y_9p_1.5t_40d_2g >= 100
+big_m_con_on_u@9p_1.5t_40d_3g: u_9p_1.5t_40d_3g + 100 y_9p_1.5t_40d_3g >= 100
+big_m_con_on_u@9p_2.5t_10d_1g: u_9p_2.5t_10d_1g + 100 y_9p_2.5t_10d_1g >= 100
+big_m_con_on_u@9p_2.5t_10d_2g: u_9p_2.5t_10d_2g + 100 y_9p_2.5t_10d_2g >= 100
+big_m_con_on_u@9p_2.5t_40d_1g: u_9p_2.5t_40d_1g + 100 y_9p_2.5t_40d_1g >= 100
+big_m_con_on_u@9p_2.5t_40d_2g: u_9p_2.5t_40d_2g + 100 y_9p_2.5t_40d_2g >= 100
+big_m_con_on_u@9p_2.5t_40d_3g: u_9p_2.5t_40d_3g + 100 y_9p_2.5t_40d_3g >= 100
+big_m_con_on_u@9p_3.5t_10d_1g: u_9p_3.5t_10d_1g + 100 y_9p_3.5t_10d_1g >= 100
+big_m_con_on_u@9p_3.5t_10d_2g: u_9p_3.5t_10d_2g + 100 y_9p_3.5t_10d_2g >= 100
+big_m_con_on_u@9p_3.5t_40d_1g: u_9p_3.5t_40d_1g + 100 y_9p_3.5t_40d_1g >= 100
+big_m_con_on_u@9p_3.5t_40d_2g: u_9p_3.5t_40d_2g + 100 y_9p_3.5t_40d_2g >= 100
+big_m_con_on_u@9p_3.5t_40d_3g: u_9p_3.5t_40d_3g + 100 y_9p_3.5t_40d_3g >= 100
+big_m_con_on_u@9p_4.5t_10d_1g: u_9p_4.5t_10d_1g + 100 y_9p_4.5t_10d_1g >= 100
+big_m_con_on_u@9p_4.5t_10d_2g: u_9p_4.5t_10d_2g + 100 y_9p_4.5t_10d_2g >= 100
+big_m_con_on_u@9p_4.5t_40d_1g: u_9p_4.5t_40d_1g + 100 y_9p_4.5t_40d_1g >= 100
+big_m_con_on_u@9p_4.5t_40d_2g: u_9p_4.5t_40d_2g + 100 y_9p_4.5t_40d_2g >= 100
+big_m_con_on_u@9p_4.5t_40d_3g: u_9p_4.5t_40d_3g + 100 y_9p_4.5t_40d_3g >= 100
+big_m_con_on_u@9p_5.5t_10d_1g: u_9p_5.5t_10d_1g + 100 y_9p_5.5t_10d_1g >= 100
+big_m_con_on_u@9p_5.5t_10d_2g: u_9p_5.5t_10d_2g + 100 y_9p_5.5t_10d_2g >= 100
+big_m_con_on_u@9p_5.5t_40d_1g: u_9p_5.5t_40d_1g + 100 y_9p_5.5t_40d_1g >= 100
+big_m_con_on_u@9p_5.5t_40d_2g: u_9p_5.5t_40d_2g + 100 y_9p_5.5t_40d_2g >= 100
+big_m_con_on_u@9p_5.5t_40d_3g: u_9p_5.5t_40d_3g + 100 y_9p_5.5t_40d_3g >= 100
+big_m_con_on_u@9p_6.5t_10d_1g: u_9p_6.5t_10d_1g + 100 y_9p_6.5t_10d_1g >= 100
+big_m_con_on_u@9p_6.5t_10d_2g: u_9p_6.5t_10d_2g + 100 y_9p_6.5t_10d_2g >= 100
+big_m_con_on_u@9p_6.5t_40d_1g: u_9p_6.5t_40d_1g + 100 y_9p_6.5t_40d_1g >= 100
+big_m_con_on_u@9p_6.5t_40d_2g: u_9p_6.5t_40d_2g + 100 y_9p_6.5t_40d_2g >= 100
+big_m_con_on_u@9p_6.5t_40d_3g: u_9p_6.5t_40d_3g + 100 y_9p_6.5t_40d_3g >= 100
+big_m_con_on_u@9p_7.5t_10d_1g: u_9p_7.5t_10d_1g + 100 y_9p_7.5t_10d_1g >= 100
+big_m_con_on_u@9p_7.5t_10d_2g: u_9p_7.5t_10d_2g + 100 y_9p_7.5t_10d_2g >= 100
+big_m_con_on_u@9p_7.5t_40d_1g: u_9p_7.5t_40d_1g + 100 y_9p_7.5t_40d_1g >= 100
+big_m_con_on_u@9p_7.5t_40d_2g: u_9p_7.5t_40d_2g + 100 y_9p_7.5t_40d_2g >= 100
+big_m_con_on_u@9p_7.5t_40d_3g: u_9p_7.5t_40d_3g + 100 y_9p_7.5t_40d_3g >= 100
+big_m_con_on_u@9p_8.5t_10d_1g: u_9p_8.5t_10d_1g + 100 y_9p_8.5t_10d_1g >= 100
+big_m_con_on_u@9p_8.5t_10d_2g: u_9p_8.5t_10d_2g + 100 y_9p_8.5t_10d_2g >= 100
+big_m_con_on_u@9p_8.5t_40d_1g: u_9p_8.5t_40d_1g + 100 y_9p_8.5t_40d_1g >= 100
+big_m_con_on_u@9p_8.5t_40d_2g: u_9p_8.5t_40d_2g + 100 y_9p_8.5t_40d_2g >= 100
+big_m_con_on_u@9p_8.5t_40d_3g: u_9p_8.5t_40d_3g + 100 y_9p_8.5t_40d_3g >= 100
+con_3_low_limit_on_row_var_110: y_1p_0.5t_10d_1g + y_1p_0.5t_10d_2g
+ + y_1p_1.5t_10d_1g + y_1p_1.5t_10d_2g + y_1p_2.5t_10d_1g + y_1p_2.5t_10d_2g
+ + y_1p_3.5t_10d_1g + y_1p_3.5t_10d_2g + y_1p_4.5t_10d_1g + y_1p_4.5t_10d_2g
+ + y_1p_5.5t_10d_1g + y_1p_5.5t_10d_2g + y_1p_6.5t_10d_1g + y_1p_6.5t_10d_2g
+ + y_1p_7.5t_10d_1g + y_1p_7.5t_10d_2g + y_1p_8.5t_10d_1g + y_1p_8.5t_10d_2g
+ >= 10
+con_3_low_limit_on_row_var_140: y_1p_0.5t_40d_1g + y_1p_0.5t_40d_2g
+ + y_1p_0.5t_40d_3g + y_1p_1.5t_40d_1g + y_1p_1.5t_40d_2g + y_1p_1.5t_40d_3g
+ + y_1p_2.5t_40d_1g + y_1p_2.5t_40d_2g + y_1p_2.5t_40d_3g + y_1p_3.5t_40d_1g
+ + y_1p_3.5t_40d_2g + y_1p_3.5t_40d_3g + y_1p_4.5t_40d_1g + y_1p_4.5t_40d_2g
+ + y_1p_4.5t_40d_3g + y_1p_5.5t_40d_1g + y_1p_5.5t_40d_2g + y_1p_5.5t_40d_3g
+ + y_1p_6.5t_40d_1g + y_1p_6.5t_40d_2g + y_1p_6.5t_40d_3g + y_1p_7.5t_40d_1g
+ + y_1p_7.5t_40d_2g + y_1p_7.5t_40d_3g + y_1p_8.5t_40d_1g + y_1p_8.5t_40d_2g
+ + y_1p_8.5t_40d_3g >= 10
+con_3_low_limit_on_row_var_210: y_2p_0.5t_10d_1g + y_2p_0.5t_10d_2g
+ + y_2p_1.5t_10d_1g + y_2p_1.5t_10d_2g + y_2p_2.5t_10d_1g + y_2p_2.5t_10d_2g
+ + y_2p_3.5t_10d_1g + y_2p_3.5t_10d_2g + y_2p_4.5t_10d_1g + y_2p_4.5t_10d_2g
+ + y_2p_5.5t_10d_1g + y_2p_5.5t_10d_2g + y_2p_6.5t_10d_1g + y_2p_6.5t_10d_2g
+ + y_2p_7.5t_10d_1g + y_2p_7.5t_10d_2g + y_2p_8.5t_10d_1g + y_2p_8.5t_10d_2g
+ >= 10
+con_3_low_limit_on_row_var_240: y_2p_0.5t_40d_1g + y_2p_0.5t_40d_2g
+ + y_2p_0.5t_40d_3g + y_2p_1.5t_40d_1g + y_2p_1.5t_40d_2g + y_2p_1.5t_40d_3g
+ + y_2p_2.5t_40d_1g + y_2p_2.5t_40d_2g + y_2p_2.5t_40d_3g + y_2p_3.5t_40d_1g
+ + y_2p_3.5t_40d_2g + y_2p_3.5t_40d_3g + y_2p_4.5t_40d_1g + y_2p_4.5t_40d_2g
+ + y_2p_4.5t_40d_3g + y_2p_5.5t_40d_1g + y_2p_5.5t_40d_2g + y_2p_5.5t_40d_3g
+ + y_2p_6.5t_40d_1g + y_2p_6.5t_40d_2g + y_2p_6.5t_40d_3g + y_2p_7.5t_40d_1g
+ + y_2p_7.5t_40d_2g + y_2p_7.5t_40d_3g + y_2p_8.5t_40d_1g + y_2p_8.5t_40d_2g
+ + y_2p_8.5t_40d_3g >= 10
+con_3_low_limit_on_row_var_410: y_4p_0.5t_10d_1g + y_4p_0.5t_10d_2g
+ + y_4p_1.5t_10d_1g + y_4p_1.5t_10d_2g + y_4p_2.5t_10d_1g + y_4p_2.5t_10d_2g
+ + y_4p_3.5t_10d_1g + y_4p_3.5t_10d_2g + y_4p_4.5t_10d_1g + y_4p_4.5t_10d_2g
+ + y_4p_5.5t_10d_1g + y_4p_5.5t_10d_2g + y_4p_6.5t_10d_1g + y_4p_6.5t_10d_2g
+ + y_4p_7.5t_10d_1g + y_4p_7.5t_10d_2g + y_4p_8.5t_10d_1g + y_4p_8.5t_10d_2g
+ >= 10
+con_3_low_limit_on_row_var_440: y_4p_0.5t_40d_1g + y_4p_0.5t_40d_2g
+ + y_4p_0.5t_40d_3g + y_4p_1.5t_40d_1g + y_4p_1.5t_40d_2g + y_4p_1.5t_40d_3g
+ + y_4p_2.5t_40d_1g + y_4p_2.5t_40d_2g + y_4p_2.5t_40d_3g + y_4p_3.5t_40d_1g
+ + y_4p_3.5t_40d_2g + y_4p_3.5t_40d_3g + y_4p_4.5t_40d_1g + y_4p_4.5t_40d_2g
+ + y_4p_4.5t_40d_3g + y_4p_5.5t_40d_1g + y_4p_5.5t_40d_2g + y_4p_5.5t_40d_3g
+ + y_4p_6.5t_40d_1g + y_4p_6.5t_40d_2g + y_4p_6.5t_40d_3g + y_4p_7.5t_40d_1g
+ + y_4p_7.5t_40d_2g + y_4p_7.5t_40d_3g + y_4p_8.5t_40d_1g + y_4p_8.5t_40d_2g
+ + y_4p_8.5t_40d_3g >= 10
+con_3_low_limit_on_row_var_510: y_5p_0.5t_10d_1g + y_5p_0.5t_10d_2g
+ + y_5p_1.5t_10d_1g + y_5p_1.5t_10d_2g + y_5p_2.5t_10d_1g + y_5p_2.5t_10d_2g
+ + y_5p_3.5t_10d_1g + y_5p_3.5t_10d_2g + y_5p_4.5t_10d_1g + y_5p_4.5t_10d_2g
+ + y_5p_5.5t_10d_1g + y_5p_5.5t_10d_2g + y_5p_6.5t_10d_1g + y_5p_6.5t_10d_2g
+ + y_5p_7.5t_10d_1g + y_5p_7.5t_10d_2g + y_5p_8.5t_10d_1g + y_5p_8.5t_10d_2g
+ >= 10
+con_3_low_limit_on_row_var_540: y_5p_0.5t_40d_1g + y_5p_0.5t_40d_2g
+ + y_5p_0.5t_40d_3g + y_5p_1.5t_40d_1g + y_5p_1.5t_40d_2g + y_5p_1.5t_40d_3g
+ + y_5p_2.5t_40d_1g + y_5p_2.5t_40d_2g + y_5p_2.5t_40d_3g + y_5p_3.5t_40d_1g
+ + y_5p_3.5t_40d_2g + y_5p_3.5t_40d_3g + y_5p_4.5t_40d_1g + y_5p_4.5t_40d_2g
+ + y_5p_4.5t_40d_3g + y_5p_5.5t_40d_1g + y_5p_5.5t_40d_2g + y_5p_5.5t_40d_3g
+ + y_5p_6.5t_40d_1g + y_5p_6.5t_40d_2g + y_5p_6.5t_40d_3g + y_5p_7.5t_40d_1g
+ + y_5p_7.5t_40d_2g + y_5p_7.5t_40d_3g + y_5p_8.5t_40d_1g + y_5p_8.5t_40d_2g
+ + y_5p_8.5t_40d_3g >= 10
+con_3_low_limit_on_row_var_610: y_6p_0.5t_10d_1g + y_6p_0.5t_10d_2g
+ + y_6p_1.5t_10d_1g + y_6p_1.5t_10d_2g + y_6p_2.5t_10d_1g + y_6p_2.5t_10d_2g
+ + y_6p_3.5t_10d_1g + y_6p_3.5t_10d_2g + y_6p_4.5t_10d_1g + y_6p_4.5t_10d_2g
+ + y_6p_5.5t_10d_1g + y_6p_5.5t_10d_2g + y_6p_6.5t_10d_1g + y_6p_6.5t_10d_2g
+ + y_6p_7.5t_10d_1g + y_6p_7.5t_10d_2g + y_6p_8.5t_10d_1g + y_6p_8.5t_10d_2g
+ >= 10
+con_3_low_limit_on_row_var_640: y_6p_0.5t_40d_1g + y_6p_0.5t_40d_2g
+ + y_6p_0.5t_40d_3g + y_6p_1.5t_40d_1g + y_6p_1.5t_40d_2g + y_6p_1.5t_40d_3g
+ + y_6p_2.5t_40d_1g + y_6p_2.5t_40d_2g + y_6p_2.5t_40d_3g + y_6p_3.5t_40d_1g
+ + y_6p_3.5t_40d_2g + y_6p_3.5t_40d_3g + y_6p_4.5t_40d_1g + y_6p_4.5t_40d_2g
+ + y_6p_4.5t_40d_3g + y_6p_5.5t_40d_1g + y_6p_5.5t_40d_2g + y_6p_5.5t_40d_3g
+ + y_6p_6.5t_40d_1g + y_6p_6.5t_40d_2g + y_6p_6.5t_40d_3g + y_6p_7.5t_40d_1g
+ + y_6p_7.5t_40d_2g + y_6p_7.5t_40d_3g + y_6p_8.5t_40d_1g + y_6p_8.5t_40d_2g
+ + y_6p_8.5t_40d_3g >= 10
+con_3_low_limit_on_row_var_710: y_7p_0.5t_10d_1g + y_7p_0.5t_10d_2g
+ + y_7p_1.5t_10d_1g + y_7p_1.5t_10d_2g + y_7p_2.5t_10d_1g + y_7p_2.5t_10d_2g
+ + y_7p_3.5t_10d_1g + y_7p_3.5t_10d_2g + y_7p_4.5t_10d_1g + y_7p_4.5t_10d_2g
+ + y_7p_5.5t_10d_1g + y_7p_5.5t_10d_2g + y_7p_6.5t_10d_1g + y_7p_6.5t_10d_2g
+ + y_7p_7.5t_10d_1g + y_7p_7.5t_10d_2g + y_7p_8.5t_10d_1g + y_7p_8.5t_10d_2g
+ >= 10
+con_3_low_limit_on_row_var_740: y_7p_0.5t_40d_1g + y_7p_0.5t_40d_2g
+ + y_7p_0.5t_40d_3g + y_7p_1.5t_40d_1g + y_7p_1.5t_40d_2g + y_7p_1.5t_40d_3g
+ + y_7p_2.5t_40d_1g + y_7p_2.5t_40d_2g + y_7p_2.5t_40d_3g + y_7p_3.5t_40d_1g
+ + y_7p_3.5t_40d_2g + y_7p_3.5t_40d_3g + y_7p_4.5t_40d_1g + y_7p_4.5t_40d_2g
+ + y_7p_4.5t_40d_3g + y_7p_5.5t_40d_1g + y_7p_5.5t_40d_2g + y_7p_5.5t_40d_3g
+ + y_7p_6.5t_40d_1g + y_7p_6.5t_40d_2g + y_7p_6.5t_40d_3g + y_7p_7.5t_40d_1g
+ + y_7p_7.5t_40d_2g + y_7p_7.5t_40d_3g + y_7p_8.5t_40d_1g + y_7p_8.5t_40d_2g
+ + y_7p_8.5t_40d_3g >= 10
+con_3_low_limit_on_row_var_810: y_8p_0.5t_10d_1g + y_8p_0.5t_10d_2g
+ + y_8p_1.5t_10d_1g + y_8p_1.5t_10d_2g + y_8p_2.5t_10d_1g + y_8p_2.5t_10d_2g
+ + y_8p_3.5t_10d_1g + y_8p_3.5t_10d_2g + y_8p_4.5t_10d_1g + y_8p_4.5t_10d_2g
+ + y_8p_5.5t_10d_1g + y_8p_5.5t_10d_2g + y_8p_6.5t_10d_1g + y_8p_6.5t_10d_2g
+ + y_8p_7.5t_10d_1g + y_8p_7.5t_10d_2g + y_8p_8.5t_10d_1g + y_8p_8.5t_10d_2g
+ >= 10
+con_3_low_limit_on_row_var_840: y_8p_0.5t_40d_1g + y_8p_0.5t_40d_2g
+ + y_8p_0.5t_40d_3g + y_8p_1.5t_40d_1g + y_8p_1.5t_40d_2g + y_8p_1.5t_40d_3g
+ + y_8p_2.5t_40d_1g + y_8p_2.5t_40d_2g + y_8p_2.5t_40d_3g + y_8p_3.5t_40d_1g
+ + y_8p_3.5t_40d_2g + y_8p_3.5t_40d_3g + y_8p_4.5t_40d_1g + y_8p_4.5t_40d_2g
+ + y_8p_4.5t_40d_3g + y_8p_5.5t_40d_1g + y_8p_5.5t_40d_2g + y_8p_5.5t_40d_3g
+ + y_8p_6.5t_40d_1g + y_8p_6.5t_40d_2g + y_8p_6.5t_40d_3g + y_8p_7.5t_40d_1g
+ + y_8p_7.5t_40d_2g + y_8p_7.5t_40d_3g + y_8p_8.5t_40d_1g + y_8p_8.5t_40d_2g
+ + y_8p_8.5t_40d_3g >= 10
+con_3_low_limit_on_row_var_910: y_9p_0.5t_10d_1g + y_9p_0.5t_10d_2g
+ + y_9p_1.5t_10d_1g + y_9p_1.5t_10d_2g + y_9p_2.5t_10d_1g + y_9p_2.5t_10d_2g
+ + y_9p_3.5t_10d_1g + y_9p_3.5t_10d_2g + y_9p_4.5t_10d_1g + y_9p_4.5t_10d_2g
+ + y_9p_5.5t_10d_1g + y_9p_5.5t_10d_2g + y_9p_6.5t_10d_1g + y_9p_6.5t_10d_2g
+ + y_9p_7.5t_10d_1g + y_9p_7.5t_10d_2g + y_9p_8.5t_10d_1g + y_9p_8.5t_10d_2g
+ >= 10
+con_3_low_limit_on_row_var_940: y_9p_0.5t_40d_1g + y_9p_0.5t_40d_2g
+ + y_9p_0.5t_40d_3g + y_9p_1.5t_40d_1g + y_9p_1.5t_40d_2g + y_9p_1.5t_40d_3g
+ + y_9p_2.5t_40d_1g + y_9p_2.5t_40d_2g + y_9p_2.5t_40d_3g + y_9p_3.5t_40d_1g
+ + y_9p_3.5t_40d_2g + y_9p_3.5t_40d_3g + y_9p_4.5t_40d_1g + y_9p_4.5t_40d_2g
+ + y_9p_4.5t_40d_3g + y_9p_5.5t_40d_1g + y_9p_5.5t_40d_2g + y_9p_5.5t_40d_3g
+ + y_9p_6.5t_40d_1g + y_9p_6.5t_40d_2g + y_9p_6.5t_40d_3g + y_9p_7.5t_40d_1g
+ + y_9p_7.5t_40d_2g + y_9p_7.5t_40d_3g + y_9p_8.5t_40d_1g + y_9p_8.5t_40d_2g
+ + y_9p_8.5t_40d_3g >= 10
+con_3_upper_limit_on_row_var_110: y_1p_0.5t_10d_1g + y_1p_0.5t_10d_2g
+ + y_1p_1.5t_10d_1g + y_1p_1.5t_10d_2g + y_1p_2.5t_10d_1g + y_1p_2.5t_10d_2g
+ + y_1p_3.5t_10d_1g + y_1p_3.5t_10d_2g + y_1p_4.5t_10d_1g + y_1p_4.5t_10d_2g
+ + y_1p_5.5t_10d_1g + y_1p_5.5t_10d_2g + y_1p_6.5t_10d_1g + y_1p_6.5t_10d_2g
+ + y_1p_7.5t_10d_1g + y_1p_7.5t_10d_2g + y_1p_8.5t_10d_1g + y_1p_8.5t_10d_2g
+ <= 2500
+con_3_upper_limit_on_row_var_140: y_1p_0.5t_40d_1g + y_1p_0.5t_40d_2g
+ + y_1p_0.5t_40d_3g + y_1p_1.5t_40d_1g + y_1p_1.5t_40d_2g + y_1p_1.5t_40d_3g
+ + y_1p_2.5t_40d_1g + y_1p_2.5t_40d_2g + y_1p_2.5t_40d_3g + y_1p_3.5t_40d_1g
+ + y_1p_3.5t_40d_2g + y_1p_3.5t_40d_3g + y_1p_4.5t_40d_1g + y_1p_4.5t_40d_2g
+ + y_1p_4.5t_40d_3g + y_1p_5.5t_40d_1g + y_1p_5.5t_40d_2g + y_1p_5.5t_40d_3g
+ + y_1p_6.5t_40d_1g + y_1p_6.5t_40d_2g + y_1p_6.5t_40d_3g + y_1p_7.5t_40d_1g
+ + y_1p_7.5t_40d_2g + y_1p_7.5t_40d_3g + y_1p_8.5t_40d_1g + y_1p_8.5t_40d_2g
+ + y_1p_8.5t_40d_3g <= 2500
+con_3_upper_limit_on_row_var_210: y_2p_0.5t_10d_1g + y_2p_0.5t_10d_2g
+ + y_2p_1.5t_10d_1g + y_2p_1.5t_10d_2g + y_2p_2.5t_10d_1g + y_2p_2.5t_10d_2g
+ + y_2p_3.5t_10d_1g + y_2p_3.5t_10d_2g + y_2p_4.5t_10d_1g + y_2p_4.5t_10d_2g
+ + y_2p_5.5t_10d_1g + y_2p_5.5t_10d_2g + y_2p_6.5t_10d_1g + y_2p_6.5t_10d_2g
+ + y_2p_7.5t_10d_1g + y_2p_7.5t_10d_2g + y_2p_8.5t_10d_1g + y_2p_8.5t_10d_2g
+ <= 2500
+con_3_upper_limit_on_row_var_240: y_2p_0.5t_40d_1g + y_2p_0.5t_40d_2g
+ + y_2p_0.5t_40d_3g + y_2p_1.5t_40d_1g + y_2p_1.5t_40d_2g + y_2p_1.5t_40d_3g
+ + y_2p_2.5t_40d_1g + y_2p_2.5t_40d_2g + y_2p_2.5t_40d_3g + y_2p_3.5t_40d_1g
+ + y_2p_3.5t_40d_2g + y_2p_3.5t_40d_3g + y_2p_4.5t_40d_1g + y_2p_4.5t_40d_2g
+ + y_2p_4.5t_40d_3g + y_2p_5.5t_40d_1g + y_2p_5.5t_40d_2g + y_2p_5.5t_40d_3g
+ + y_2p_6.5t_40d_1g + y_2p_6.5t_40d_2g + y_2p_6.5t_40d_3g + y_2p_7.5t_40d_1g
+ + y_2p_7.5t_40d_2g + y_2p_7.5t_40d_3g + y_2p_8.5t_40d_1g + y_2p_8.5t_40d_2g
+ + y_2p_8.5t_40d_3g <= 2500
+con_3_upper_limit_on_row_var_410: y_4p_0.5t_10d_1g + y_4p_0.5t_10d_2g
+ + y_4p_1.5t_10d_1g + y_4p_1.5t_10d_2g + y_4p_2.5t_10d_1g + y_4p_2.5t_10d_2g
+ + y_4p_3.5t_10d_1g + y_4p_3.5t_10d_2g + y_4p_4.5t_10d_1g + y_4p_4.5t_10d_2g
+ + y_4p_5.5t_10d_1g + y_4p_5.5t_10d_2g + y_4p_6.5t_10d_1g + y_4p_6.5t_10d_2g
+ + y_4p_7.5t_10d_1g + y_4p_7.5t_10d_2g + y_4p_8.5t_10d_1g + y_4p_8.5t_10d_2g
+ <= 2500
+con_3_upper_limit_on_row_var_440: y_4p_0.5t_40d_1g + y_4p_0.5t_40d_2g
+ + y_4p_0.5t_40d_3g + y_4p_1.5t_40d_1g + y_4p_1.5t_40d_2g + y_4p_1.5t_40d_3g
+ + y_4p_2.5t_40d_1g + y_4p_2.5t_40d_2g + y_4p_2.5t_40d_3g + y_4p_3.5t_40d_1g
+ + y_4p_3.5t_40d_2g + y_4p_3.5t_40d_3g + y_4p_4.5t_40d_1g + y_4p_4.5t_40d_2g
+ + y_4p_4.5t_40d_3g + y_4p_5.5t_40d_1g + y_4p_5.5t_40d_2g + y_4p_5.5t_40d_3g
+ + y_4p_6.5t_40d_1g + y_4p_6.5t_40d_2g + y_4p_6.5t_40d_3g + y_4p_7.5t_40d_1g
+ + y_4p_7.5t_40d_2g + y_4p_7.5t_40d_3g + y_4p_8.5t_40d_1g + y_4p_8.5t_40d_2g
+ + y_4p_8.5t_40d_3g <= 2500
+con_3_upper_limit_on_row_var_510: y_5p_0.5t_10d_1g + y_5p_0.5t_10d_2g
+ + y_5p_1.5t_10d_1g + y_5p_1.5t_10d_2g + y_5p_2.5t_10d_1g + y_5p_2.5t_10d_2g
+ + y_5p_3.5t_10d_1g + y_5p_3.5t_10d_2g + y_5p_4.5t_10d_1g + y_5p_4.5t_10d_2g
+ + y_5p_5.5t_10d_1g + y_5p_5.5t_10d_2g + y_5p_6.5t_10d_1g + y_5p_6.5t_10d_2g
+ + y_5p_7.5t_10d_1g + y_5p_7.5t_10d_2g + y_5p_8.5t_10d_1g + y_5p_8.5t_10d_2g
+ <= 2500
+con_3_upper_limit_on_row_var_540: y_5p_0.5t_40d_1g + y_5p_0.5t_40d_2g
+ + y_5p_0.5t_40d_3g + y_5p_1.5t_40d_1g + y_5p_1.5t_40d_2g + y_5p_1.5t_40d_3g
+ + y_5p_2.5t_40d_1g + y_5p_2.5t_40d_2g + y_5p_2.5t_40d_3g + y_5p_3.5t_40d_1g
+ + y_5p_3.5t_40d_2g + y_5p_3.5t_40d_3g + y_5p_4.5t_40d_1g + y_5p_4.5t_40d_2g
+ + y_5p_4.5t_40d_3g + y_5p_5.5t_40d_1g + y_5p_5.5t_40d_2g + y_5p_5.5t_40d_3g
+ + y_5p_6.5t_40d_1g + y_5p_6.5t_40d_2g + y_5p_6.5t_40d_3g + y_5p_7.5t_40d_1g
+ + y_5p_7.5t_40d_2g + y_5p_7.5t_40d_3g + y_5p_8.5t_40d_1g + y_5p_8.5t_40d_2g
+ + y_5p_8.5t_40d_3g <= 2500
+con_3_upper_limit_on_row_var_610: y_6p_0.5t_10d_1g + y_6p_0.5t_10d_2g
+ + y_6p_1.5t_10d_1g + y_6p_1.5t_10d_2g + y_6p_2.5t_10d_1g + y_6p_2.5t_10d_2g
+ + y_6p_3.5t_10d_1g + y_6p_3.5t_10d_2g + y_6p_4.5t_10d_1g + y_6p_4.5t_10d_2g
+ + y_6p_5.5t_10d_1g + y_6p_5.5t_10d_2g + y_6p_6.5t_10d_1g + y_6p_6.5t_10d_2g
+ + y_6p_7.5t_10d_1g + y_6p_7.5t_10d_2g + y_6p_8.5t_10d_1g + y_6p_8.5t_10d_2g
+ <= 2500
+con_3_upper_limit_on_row_var_640: y_6p_0.5t_40d_1g + y_6p_0.5t_40d_2g
+ + y_6p_0.5t_40d_3g + y_6p_1.5t_40d_1g + y_6p_1.5t_40d_2g + y_6p_1.5t_40d_3g
+ + y_6p_2.5t_40d_1g + y_6p_2.5t_40d_2g + y_6p_2.5t_40d_3g + y_6p_3.5t_40d_1g
+ + y_6p_3.5t_40d_2g + y_6p_3.5t_40d_3g + y_6p_4.5t_40d_1g + y_6p_4.5t_40d_2g
+ + y_6p_4.5t_40d_3g + y_6p_5.5t_40d_1g + y_6p_5.5t_40d_2g + y_6p_5.5t_40d_3g
+ + y_6p_6.5t_40d_1g + y_6p_6.5t_40d_2g + y_6p_6.5t_40d_3g + y_6p_7.5t_40d_1g
+ + y_6p_7.5t_40d_2g + y_6p_7.5t_40d_3g + y_6p_8.5t_40d_1g + y_6p_8.5t_40d_2g
+ + y_6p_8.5t_40d_3g <= 2500
+con_3_upper_limit_on_row_var_710: y_7p_0.5t_10d_1g + y_7p_0.5t_10d_2g
+ + y_7p_1.5t_10d_1g + y_7p_1.5t_10d_2g + y_7p_2.5t_10d_1g + y_7p_2.5t_10d_2g
+ + y_7p_3.5t_10d_1g + y_7p_3.5t_10d_2g + y_7p_4.5t_10d_1g + y_7p_4.5t_10d_2g
+ + y_7p_5.5t_10d_1g + y_7p_5.5t_10d_2g + y_7p_6.5t_10d_1g + y_7p_6.5t_10d_2g
+ + y_7p_7.5t_10d_1g + y_7p_7.5t_10d_2g + y_7p_8.5t_10d_1g + y_7p_8.5t_10d_2g
+ <= 2500
+con_3_upper_limit_on_row_var_740: y_7p_0.5t_40d_1g + y_7p_0.5t_40d_2g
+ + y_7p_0.5t_40d_3g + y_7p_1.5t_40d_1g + y_7p_1.5t_40d_2g + y_7p_1.5t_40d_3g
+ + y_7p_2.5t_40d_1g + y_7p_2.5t_40d_2g + y_7p_2.5t_40d_3g + y_7p_3.5t_40d_1g
+ + y_7p_3.5t_40d_2g + y_7p_3.5t_40d_3g + y_7p_4.5t_40d_1g + y_7p_4.5t_40d_2g
+ + y_7p_4.5t_40d_3g + y_7p_5.5t_40d_1g + y_7p_5.5t_40d_2g + y_7p_5.5t_40d_3g
+ + y_7p_6.5t_40d_1g + y_7p_6.5t_40d_2g + y_7p_6.5t_40d_3g + y_7p_7.5t_40d_1g
+ + y_7p_7.5t_40d_2g + y_7p_7.5t_40d_3g + y_7p_8.5t_40d_1g + y_7p_8.5t_40d_2g
+ + y_7p_8.5t_40d_3g <= 2500
+con_3_upper_limit_on_row_var_810: y_8p_0.5t_10d_1g + y_8p_0.5t_10d_2g
+ + y_8p_1.5t_10d_1g + y_8p_1.5t_10d_2g + y_8p_2.5t_10d_1g + y_8p_2.5t_10d_2g
+ + y_8p_3.5t_10d_1g + y_8p_3.5t_10d_2g + y_8p_4.5t_10d_1g + y_8p_4.5t_10d_2g
+ + y_8p_5.5t_10d_1g + y_8p_5.5t_10d_2g + y_8p_6.5t_10d_1g + y_8p_6.5t_10d_2g
+ + y_8p_7.5t_10d_1g + y_8p_7.5t_10d_2g + y_8p_8.5t_10d_1g + y_8p_8.5t_10d_2g
+ <= 2500
+con_3_upper_limit_on_row_var_840: y_8p_0.5t_40d_1g + y_8p_0.5t_40d_2g
+ + y_8p_0.5t_40d_3g + y_8p_1.5t_40d_1g + y_8p_1.5t_40d_2g + y_8p_1.5t_40d_3g
+ + y_8p_2.5t_40d_1g + y_8p_2.5t_40d_2g + y_8p_2.5t_40d_3g + y_8p_3.5t_40d_1g
+ + y_8p_3.5t_40d_2g + y_8p_3.5t_40d_3g + y_8p_4.5t_40d_1g + y_8p_4.5t_40d_2g
+ + y_8p_4.5t_40d_3g + y_8p_5.5t_40d_1g + y_8p_5.5t_40d_2g + y_8p_5.5t_40d_3g
+ + y_8p_6.5t_40d_1g + y_8p_6.5t_40d_2g + y_8p_6.5t_40d_3g + y_8p_7.5t_40d_1g
+ + y_8p_7.5t_40d_2g + y_8p_7.5t_40d_3g + y_8p_8.5t_40d_1g + y_8p_8.5t_40d_2g
+ + y_8p_8.5t_40d_3g <= 2500
+con_3_upper_limit_on_row_var_910: y_9p_0.5t_10d_1g + y_9p_0.5t_10d_2g
+ + y_9p_1.5t_10d_1g + y_9p_1.5t_10d_2g + y_9p_2.5t_10d_1g + y_9p_2.5t_10d_2g
+ + y_9p_3.5t_10d_1g + y_9p_3.5t_10d_2g + y_9p_4.5t_10d_1g + y_9p_4.5t_10d_2g
+ + y_9p_5.5t_10d_1g + y_9p_5.5t_10d_2g + y_9p_6.5t_10d_1g + y_9p_6.5t_10d_2g
+ + y_9p_7.5t_10d_1g + y_9p_7.5t_10d_2g + y_9p_8.5t_10d_1g + y_9p_8.5t_10d_2g
+ <= 2500
+con_3_upper_limit_on_row_var_940: y_9p_0.5t_40d_1g + y_9p_0.5t_40d_2g
+ + y_9p_0.5t_40d_3g + y_9p_1.5t_40d_1g + y_9p_1.5t_40d_2g + y_9p_1.5t_40d_3g
+ + y_9p_2.5t_40d_1g + y_9p_2.5t_40d_2g + y_9p_2.5t_40d_3g + y_9p_3.5t_40d_1g
+ + y_9p_3.5t_40d_2g + y_9p_3.5t_40d_3g + y_9p_4.5t_40d_1g + y_9p_4.5t_40d_2g
+ + y_9p_4.5t_40d_3g + y_9p_5.5t_40d_1g + y_9p_5.5t_40d_2g + y_9p_5.5t_40d_3g
+ + y_9p_6.5t_40d_1g + y_9p_6.5t_40d_2g + y_9p_6.5t_40d_3g + y_9p_7.5t_40d_1g
+ + y_9p_7.5t_40d_2g + y_9p_7.5t_40d_3g + y_9p_8.5t_40d_1g + y_9p_8.5t_40d_2g
+ + y_9p_8.5t_40d_3g <= 2500
+con_4_low_limit_on_time1_10: 0.5 y_1p_0.5t_10d_1g + 0.5 y_1p_0.5t_10d_2g
+ + 1.5 y_1p_1.5t_10d_1g + 1.5 y_1p_1.5t_10d_2g + 2.5 y_1p_2.5t_10d_1g
+ + 2.5 y_1p_2.5t_10d_2g + 3.5 y_1p_3.5t_10d_1g + 3.5 y_1p_3.5t_10d_2g
+ + 4.5 y_1p_4.5t_10d_1g + 4.5 y_1p_4.5t_10d_2g + 5.5 y_1p_5.5t_10d_1g
+ + 5.5 y_1p_5.5t_10d_2g + 6.5 y_1p_6.5t_10d_1g + 6.5 y_1p_6.5t_10d_2g
+ + 7.5 y_1p_7.5t_10d_1g + 7.5 y_1p_7.5t_10d_2g + 8.5 y_1p_8.5t_10d_1g
+ + 8.5 y_1p_8.5t_10d_2g >= 10
+con_4_low_limit_on_time1_40: 0.5 y_1p_0.5t_40d_1g + 0.5 y_1p_0.5t_40d_2g
+ + 0.5 y_1p_0.5t_40d_3g + 1.5 y_1p_1.5t_40d_1g + 1.5 y_1p_1.5t_40d_2g
+ + 1.5 y_1p_1.5t_40d_3g + 2.5 y_1p_2.5t_40d_1g + 2.5 y_1p_2.5t_40d_2g
+ + 2.5 y_1p_2.5t_40d_3g + 3.5 y_1p_3.5t_40d_1g + 3.5 y_1p_3.5t_40d_2g
+ + 3.5 y_1p_3.5t_40d_3g + 4.5 y_1p_4.5t_40d_1g + 4.5 y_1p_4.5t_40d_2g
+ + 4.5 y_1p_4.5t_40d_3g + 5.5 y_1p_5.5t_40d_1g + 5.5 y_1p_5.5t_40d_2g
+ + 5.5 y_1p_5.5t_40d_3g + 6.5 y_1p_6.5t_40d_1g + 6.5 y_1p_6.5t_40d_2g
+ + 6.5 y_1p_6.5t_40d_3g + 7.5 y_1p_7.5t_40d_1g + 7.5 y_1p_7.5t_40d_2g
+ + 7.5 y_1p_7.5t_40d_3g + 8.5 y_1p_8.5t_40d_1g + 8.5 y_1p_8.5t_40d_2g
+ + 8.5 y_1p_8.5t_40d_3g >= 10
+con_4_low_limit_on_time2_10: 0.5 y_2p_0.5t_10d_1g + 0.5 y_2p_0.5t_10d_2g
+ + 1.5 y_2p_1.5t_10d_1g + 1.5 y_2p_1.5t_10d_2g + 2.5 y_2p_2.5t_10d_1g
+ + 2.5 y_2p_2.5t_10d_2g + 3.5 y_2p_3.5t_10d_1g + 3.5 y_2p_3.5t_10d_2g
+ + 4.5 y_2p_4.5t_10d_1g + 4.5 y_2p_4.5t_10d_2g + 5.5 y_2p_5.5t_10d_1g
+ + 5.5 y_2p_5.5t_10d_2g + 6.5 y_2p_6.5t_10d_1g + 6.5 y_2p_6.5t_10d_2g
+ + 7.5 y_2p_7.5t_10d_1g + 7.5 y_2p_7.5t_10d_2g + 8.5 y_2p_8.5t_10d_1g
+ + 8.5 y_2p_8.5t_10d_2g >= 10
+con_4_low_limit_on_time2_40: 0.5 y_2p_0.5t_40d_1g + 0.5 y_2p_0.5t_40d_2g
+ + 0.5 y_2p_0.5t_40d_3g + 1.5 y_2p_1.5t_40d_1g + 1.5 y_2p_1.5t_40d_2g
+ + 1.5 y_2p_1.5t_40d_3g + 2.5 y_2p_2.5t_40d_1g + 2.5 y_2p_2.5t_40d_2g
+ + 2.5 y_2p_2.5t_40d_3g + 3.5 y_2p_3.5t_40d_1g + 3.5 y_2p_3.5t_40d_2g
+ + 3.5 y_2p_3.5t_40d_3g + 4.5 y_2p_4.5t_40d_1g + 4.5 y_2p_4.5t_40d_2g
+ + 4.5 y_2p_4.5t_40d_3g + 5.5 y_2p_5.5t_40d_1g + 5.5 y_2p_5.5t_40d_2g
+ + 5.5 y_2p_5.5t_40d_3g + 6.5 y_2p_6.5t_40d_1g + 6.5 y_2p_6.5t_40d_2g
+ + 6.5 y_2p_6.5t_40d_3g + 7.5 y_2p_7.5t_40d_1g + 7.5 y_2p_7.5t_40d_2g
+ + 7.5 y_2p_7.5t_40d_3g + 8.5 y_2p_8.5t_40d_1g + 8.5 y_2p_8.5t_40d_2g
+ + 8.5 y_2p_8.5t_40d_3g >= 10
+con_4_low_limit_on_time4_10: 0.5 y_4p_0.5t_10d_1g + 0.5 y_4p_0.5t_10d_2g
+ + 1.5 y_4p_1.5t_10d_1g + 1.5 y_4p_1.5t_10d_2g + 2.5 y_4p_2.5t_10d_1g
+ + 2.5 y_4p_2.5t_10d_2g + 3.5 y_4p_3.5t_10d_1g + 3.5 y_4p_3.5t_10d_2g
+ + 4.5 y_4p_4.5t_10d_1g + 4.5 y_4p_4.5t_10d_2g + 5.5 y_4p_5.5t_10d_1g
+ + 5.5 y_4p_5.5t_10d_2g + 6.5 y_4p_6.5t_10d_1g + 6.5 y_4p_6.5t_10d_2g
+ + 7.5 y_4p_7.5t_10d_1g + 7.5 y_4p_7.5t_10d_2g + 8.5 y_4p_8.5t_10d_1g
+ + 8.5 y_4p_8.5t_10d_2g >= 10
+con_4_low_limit_on_time4_40: 0.5 y_4p_0.5t_40d_1g + 0.5 y_4p_0.5t_40d_2g
+ + 0.5 y_4p_0.5t_40d_3g + 1.5 y_4p_1.5t_40d_1g + 1.5 y_4p_1.5t_40d_2g
+ + 1.5 y_4p_1.5t_40d_3g + 2.5 y_4p_2.5t_40d_1g + 2.5 y_4p_2.5t_40d_2g
+ + 2.5 y_4p_2.5t_40d_3g + 3.5 y_4p_3.5t_40d_1g + 3.5 y_4p_3.5t_40d_2g
+ + 3.5 y_4p_3.5t_40d_3g + 4.5 y_4p_4.5t_40d_1g + 4.5 y_4p_4.5t_40d_2g
+ + 4.5 y_4p_4.5t_40d_3g + 5.5 y_4p_5.5t_40d_1g + 5.5 y_4p_5.5t_40d_2g
+ + 5.5 y_4p_5.5t_40d_3g + 6.5 y_4p_6.5t_40d_1g + 6.5 y_4p_6.5t_40d_2g
+ + 6.5 y_4p_6.5t_40d_3g + 7.5 y_4p_7.5t_40d_1g + 7.5 y_4p_7.5t_40d_2g
+ + 7.5 y_4p_7.5t_40d_3g + 8.5 y_4p_8.5t_40d_1g + 8.5 y_4p_8.5t_40d_2g
+ + 8.5 y_4p_8.5t_40d_3g >= 10
+con_4_low_limit_on_time5_10: 0.5 y_5p_0.5t_10d_1g + 0.5 y_5p_0.5t_10d_2g
+ + 1.5 y_5p_1.5t_10d_1g + 1.5 y_5p_1.5t_10d_2g + 2.5 y_5p_2.5t_10d_1g
+ + 2.5 y_5p_2.5t_10d_2g + 3.5 y_5p_3.5t_10d_1g + 3.5 y_5p_3.5t_10d_2g
+ + 4.5 y_5p_4.5t_10d_1g + 4.5 y_5p_4.5t_10d_2g + 5.5 y_5p_5.5t_10d_1g
+ + 5.5 y_5p_5.5t_10d_2g + 6.5 y_5p_6.5t_10d_1g + 6.5 y_5p_6.5t_10d_2g
+ + 7.5 y_5p_7.5t_10d_1g + 7.5 y_5p_7.5t_10d_2g + 8.5 y_5p_8.5t_10d_1g
+ + 8.5 y_5p_8.5t_10d_2g >= 10
+con_4_low_limit_on_time5_40: 0.5 y_5p_0.5t_40d_1g + 0.5 y_5p_0.5t_40d_2g
+ + 0.5 y_5p_0.5t_40d_3g + 1.5 y_5p_1.5t_40d_1g + 1.5 y_5p_1.5t_40d_2g
+ + 1.5 y_5p_1.5t_40d_3g + 2.5 y_5p_2.5t_40d_1g + 2.5 y_5p_2.5t_40d_2g
+ + 2.5 y_5p_2.5t_40d_3g + 3.5 y_5p_3.5t_40d_1g + 3.5 y_5p_3.5t_40d_2g
+ + 3.5 y_5p_3.5t_40d_3g + 4.5 y_5p_4.5t_40d_1g + 4.5 y_5p_4.5t_40d_2g
+ + 4.5 y_5p_4.5t_40d_3g + 5.5 y_5p_5.5t_40d_1g + 5.5 y_5p_5.5t_40d_2g
+ + 5.5 y_5p_5.5t_40d_3g + 6.5 y_5p_6.5t_40d_1g + 6.5 y_5p_6.5t_40d_2g
+ + 6.5 y_5p_6.5t_40d_3g + 7.5 y_5p_7.5t_40d_1g + 7.5 y_5p_7.5t_40d_2g
+ + 7.5 y_5p_7.5t_40d_3g + 8.5 y_5p_8.5t_40d_1g + 8.5 y_5p_8.5t_40d_2g
+ + 8.5 y_5p_8.5t_40d_3g >= 10
+con_4_low_limit_on_time6_10: 0.5 y_6p_0.5t_10d_1g + 0.5 y_6p_0.5t_10d_2g
+ + 1.5 y_6p_1.5t_10d_1g + 1.5 y_6p_1.5t_10d_2g + 2.5 y_6p_2.5t_10d_1g
+ + 2.5 y_6p_2.5t_10d_2g + 3.5 y_6p_3.5t_10d_1g + 3.5 y_6p_3.5t_10d_2g
+ + 4.5 y_6p_4.5t_10d_1g + 4.5 y_6p_4.5t_10d_2g + 5.5 y_6p_5.5t_10d_1g
+ + 5.5 y_6p_5.5t_10d_2g + 6.5 y_6p_6.5t_10d_1g + 6.5 y_6p_6.5t_10d_2g
+ + 7.5 y_6p_7.5t_10d_1g + 7.5 y_6p_7.5t_10d_2g + 8.5 y_6p_8.5t_10d_1g
+ + 8.5 y_6p_8.5t_10d_2g >= 10
+con_4_low_limit_on_time6_40: 0.5 y_6p_0.5t_40d_1g + 0.5 y_6p_0.5t_40d_2g
+ + 0.5 y_6p_0.5t_40d_3g + 1.5 y_6p_1.5t_40d_1g + 1.5 y_6p_1.5t_40d_2g
+ + 1.5 y_6p_1.5t_40d_3g + 2.5 y_6p_2.5t_40d_1g + 2.5 y_6p_2.5t_40d_2g
+ + 2.5 y_6p_2.5t_40d_3g + 3.5 y_6p_3.5t_40d_1g + 3.5 y_6p_3.5t_40d_2g
+ + 3.5 y_6p_3.5t_40d_3g + 4.5 y_6p_4.5t_40d_1g + 4.5 y_6p_4.5t_40d_2g
+ + 4.5 y_6p_4.5t_40d_3g + 5.5 y_6p_5.5t_40d_1g + 5.5 y_6p_5.5t_40d_2g
+ + 5.5 y_6p_5.5t_40d_3g + 6.5 y_6p_6.5t_40d_1g + 6.5 y_6p_6.5t_40d_2g
+ + 6.5 y_6p_6.5t_40d_3g + 7.5 y_6p_7.5t_40d_1g + 7.5 y_6p_7.5t_40d_2g
+ + 7.5 y_6p_7.5t_40d_3g + 8.5 y_6p_8.5t_40d_1g + 8.5 y_6p_8.5t_40d_2g
+ + 8.5 y_6p_8.5t_40d_3g >= 10
+con_4_low_limit_on_time7_10: 0.5 y_7p_0.5t_10d_1g + 0.5 y_7p_0.5t_10d_2g
+ + 1.5 y_7p_1.5t_10d_1g + 1.5 y_7p_1.5t_10d_2g + 2.5 y_7p_2.5t_10d_1g
+ + 2.5 y_7p_2.5t_10d_2g + 3.5 y_7p_3.5t_10d_1g + 3.5 y_7p_3.5t_10d_2g
+ + 4.5 y_7p_4.5t_10d_1g + 4.5 y_7p_4.5t_10d_2g + 5.5 y_7p_5.5t_10d_1g
+ + 5.5 y_7p_5.5t_10d_2g + 6.5 y_7p_6.5t_10d_1g + 6.5 y_7p_6.5t_10d_2g
+ + 7.5 y_7p_7.5t_10d_1g + 7.5 y_7p_7.5t_10d_2g + 8.5 y_7p_8.5t_10d_1g
+ + 8.5 y_7p_8.5t_10d_2g >= 10
+con_4_low_limit_on_time7_40: 0.5 y_7p_0.5t_40d_1g + 0.5 y_7p_0.5t_40d_2g
+ + 0.5 y_7p_0.5t_40d_3g + 1.5 y_7p_1.5t_40d_1g + 1.5 y_7p_1.5t_40d_2g
+ + 1.5 y_7p_1.5t_40d_3g + 2.5 y_7p_2.5t_40d_1g + 2.5 y_7p_2.5t_40d_2g
+ + 2.5 y_7p_2.5t_40d_3g + 3.5 y_7p_3.5t_40d_1g + 3.5 y_7p_3.5t_40d_2g
+ + 3.5 y_7p_3.5t_40d_3g + 4.5 y_7p_4.5t_40d_1g + 4.5 y_7p_4.5t_40d_2g
+ + 4.5 y_7p_4.5t_40d_3g + 5.5 y_7p_5.5t_40d_1g + 5.5 y_7p_5.5t_40d_2g
+ + 5.5 y_7p_5.5t_40d_3g + 6.5 y_7p_6.5t_40d_1g + 6.5 y_7p_6.5t_40d_2g
+ + 6.5 y_7p_6.5t_40d_3g + 7.5 y_7p_7.5t_40d_1g + 7.5 y_7p_7.5t_40d_2g
+ + 7.5 y_7p_7.5t_40d_3g + 8.5 y_7p_8.5t_40d_1g + 8.5 y_7p_8.5t_40d_2g
+ + 8.5 y_7p_8.5t_40d_3g >= 10
+con_4_low_limit_on_time8_10: 0.5 y_8p_0.5t_10d_1g + 0.5 y_8p_0.5t_10d_2g
+ + 1.5 y_8p_1.5t_10d_1g + 1.5 y_8p_1.5t_10d_2g + 2.5 y_8p_2.5t_10d_1g
+ + 2.5 y_8p_2.5t_10d_2g + 3.5 y_8p_3.5t_10d_1g + 3.5 y_8p_3.5t_10d_2g
+ + 4.5 y_8p_4.5t_10d_1g + 4.5 y_8p_4.5t_10d_2g + 5.5 y_8p_5.5t_10d_1g
+ + 5.5 y_8p_5.5t_10d_2g + 6.5 y_8p_6.5t_10d_1g + 6.5 y_8p_6.5t_10d_2g
+ + 7.5 y_8p_7.5t_10d_1g + 7.5 y_8p_7.5t_10d_2g + 8.5 y_8p_8.5t_10d_1g
+ + 8.5 y_8p_8.5t_10d_2g >= 10
+con_4_low_limit_on_time8_40: 0.5 y_8p_0.5t_40d_1g + 0.5 y_8p_0.5t_40d_2g
+ + 0.5 y_8p_0.5t_40d_3g + 1.5 y_8p_1.5t_40d_1g + 1.5 y_8p_1.5t_40d_2g
+ + 1.5 y_8p_1.5t_40d_3g + 2.5 y_8p_2.5t_40d_1g + 2.5 y_8p_2.5t_40d_2g
+ + 2.5 y_8p_2.5t_40d_3g + 3.5 y_8p_3.5t_40d_1g + 3.5 y_8p_3.5t_40d_2g
+ + 3.5 y_8p_3.5t_40d_3g + 4.5 y_8p_4.5t_40d_1g + 4.5 y_8p_4.5t_40d_2g
+ + 4.5 y_8p_4.5t_40d_3g + 5.5 y_8p_5.5t_40d_1g + 5.5 y_8p_5.5t_40d_2g
+ + 5.5 y_8p_5.5t_40d_3g + 6.5 y_8p_6.5t_40d_1g + 6.5 y_8p_6.5t_40d_2g
+ + 6.5 y_8p_6.5t_40d_3g + 7.5 y_8p_7.5t_40d_1g + 7.5 y_8p_7.5t_40d_2g
+ + 7.5 y_8p_7.5t_40d_3g + 8.5 y_8p_8.5t_40d_1g + 8.5 y_8p_8.5t_40d_2g
+ + 8.5 y_8p_8.5t_40d_3g >= 10
+con_4_low_limit_on_time9_10: 0.5 y_9p_0.5t_10d_1g + 0.5 y_9p_0.5t_10d_2g
+ + 1.5 y_9p_1.5t_10d_1g + 1.5 y_9p_1.5t_10d_2g + 2.5 y_9p_2.5t_10d_1g
+ + 2.5 y_9p_2.5t_10d_2g + 3.5 y_9p_3.5t_10d_1g + 3.5 y_9p_3.5t_10d_2g
+ + 4.5 y_9p_4.5t_10d_1g + 4.5 y_9p_4.5t_10d_2g + 5.5 y_9p_5.5t_10d_1g
+ + 5.5 y_9p_5.5t_10d_2g + 6.5 y_9p_6.5t_10d_1g + 6.5 y_9p_6.5t_10d_2g
+ + 7.5 y_9p_7.5t_10d_1g + 7.5 y_9p_7.5t_10d_2g + 8.5 y_9p_8.5t_10d_1g
+ + 8.5 y_9p_8.5t_10d_2g >= 10
+con_4_low_limit_on_time9_40: 0.5 y_9p_0.5t_40d_1g + 0.5 y_9p_0.5t_40d_2g
+ + 0.5 y_9p_0.5t_40d_3g + 1.5 y_9p_1.5t_40d_1g + 1.5 y_9p_1.5t_40d_2g
+ + 1.5 y_9p_1.5t_40d_3g + 2.5 y_9p_2.5t_40d_1g + 2.5 y_9p_2.5t_40d_2g
+ + 2.5 y_9p_2.5t_40d_3g + 3.5 y_9p_3.5t_40d_1g + 3.5 y_9p_3.5t_40d_2g
+ + 3.5 y_9p_3.5t_40d_3g + 4.5 y_9p_4.5t_40d_1g + 4.5 y_9p_4.5t_40d_2g
+ + 4.5 y_9p_4.5t_40d_3g + 5.5 y_9p_5.5t_40d_1g + 5.5 y_9p_5.5t_40d_2g
+ + 5.5 y_9p_5.5t_40d_3g + 6.5 y_9p_6.5t_40d_1g + 6.5 y_9p_6.5t_40d_2g
+ + 6.5 y_9p_6.5t_40d_3g + 7.5 y_9p_7.5t_40d_1g + 7.5 y_9p_7.5t_40d_2g
+ + 7.5 y_9p_7.5t_40d_3g + 8.5 y_9p_8.5t_40d_1g + 8.5 y_9p_8.5t_40d_2g
+ + 8.5 y_9p_8.5t_40d_3g >= 10
+con_4_upper_limit_on_time1_10: 0.5 y_1p_0.5t_10d_1g + 0.5 y_1p_0.5t_10d_2g
+ + 1.5 y_1p_1.5t_10d_1g + 1.5 y_1p_1.5t_10d_2g + 2.5 y_1p_2.5t_10d_1g
+ + 2.5 y_1p_2.5t_10d_2g + 3.5 y_1p_3.5t_10d_1g + 3.5 y_1p_3.5t_10d_2g
+ + 4.5 y_1p_4.5t_10d_1g + 4.5 y_1p_4.5t_10d_2g + 5.5 y_1p_5.5t_10d_1g
+ + 5.5 y_1p_5.5t_10d_2g + 6.5 y_1p_6.5t_10d_1g + 6.5 y_1p_6.5t_10d_2g
+ + 7.5 y_1p_7.5t_10d_1g + 7.5 y_1p_7.5t_10d_2g + 8.5 y_1p_8.5t_10d_1g
+ + 8.5 y_1p_8.5t_10d_2g <= 5000
+con_4_upper_limit_on_time1_40: 0.5 y_1p_0.5t_40d_1g + 0.5 y_1p_0.5t_40d_2g
+ + 0.5 y_1p_0.5t_40d_3g + 1.5 y_1p_1.5t_40d_1g + 1.5 y_1p_1.5t_40d_2g
+ + 1.5 y_1p_1.5t_40d_3g + 2.5 y_1p_2.5t_40d_1g + 2.5 y_1p_2.5t_40d_2g
+ + 2.5 y_1p_2.5t_40d_3g + 3.5 y_1p_3.5t_40d_1g + 3.5 y_1p_3.5t_40d_2g
+ + 3.5 y_1p_3.5t_40d_3g + 4.5 y_1p_4.5t_40d_1g + 4.5 y_1p_4.5t_40d_2g
+ + 4.5 y_1p_4.5t_40d_3g + 5.5 y_1p_5.5t_40d_1g + 5.5 y_1p_5.5t_40d_2g
+ + 5.5 y_1p_5.5t_40d_3g + 6.5 y_1p_6.5t_40d_1g + 6.5 y_1p_6.5t_40d_2g
+ + 6.5 y_1p_6.5t_40d_3g + 7.5 y_1p_7.5t_40d_1g + 7.5 y_1p_7.5t_40d_2g
+ + 7.5 y_1p_7.5t_40d_3g + 8.5 y_1p_8.5t_40d_1g + 8.5 y_1p_8.5t_40d_2g
+ + 8.5 y_1p_8.5t_40d_3g <= 5000
+con_4_upper_limit_on_time2_10: 0.5 y_2p_0.5t_10d_1g + 0.5 y_2p_0.5t_10d_2g
+ + 1.5 y_2p_1.5t_10d_1g + 1.5 y_2p_1.5t_10d_2g + 2.5 y_2p_2.5t_10d_1g
+ + 2.5 y_2p_2.5t_10d_2g + 3.5 y_2p_3.5t_10d_1g + 3.5 y_2p_3.5t_10d_2g
+ + 4.5 y_2p_4.5t_10d_1g + 4.5 y_2p_4.5t_10d_2g + 5.5 y_2p_5.5t_10d_1g
+ + 5.5 y_2p_5.5t_10d_2g + 6.5 y_2p_6.5t_10d_1g + 6.5 y_2p_6.5t_10d_2g
+ + 7.5 y_2p_7.5t_10d_1g + 7.5 y_2p_7.5t_10d_2g + 8.5 y_2p_8.5t_10d_1g
+ + 8.5 y_2p_8.5t_10d_2g <= 5000
+con_4_upper_limit_on_time2_40: 0.5 y_2p_0.5t_40d_1g + 0.5 y_2p_0.5t_40d_2g
+ + 0.5 y_2p_0.5t_40d_3g + 1.5 y_2p_1.5t_40d_1g + 1.5 y_2p_1.5t_40d_2g
+ + 1.5 y_2p_1.5t_40d_3g + 2.5 y_2p_2.5t_40d_1g + 2.5 y_2p_2.5t_40d_2g
+ + 2.5 y_2p_2.5t_40d_3g + 3.5 y_2p_3.5t_40d_1g + 3.5 y_2p_3.5t_40d_2g
+ + 3.5 y_2p_3.5t_40d_3g + 4.5 y_2p_4.5t_40d_1g + 4.5 y_2p_4.5t_40d_2g
+ + 4.5 y_2p_4.5t_40d_3g + 5.5 y_2p_5.5t_40d_1g + 5.5 y_2p_5.5t_40d_2g
+ + 5.5 y_2p_5.5t_40d_3g + 6.5 y_2p_6.5t_40d_1g + 6.5 y_2p_6.5t_40d_2g
+ + 6.5 y_2p_6.5t_40d_3g + 7.5 y_2p_7.5t_40d_1g + 7.5 y_2p_7.5t_40d_2g
+ + 7.5 y_2p_7.5t_40d_3g + 8.5 y_2p_8.5t_40d_1g + 8.5 y_2p_8.5t_40d_2g
+ + 8.5 y_2p_8.5t_40d_3g <= 5000
+con_4_upper_limit_on_time4_10: 0.5 y_4p_0.5t_10d_1g + 0.5 y_4p_0.5t_10d_2g
+ + 1.5 y_4p_1.5t_10d_1g + 1.5 y_4p_1.5t_10d_2g + 2.5 y_4p_2.5t_10d_1g
+ + 2.5 y_4p_2.5t_10d_2g + 3.5 y_4p_3.5t_10d_1g + 3.5 y_4p_3.5t_10d_2g
+ + 4.5 y_4p_4.5t_10d_1g + 4.5 y_4p_4.5t_10d_2g + 5.5 y_4p_5.5t_10d_1g
+ + 5.5 y_4p_5.5t_10d_2g + 6.5 y_4p_6.5t_10d_1g + 6.5 y_4p_6.5t_10d_2g
+ + 7.5 y_4p_7.5t_10d_1g + 7.5 y_4p_7.5t_10d_2g + 8.5 y_4p_8.5t_10d_1g
+ + 8.5 y_4p_8.5t_10d_2g <= 5000
+con_4_upper_limit_on_time4_40: 0.5 y_4p_0.5t_40d_1g + 0.5 y_4p_0.5t_40d_2g
+ + 0.5 y_4p_0.5t_40d_3g + 1.5 y_4p_1.5t_40d_1g + 1.5 y_4p_1.5t_40d_2g
+ + 1.5 y_4p_1.5t_40d_3g + 2.5 y_4p_2.5t_40d_1g + 2.5 y_4p_2.5t_40d_2g
+ + 2.5 y_4p_2.5t_40d_3g + 3.5 y_4p_3.5t_40d_1g + 3.5 y_4p_3.5t_40d_2g
+ + 3.5 y_4p_3.5t_40d_3g + 4.5 y_4p_4.5t_40d_1g + 4.5 y_4p_4.5t_40d_2g
+ + 4.5 y_4p_4.5t_40d_3g + 5.5 y_4p_5.5t_40d_1g + 5.5 y_4p_5.5t_40d_2g
+ + 5.5 y_4p_5.5t_40d_3g + 6.5 y_4p_6.5t_40d_1g + 6.5 y_4p_6.5t_40d_2g
+ + 6.5 y_4p_6.5t_40d_3g + 7.5 y_4p_7.5t_40d_1g + 7.5 y_4p_7.5t_40d_2g
+ + 7.5 y_4p_7.5t_40d_3g + 8.5 y_4p_8.5t_40d_1g + 8.5 y_4p_8.5t_40d_2g
+ + 8.5 y_4p_8.5t_40d_3g <= 5000
+con_4_upper_limit_on_time5_10: 0.5 y_5p_0.5t_10d_1g + 0.5 y_5p_0.5t_10d_2g
+ + 1.5 y_5p_1.5t_10d_1g + 1.5 y_5p_1.5t_10d_2g + 2.5 y_5p_2.5t_10d_1g
+ + 2.5 y_5p_2.5t_10d_2g + 3.5 y_5p_3.5t_10d_1g + 3.5 y_5p_3.5t_10d_2g
+ + 4.5 y_5p_4.5t_10d_1g + 4.5 y_5p_4.5t_10d_2g + 5.5 y_5p_5.5t_10d_1g
+ + 5.5 y_5p_5.5t_10d_2g + 6.5 y_5p_6.5t_10d_1g + 6.5 y_5p_6.5t_10d_2g
+ + 7.5 y_5p_7.5t_10d_1g + 7.5 y_5p_7.5t_10d_2g + 8.5 y_5p_8.5t_10d_1g
+ + 8.5 y_5p_8.5t_10d_2g <= 5000
+con_4_upper_limit_on_time5_40: 0.5 y_5p_0.5t_40d_1g + 0.5 y_5p_0.5t_40d_2g
+ + 0.5 y_5p_0.5t_40d_3g + 1.5 y_5p_1.5t_40d_1g + 1.5 y_5p_1.5t_40d_2g
+ + 1.5 y_5p_1.5t_40d_3g + 2.5 y_5p_2.5t_40d_1g + 2.5 y_5p_2.5t_40d_2g
+ + 2.5 y_5p_2.5t_40d_3g + 3.5 y_5p_3.5t_40d_1g + 3.5 y_5p_3.5t_40d_2g
+ + 3.5 y_5p_3.5t_40d_3g + 4.5 y_5p_4.5t_40d_1g + 4.5 y_5p_4.5t_40d_2g
+ + 4.5 y_5p_4.5t_40d_3g + 5.5 y_5p_5.5t_40d_1g + 5.5 y_5p_5.5t_40d_2g
+ + 5.5 y_5p_5.5t_40d_3g + 6.5 y_5p_6.5t_40d_1g + 6.5 y_5p_6.5t_40d_2g
+ + 6.5 y_5p_6.5t_40d_3g + 7.5 y_5p_7.5t_40d_1g + 7.5 y_5p_7.5t_40d_2g
+ + 7.5 y_5p_7.5t_40d_3g + 8.5 y_5p_8.5t_40d_1g + 8.5 y_5p_8.5t_40d_2g
+ + 8.5 y_5p_8.5t_40d_3g <= 5000
+con_4_upper_limit_on_time6_10: 0.5 y_6p_0.5t_10d_1g + 0.5 y_6p_0.5t_10d_2g
+ + 1.5 y_6p_1.5t_10d_1g + 1.5 y_6p_1.5t_10d_2g + 2.5 y_6p_2.5t_10d_1g
+ + 2.5 y_6p_2.5t_10d_2g + 3.5 y_6p_3.5t_10d_1g + 3.5 y_6p_3.5t_10d_2g
+ + 4.5 y_6p_4.5t_10d_1g + 4.5 y_6p_4.5t_10d_2g + 5.5 y_6p_5.5t_10d_1g
+ + 5.5 y_6p_5.5t_10d_2g + 6.5 y_6p_6.5t_10d_1g + 6.5 y_6p_6.5t_10d_2g
+ + 7.5 y_6p_7.5t_10d_1g + 7.5 y_6p_7.5t_10d_2g + 8.5 y_6p_8.5t_10d_1g
+ + 8.5 y_6p_8.5t_10d_2g <= 5000
+con_4_upper_limit_on_time6_40: 0.5 y_6p_0.5t_40d_1g + 0.5 y_6p_0.5t_40d_2g
+ + 0.5 y_6p_0.5t_40d_3g + 1.5 y_6p_1.5t_40d_1g + 1.5 y_6p_1.5t_40d_2g
+ + 1.5 y_6p_1.5t_40d_3g + 2.5 y_6p_2.5t_40d_1g + 2.5 y_6p_2.5t_40d_2g
+ + 2.5 y_6p_2.5t_40d_3g + 3.5 y_6p_3.5t_40d_1g + 3.5 y_6p_3.5t_40d_2g
+ + 3.5 y_6p_3.5t_40d_3g + 4.5 y_6p_4.5t_40d_1g + 4.5 y_6p_4.5t_40d_2g
+ + 4.5 y_6p_4.5t_40d_3g + 5.5 y_6p_5.5t_40d_1g + 5.5 y_6p_5.5t_40d_2g
+ + 5.5 y_6p_5.5t_40d_3g + 6.5 y_6p_6.5t_40d_1g + 6.5 y_6p_6.5t_40d_2g
+ + 6.5 y_6p_6.5t_40d_3g + 7.5 y_6p_7.5t_40d_1g + 7.5 y_6p_7.5t_40d_2g
+ + 7.5 y_6p_7.5t_40d_3g + 8.5 y_6p_8.5t_40d_1g + 8.5 y_6p_8.5t_40d_2g
+ + 8.5 y_6p_8.5t_40d_3g <= 5000
+con_4_upper_limit_on_time7_10: 0.5 y_7p_0.5t_10d_1g + 0.5 y_7p_0.5t_10d_2g
+ + 1.5 y_7p_1.5t_10d_1g + 1.5 y_7p_1.5t_10d_2g + 2.5 y_7p_2.5t_10d_1g
+ + 2.5 y_7p_2.5t_10d_2g + 3.5 y_7p_3.5t_10d_1g + 3.5 y_7p_3.5t_10d_2g
+ + 4.5 y_7p_4.5t_10d_1g + 4.5 y_7p_4.5t_10d_2g + 5.5 y_7p_5.5t_10d_1g
+ + 5.5 y_7p_5.5t_10d_2g + 6.5 y_7p_6.5t_10d_1g + 6.5 y_7p_6.5t_10d_2g
+ + 7.5 y_7p_7.5t_10d_1g + 7.5 y_7p_7.5t_10d_2g + 8.5 y_7p_8.5t_10d_1g
+ + 8.5 y_7p_8.5t_10d_2g <= 5000
+con_4_upper_limit_on_time7_40: 0.5 y_7p_0.5t_40d_1g + 0.5 y_7p_0.5t_40d_2g
+ + 0.5 y_7p_0.5t_40d_3g + 1.5 y_7p_1.5t_40d_1g + 1.5 y_7p_1.5t_40d_2g
+ + 1.5 y_7p_1.5t_40d_3g + 2.5 y_7p_2.5t_40d_1g + 2.5 y_7p_2.5t_40d_2g
+ + 2.5 y_7p_2.5t_40d_3g + 3.5 y_7p_3.5t_40d_1g + 3.5 y_7p_3.5t_40d_2g
+ + 3.5 y_7p_3.5t_40d_3g + 4.5 y_7p_4.5t_40d_1g + 4.5 y_7p_4.5t_40d_2g
+ + 4.5 y_7p_4.5t_40d_3g + 5.5 y_7p_5.5t_40d_1g + 5.5 y_7p_5.5t_40d_2g
+ + 5.5 y_7p_5.5t_40d_3g + 6.5 y_7p_6.5t_40d_1g + 6.5 y_7p_6.5t_40d_2g
+ + 6.5 y_7p_6.5t_40d_3g + 7.5 y_7p_7.5t_40d_1g + 7.5 y_7p_7.5t_40d_2g
+ + 7.5 y_7p_7.5t_40d_3g + 8.5 y_7p_8.5t_40d_1g + 8.5 y_7p_8.5t_40d_2g
+ + 8.5 y_7p_8.5t_40d_3g <= 5000
+con_4_upper_limit_on_time8_10: 0.5 y_8p_0.5t_10d_1g + 0.5 y_8p_0.5t_10d_2g
+ + 1.5 y_8p_1.5t_10d_1g + 1.5 y_8p_1.5t_10d_2g + 2.5 y_8p_2.5t_10d_1g
+ + 2.5 y_8p_2.5t_10d_2g + 3.5 y_8p_3.5t_10d_1g + 3.5 y_8p_3.5t_10d_2g
+ + 4.5 y_8p_4.5t_10d_1g + 4.5 y_8p_4.5t_10d_2g + 5.5 y_8p_5.5t_10d_1g
+ + 5.5 y_8p_5.5t_10d_2g + 6.5 y_8p_6.5t_10d_1g + 6.5 y_8p_6.5t_10d_2g
+ + 7.5 y_8p_7.5t_10d_1g + 7.5 y_8p_7.5t_10d_2g + 8.5 y_8p_8.5t_10d_1g
+ + 8.5 y_8p_8.5t_10d_2g <= 5000
+con_4_upper_limit_on_time8_40: 0.5 y_8p_0.5t_40d_1g + 0.5 y_8p_0.5t_40d_2g
+ + 0.5 y_8p_0.5t_40d_3g + 1.5 y_8p_1.5t_40d_1g + 1.5 y_8p_1.5t_40d_2g
+ + 1.5 y_8p_1.5t_40d_3g + 2.5 y_8p_2.5t_40d_1g + 2.5 y_8p_2.5t_40d_2g
+ + 2.5 y_8p_2.5t_40d_3g + 3.5 y_8p_3.5t_40d_1g + 3.5 y_8p_3.5t_40d_2g
+ + 3.5 y_8p_3.5t_40d_3g + 4.5 y_8p_4.5t_40d_1g + 4.5 y_8p_4.5t_40d_2g
+ + 4.5 y_8p_4.5t_40d_3g + 5.5 y_8p_5.5t_40d_1g + 5.5 y_8p_5.5t_40d_2g
+ + 5.5 y_8p_5.5t_40d_3g + 6.5 y_8p_6.5t_40d_1g + 6.5 y_8p_6.5t_40d_2g
+ + 6.5 y_8p_6.5t_40d_3g + 7.5 y_8p_7.5t_40d_1g + 7.5 y_8p_7.5t_40d_2g
+ + 7.5 y_8p_7.5t_40d_3g + 8.5 y_8p_8.5t_40d_1g + 8.5 y_8p_8.5t_40d_2g
+ + 8.5 y_8p_8.5t_40d_3g <= 5000
+con_4_upper_limit_on_time9_10: 0.5 y_9p_0.5t_10d_1g + 0.5 y_9p_0.5t_10d_2g
+ + 1.5 y_9p_1.5t_10d_1g + 1.5 y_9p_1.5t_10d_2g + 2.5 y_9p_2.5t_10d_1g
+ + 2.5 y_9p_2.5t_10d_2g + 3.5 y_9p_3.5t_10d_1g + 3.5 y_9p_3.5t_10d_2g
+ + 4.5 y_9p_4.5t_10d_1g + 4.5 y_9p_4.5t_10d_2g + 5.5 y_9p_5.5t_10d_1g
+ + 5.5 y_9p_5.5t_10d_2g + 6.5 y_9p_6.5t_10d_1g + 6.5 y_9p_6.5t_10d_2g
+ + 7.5 y_9p_7.5t_10d_1g + 7.5 y_9p_7.5t_10d_2g + 8.5 y_9p_8.5t_10d_1g
+ + 8.5 y_9p_8.5t_10d_2g <= 5000
+con_4_upper_limit_on_time9_40: 0.5 y_9p_0.5t_40d_1g + 0.5 y_9p_0.5t_40d_2g
+ + 0.5 y_9p_0.5t_40d_3g + 1.5 y_9p_1.5t_40d_1g + 1.5 y_9p_1.5t_40d_2g
+ + 1.5 y_9p_1.5t_40d_3g + 2.5 y_9p_2.5t_40d_1g + 2.5 y_9p_2.5t_40d_2g
+ + 2.5 y_9p_2.5t_40d_3g + 3.5 y_9p_3.5t_40d_1g + 3.5 y_9p_3.5t_40d_2g
+ + 3.5 y_9p_3.5t_40d_3g + 4.5 y_9p_4.5t_40d_1g + 4.5 y_9p_4.5t_40d_2g
+ + 4.5 y_9p_4.5t_40d_3g + 5.5 y_9p_5.5t_40d_1g + 5.5 y_9p_5.5t_40d_2g
+ + 5.5 y_9p_5.5t_40d_3g + 6.5 y_9p_6.5t_40d_1g + 6.5 y_9p_6.5t_40d_2g
+ + 6.5 y_9p_6.5t_40d_3g + 7.5 y_9p_7.5t_40d_1g + 7.5 y_9p_7.5t_40d_2g
+ + 7.5 y_9p_7.5t_40d_3g + 8.5 y_9p_8.5t_40d_1g + 8.5 y_9p_8.5t_40d_2g
+ + 8.5 y_9p_8.5t_40d_3g <= 5000
+con_8a_lower_limit_on_U_threshold: u_1p_0.5t_10d_1g + u_1p_0.5t_10d_2g
+ + u_1p_0.5t_40d_1g + u_1p_0.5t_40d_2g + u_1p_0.5t_40d_3g + u_1p_1.5t_10d_1g
+ + u_1p_1.5t_10d_2g + u_1p_1.5t_40d_1g + u_1p_1.5t_40d_2g + u_1p_1.5t_40d_3g
+ + u_1p_2.5t_10d_1g + u_1p_2.5t_10d_2g + u_1p_2.5t_40d_1g + u_1p_2.5t_40d_2g
+ + u_1p_2.5t_40d_3g + u_1p_3.5t_10d_1g + u_1p_3.5t_10d_2g + u_1p_3.5t_40d_1g
+ + u_1p_3.5t_40d_2g + u_1p_3.5t_40d_3g + u_1p_4.5t_10d_1g + u_1p_4.5t_10d_2g
+ + u_1p_4.5t_40d_1g + u_1p_4.5t_40d_2g + u_1p_4.5t_40d_3g + u_1p_5.5t_10d_1g
+ + u_1p_5.5t_10d_2g + u_1p_5.5t_40d_1g + u_1p_5.5t_40d_2g + u_1p_5.5t_40d_3g
+ + u_1p_6.5t_10d_1g + u_1p_6.5t_10d_2g + u_1p_6.5t_40d_1g + u_1p_6.5t_40d_2g
+ + u_1p_6.5t_40d_3g + u_1p_7.5t_10d_1g + u_1p_7.5t_10d_2g + u_1p_7.5t_40d_1g
+ + u_1p_7.5t_40d_2g + u_1p_7.5t_40d_3g + u_1p_8.5t_10d_1g + u_1p_8.5t_10d_2g
+ + u_1p_8.5t_40d_1g + u_1p_8.5t_40d_2g + u_1p_8.5t_40d_3g + u_2p_0.5t_10d_1g
+ + u_2p_0.5t_10d_2g + u_2p_0.5t_40d_1g + u_2p_0.5t_40d_2g + u_2p_0.5t_40d_3g
+ + u_2p_1.5t_10d_1g + u_2p_1.5t_10d_2g + u_2p_1.5t_40d_1g + u_2p_1.5t_40d_2g
+ + u_2p_1.5t_40d_3g + u_2p_2.5t_10d_1g + u_2p_2.5t_10d_2g + u_2p_2.5t_40d_1g
+ + u_2p_2.5t_40d_2g + u_2p_2.5t_40d_3g + u_2p_3.5t_10d_1g + u_2p_3.5t_10d_2g
+ + u_2p_3.5t_40d_1g + u_2p_3.5t_40d_2g + u_2p_3.5t_40d_3g + u_2p_4.5t_10d_1g
+ + u_2p_4.5t_10d_2g + u_2p_4.5t_40d_1g + u_2p_4.5t_40d_2g + u_2p_4.5t_40d_3g
+ + u_2p_5.5t_10d_1g + u_2p_5.5t_10d_2g + u_2p_5.5t_40d_1g + u_2p_5.5t_40d_2g
+ + u_2p_5.5t_40d_3g + u_2p_6.5t_10d_1g + u_2p_6.5t_10d_2g + u_2p_6.5t_40d_1g
+ + u_2p_6.5t_40d_2g + u_2p_6.5t_40d_3g + u_2p_7.5t_10d_1g + u_2p_7.5t_10d_2g
+ + u_2p_7.5t_40d_1g + u_2p_7.5t_40d_2g + u_2p_7.5t_40d_3g + u_2p_8.5t_10d_1g
+ + u_2p_8.5t_10d_2g + u_2p_8.5t_40d_1g + u_2p_8.5t_40d_2g + u_2p_8.5t_40d_3g
+ + u_4p_0.5t_10d_1g + u_4p_0.5t_10d_2g + u_4p_0.5t_40d_1g + u_4p_0.5t_40d_2g
+ + u_4p_0.5t_40d_3g + u_4p_1.5t_10d_1g + u_4p_1.5t_10d_2g + u_4p_1.5t_40d_1g
+ + u_4p_1.5t_40d_2g + u_4p_1.5t_40d_3g + u_4p_2.5t_10d_1g + u_4p_2.5t_10d_2g
+ + u_4p_2.5t_40d_1g + u_4p_2.5t_40d_2g + u_4p_2.5t_40d_3g + u_4p_3.5t_10d_1g
+ + u_4p_3.5t_10d_2g + u_4p_3.5t_40d_1g + u_4p_3.5t_40d_2g + u_4p_3.5t_40d_3g
+ + u_4p_4.5t_10d_1g + u_4p_4.5t_10d_2g + u_4p_4.5t_40d_1g + u_4p_4.5t_40d_2g
+ + u_4p_4.5t_40d_3g + u_4p_5.5t_10d_1g + u_4p_5.5t_10d_2g + u_4p_5.5t_40d_1g
+ + u_4p_5.5t_40d_2g + u_4p_5.5t_40d_3g + u_4p_6.5t_10d_1g + u_4p_6.5t_10d_2g
+ + u_4p_6.5t_40d_1g + u_4p_6.5t_40d_2g + u_4p_6.5t_40d_3g + u_4p_7.5t_10d_1g
+ + u_4p_7.5t_10d_2g + u_4p_7.5t_40d_1g + u_4p_7.5t_40d_2g + u_4p_7.5t_40d_3g
+ + u_4p_8.5t_10d_1g + u_4p_8.5t_10d_2g + u_4p_8.5t_40d_1g + u_4p_8.5t_40d_2g
+ + u_4p_8.5t_40d_3g + u_5p_0.5t_10d_1g + u_5p_0.5t_10d_2g + u_5p_0.5t_40d_1g
+ + u_5p_0.5t_40d_2g + u_5p_0.5t_40d_3g + u_5p_1.5t_10d_1g + u_5p_1.5t_10d_2g
+ + u_5p_1.5t_40d_1g + u_5p_1.5t_40d_2g + u_5p_1.5t_40d_3g + u_5p_2.5t_10d_1g
+ + u_5p_2.5t_10d_2g + u_5p_2.5t_40d_1g + u_5p_2.5t_40d_2g + u_5p_2.5t_40d_3g
+ + u_5p_3.5t_10d_1g + u_5p_3.5t_10d_2g + u_5p_3.5t_40d_1g + u_5p_3.5t_40d_2g
+ + u_5p_3.5t_40d_3g + u_5p_4.5t_10d_1g + u_5p_4.5t_10d_2g + u_5p_4.5t_40d_1g
+ + u_5p_4.5t_40d_2g + u_5p_4.5t_40d_3g + u_5p_5.5t_10d_1g + u_5p_5.5t_10d_2g
+ + u_5p_5.5t_40d_1g + u_5p_5.5t_40d_2g + u_5p_5.5t_40d_3g + u_5p_6.5t_10d_1g
+ + u_5p_6.5t_10d_2g + u_5p_6.5t_40d_1g + u_5p_6.5t_40d_2g + u_5p_6.5t_40d_3g
+ + u_5p_7.5t_10d_1g + u_5p_7.5t_10d_2g + u_5p_7.5t_40d_1g + u_5p_7.5t_40d_2g
+ + u_5p_7.5t_40d_3g + u_5p_8.5t_10d_1g + u_5p_8.5t_10d_2g + u_5p_8.5t_40d_1g
+ + u_5p_8.5t_40d_2g + u_5p_8.5t_40d_3g + u_6p_0.5t_10d_1g + u_6p_0.5t_10d_2g
+ + u_6p_0.5t_40d_1g + u_6p_0.5t_40d_2g + u_6p_0.5t_40d_3g + u_6p_1.5t_10d_1g
+ + u_6p_1.5t_10d_2g + u_6p_1.5t_40d_1g + u_6p_1.5t_40d_2g + u_6p_1.5t_40d_3g
+ + u_6p_2.5t_10d_1g + u_6p_2.5t_10d_2g + u_6p_2.5t_40d_1g + u_6p_2.5t_40d_2g
+ + u_6p_2.5t_40d_3g + u_6p_3.5t_10d_1g + u_6p_3.5t_10d_2g + u_6p_3.5t_40d_1g
+ + u_6p_3.5t_40d_2g + u_6p_3.5t_40d_3g + u_6p_4.5t_10d_1g + u_6p_4.5t_10d_2g
+ + u_6p_4.5t_40d_1g + u_6p_4.5t_40d_2g + u_6p_4.5t_40d_3g + u_6p_5.5t_10d_1g
+ + u_6p_5.5t_10d_2g + u_6p_5.5t_40d_1g + u_6p_5.5t_40d_2g + u_6p_5.5t_40d_3g
+ + u_6p_6.5t_10d_1g + u_6p_6.5t_10d_2g + u_6p_6.5t_40d_1g + u_6p_6.5t_40d_2g
+ + u_6p_6.5t_40d_3g + u_6p_7.5t_10d_1g + u_6p_7.5t_10d_2g + u_6p_7.5t_40d_1g
+ + u_6p_7.5t_40d_2g + u_6p_7.5t_40d_3g + u_6p_8.5t_10d_1g + u_6p_8.5t_10d_2g
+ + u_6p_8.5t_40d_1g + u_6p_8.5t_40d_2g + u_6p_8.5t_40d_3g + u_7p_0.5t_10d_1g
+ + u_7p_0.5t_10d_2g + u_7p_0.5t_40d_1g + u_7p_0.5t_40d_2g + u_7p_0.5t_40d_3g
+ + u_7p_1.5t_10d_1g + u_7p_1.5t_10d_2g + u_7p_1.5t_40d_1g + u_7p_1.5t_40d_2g
+ + u_7p_1.5t_40d_3g + u_7p_2.5t_10d_1g + u_7p_2.5t_10d_2g + u_7p_2.5t_40d_1g
+ + u_7p_2.5t_40d_2g + u_7p_2.5t_40d_3g + u_7p_3.5t_10d_1g + u_7p_3.5t_10d_2g
+ + u_7p_3.5t_40d_1g + u_7p_3.5t_40d_2g + u_7p_3.5t_40d_3g + u_7p_4.5t_10d_1g
+ + u_7p_4.5t_10d_2g + u_7p_4.5t_40d_1g + u_7p_4.5t_40d_2g + u_7p_4.5t_40d_3g
+ + u_7p_5.5t_10d_1g + u_7p_5.5t_10d_2g + u_7p_5.5t_40d_1g + u_7p_5.5t_40d_2g
+ + u_7p_5.5t_40d_3g + u_7p_6.5t_10d_1g + u_7p_6.5t_10d_2g + u_7p_6.5t_40d_1g
+ + u_7p_6.5t_40d_2g + u_7p_6.5t_40d_3g + u_7p_7.5t_10d_1g + u_7p_7.5t_10d_2g
+ + u_7p_7.5t_40d_1g + u_7p_7.5t_40d_2g + u_7p_7.5t_40d_3g + u_7p_8.5t_10d_1g
+ + u_7p_8.5t_10d_2g + u_7p_8.5t_40d_1g + u_7p_8.5t_40d_2g + u_7p_8.5t_40d_3g
+ + u_8p_0.5t_10d_1g + u_8p_0.5t_10d_2g + u_8p_0.5t_40d_1g + u_8p_0.5t_40d_2g
+ + u_8p_0.5t_40d_3g + u_8p_1.5t_10d_1g + u_8p_1.5t_10d_2g + u_8p_1.5t_40d_1g
+ + u_8p_1.5t_40d_2g + u_8p_1.5t_40d_3g + u_8p_2.5t_10d_1g + u_8p_2.5t_10d_2g
+ + u_8p_2.5t_40d_1g + u_8p_2.5t_40d_2g + u_8p_2.5t_40d_3g + u_8p_3.5t_10d_1g
+ + u_8p_3.5t_10d_2g + u_8p_3.5t_40d_1g + u_8p_3.5t_40d_2g + u_8p_3.5t_40d_3g
+ + u_8p_4.5t_10d_1g + u_8p_4.5t_10d_2g + u_8p_4.5t_40d_1g + u_8p_4.5t_40d_2g
+ + u_8p_4.5t_40d_3g + u_8p_5.5t_10d_1g + u_8p_5.5t_10d_2g + u_8p_5.5t_40d_1g
+ + u_8p_5.5t_40d_2g + u_8p_5.5t_40d_3g + u_8p_6.5t_10d_1g + u_8p_6.5t_10d_2g
+ + u_8p_6.5t_40d_1g + u_8p_6.5t_40d_2g + u_8p_6.5t_40d_3g + u_8p_7.5t_10d_1g
+ + u_8p_7.5t_10d_2g + u_8p_7.5t_40d_1g + u_8p_7.5t_40d_2g + u_8p_7.5t_40d_3g
+ + u_8p_8.5t_10d_1g + u_8p_8.5t_10d_2g + u_8p_8.5t_40d_1g + u_8p_8.5t_40d_2g
+ + u_8p_8.5t_40d_3g + u_9p_0.5t_10d_1g + u_9p_0.5t_10d_2g + u_9p_0.5t_40d_1g
+ + u_9p_0.5t_40d_2g + u_9p_0.5t_40d_3g + u_9p_1.5t_10d_1g + u_9p_1.5t_10d_2g
+ + u_9p_1.5t_40d_1g + u_9p_1.5t_40d_2g + u_9p_1.5t_40d_3g + u_9p_2.5t_10d_1g
+ + u_9p_2.5t_10d_2g + u_9p_2.5t_40d_1g + u_9p_2.5t_40d_2g + u_9p_2.5t_40d_3g
+ + u_9p_3.5t_10d_1g + u_9p_3.5t_10d_2g + u_9p_3.5t_40d_1g + u_9p_3.5t_40d_2g
+ + u_9p_3.5t_40d_3g + u_9p_4.5t_10d_1g + u_9p_4.5t_10d_2g + u_9p_4.5t_40d_1g
+ + u_9p_4.5t_40d_2g + u_9p_4.5t_40d_3g + u_9p_5.5t_10d_1g + u_9p_5.5t_10d_2g
+ + u_9p_5.5t_40d_1g + u_9p_5.5t_40d_2g + u_9p_5.5t_40d_3g + u_9p_6.5t_10d_1g
+ + u_9p_6.5t_10d_2g + u_9p_6.5t_40d_1g + u_9p_6.5t_40d_2g + u_9p_6.5t_40d_3g
+ + u_9p_7.5t_10d_1g + u_9p_7.5t_10d_2g + u_9p_7.5t_40d_1g + u_9p_7.5t_40d_2g
+ + u_9p_7.5t_40d_3g + u_9p_8.5t_10d_1g + u_9p_8.5t_10d_2g + u_9p_8.5t_40d_1g
+ + u_9p_8.5t_40d_2g + u_9p_8.5t_40d_3g >= 10000
+max_decision_var1_10: u_1p_0.5t_10d_1g + u_1p_0.5t_10d_2g + u_1p_1.5t_10d_1g
+ + u_1p_1.5t_10d_2g + u_1p_2.5t_10d_1g + u_1p_2.5t_10d_2g + u_1p_3.5t_10d_1g
+ + u_1p_3.5t_10d_2g + u_1p_4.5t_10d_1g + u_1p_4.5t_10d_2g + u_1p_5.5t_10d_1g
+ + u_1p_5.5t_10d_2g + u_1p_6.5t_10d_1g + u_1p_6.5t_10d_2g + u_1p_7.5t_10d_1g
+ + u_1p_7.5t_10d_2g + u_1p_8.5t_10d_1g + u_1p_8.5t_10d_2g >= 10
+max_decision_var1_40: u_1p_0.5t_40d_1g + u_1p_0.5t_40d_2g + u_1p_0.5t_40d_3g
+ + u_1p_1.5t_40d_1g + u_1p_1.5t_40d_2g + u_1p_1.5t_40d_3g + u_1p_2.5t_40d_1g
+ + u_1p_2.5t_40d_2g + u_1p_2.5t_40d_3g + u_1p_3.5t_40d_1g + u_1p_3.5t_40d_2g
+ + u_1p_3.5t_40d_3g + u_1p_4.5t_40d_1g + u_1p_4.5t_40d_2g + u_1p_4.5t_40d_3g
+ + u_1p_5.5t_40d_1g + u_1p_5.5t_40d_2g + u_1p_5.5t_40d_3g + u_1p_6.5t_40d_1g
+ + u_1p_6.5t_40d_2g + u_1p_6.5t_40d_3g + u_1p_7.5t_40d_1g + u_1p_7.5t_40d_2g
+ + u_1p_7.5t_40d_3g + u_1p_8.5t_40d_1g + u_1p_8.5t_40d_2g + u_1p_8.5t_40d_3g
+ >= 10
+max_decision_var2_10: u_2p_0.5t_10d_1g + u_2p_0.5t_10d_2g + u_2p_1.5t_10d_1g
+ + u_2p_1.5t_10d_2g + u_2p_2.5t_10d_1g + u_2p_2.5t_10d_2g + u_2p_3.5t_10d_1g
+ + u_2p_3.5t_10d_2g + u_2p_4.5t_10d_1g + u_2p_4.5t_10d_2g + u_2p_5.5t_10d_1g
+ + u_2p_5.5t_10d_2g + u_2p_6.5t_10d_1g + u_2p_6.5t_10d_2g + u_2p_7.5t_10d_1g
+ + u_2p_7.5t_10d_2g + u_2p_8.5t_10d_1g + u_2p_8.5t_10d_2g >= 10
+max_decision_var2_40: u_2p_0.5t_40d_1g + u_2p_0.5t_40d_2g + u_2p_0.5t_40d_3g
+ + u_2p_1.5t_40d_1g + u_2p_1.5t_40d_2g + u_2p_1.5t_40d_3g + u_2p_2.5t_40d_1g
+ + u_2p_2.5t_40d_2g + u_2p_2.5t_40d_3g + u_2p_3.5t_40d_1g + u_2p_3.5t_40d_2g
+ + u_2p_3.5t_40d_3g + u_2p_4.5t_40d_1g + u_2p_4.5t_40d_2g + u_2p_4.5t_40d_3g
+ + u_2p_5.5t_40d_1g + u_2p_5.5t_40d_2g + u_2p_5.5t_40d_3g + u_2p_6.5t_40d_1g
+ + u_2p_6.5t_40d_2g + u_2p_6.5t_40d_3g + u_2p_7.5t_40d_1g + u_2p_7.5t_40d_2g
+ + u_2p_7.5t_40d_3g + u_2p_8.5t_40d_1g + u_2p_8.5t_40d_2g + u_2p_8.5t_40d_3g
+ >= 10
+max_decision_var4_10: u_4p_0.5t_10d_1g + u_4p_0.5t_10d_2g + u_4p_1.5t_10d_1g
+ + u_4p_1.5t_10d_2g + u_4p_2.5t_10d_1g + u_4p_2.5t_10d_2g + u_4p_3.5t_10d_1g
+ + u_4p_3.5t_10d_2g + u_4p_4.5t_10d_1g + u_4p_4.5t_10d_2g + u_4p_5.5t_10d_1g
+ + u_4p_5.5t_10d_2g + u_4p_6.5t_10d_1g + u_4p_6.5t_10d_2g + u_4p_7.5t_10d_1g
+ + u_4p_7.5t_10d_2g + u_4p_8.5t_10d_1g + u_4p_8.5t_10d_2g >= 10
+max_decision_var4_40: u_4p_0.5t_40d_1g + u_4p_0.5t_40d_2g + u_4p_0.5t_40d_3g
+ + u_4p_1.5t_40d_1g + u_4p_1.5t_40d_2g + u_4p_1.5t_40d_3g + u_4p_2.5t_40d_1g
+ + u_4p_2.5t_40d_2g + u_4p_2.5t_40d_3g + u_4p_3.5t_40d_1g + u_4p_3.5t_40d_2g
+ + u_4p_3.5t_40d_3g + u_4p_4.5t_40d_1g + u_4p_4.5t_40d_2g + u_4p_4.5t_40d_3g
+ + u_4p_5.5t_40d_1g + u_4p_5.5t_40d_2g + u_4p_5.5t_40d_3g + u_4p_6.5t_40d_1g
+ + u_4p_6.5t_40d_2g + u_4p_6.5t_40d_3g + u_4p_7.5t_40d_1g + u_4p_7.5t_40d_2g
+ + u_4p_7.5t_40d_3g + u_4p_8.5t_40d_1g + u_4p_8.5t_40d_2g + u_4p_8.5t_40d_3g
+ >= 10
+max_decision_var5_10: u_5p_0.5t_10d_1g + u_5p_0.5t_10d_2g + u_5p_1.5t_10d_1g
+ + u_5p_1.5t_10d_2g + u_5p_2.5t_10d_1g + u_5p_2.5t_10d_2g + u_5p_3.5t_10d_1g
+ + u_5p_3.5t_10d_2g + u_5p_4.5t_10d_1g + u_5p_4.5t_10d_2g + u_5p_5.5t_10d_1g
+ + u_5p_5.5t_10d_2g + u_5p_6.5t_10d_1g + u_5p_6.5t_10d_2g + u_5p_7.5t_10d_1g
+ + u_5p_7.5t_10d_2g + u_5p_8.5t_10d_1g + u_5p_8.5t_10d_2g >= 10
+max_decision_var5_40: u_5p_0.5t_40d_1g + u_5p_0.5t_40d_2g + u_5p_0.5t_40d_3g
+ + u_5p_1.5t_40d_1g + u_5p_1.5t_40d_2g + u_5p_1.5t_40d_3g + u_5p_2.5t_40d_1g
+ + u_5p_2.5t_40d_2g + u_5p_2.5t_40d_3g + u_5p_3.5t_40d_1g + u_5p_3.5t_40d_2g
+ + u_5p_3.5t_40d_3g + u_5p_4.5t_40d_1g + u_5p_4.5t_40d_2g + u_5p_4.5t_40d_3g
+ + u_5p_5.5t_40d_1g + u_5p_5.5t_40d_2g + u_5p_5.5t_40d_3g + u_5p_6.5t_40d_1g
+ + u_5p_6.5t_40d_2g + u_5p_6.5t_40d_3g + u_5p_7.5t_40d_1g + u_5p_7.5t_40d_2g
+ + u_5p_7.5t_40d_3g + u_5p_8.5t_40d_1g + u_5p_8.5t_40d_2g + u_5p_8.5t_40d_3g
+ >= 10
+max_decision_var6_10: u_6p_0.5t_10d_1g + u_6p_0.5t_10d_2g + u_6p_1.5t_10d_1g
+ + u_6p_1.5t_10d_2g + u_6p_2.5t_10d_1g + u_6p_2.5t_10d_2g + u_6p_3.5t_10d_1g
+ + u_6p_3.5t_10d_2g + u_6p_4.5t_10d_1g + u_6p_4.5t_10d_2g + u_6p_5.5t_10d_1g
+ + u_6p_5.5t_10d_2g + u_6p_6.5t_10d_1g + u_6p_6.5t_10d_2g + u_6p_7.5t_10d_1g
+ + u_6p_7.5t_10d_2g + u_6p_8.5t_10d_1g + u_6p_8.5t_10d_2g >= 10
+max_decision_var6_40: u_6p_0.5t_40d_1g + u_6p_0.5t_40d_2g + u_6p_0.5t_40d_3g
+ + u_6p_1.5t_40d_1g + u_6p_1.5t_40d_2g + u_6p_1.5t_40d_3g + u_6p_2.5t_40d_1g
+ + u_6p_2.5t_40d_2g + u_6p_2.5t_40d_3g + u_6p_3.5t_40d_1g + u_6p_3.5t_40d_2g
+ + u_6p_3.5t_40d_3g + u_6p_4.5t_40d_1g + u_6p_4.5t_40d_2g + u_6p_4.5t_40d_3g
+ + u_6p_5.5t_40d_1g + u_6p_5.5t_40d_2g + u_6p_5.5t_40d_3g + u_6p_6.5t_40d_1g
+ + u_6p_6.5t_40d_2g + u_6p_6.5t_40d_3g + u_6p_7.5t_40d_1g + u_6p_7.5t_40d_2g
+ + u_6p_7.5t_40d_3g + u_6p_8.5t_40d_1g + u_6p_8.5t_40d_2g + u_6p_8.5t_40d_3g
+ >= 10
+max_decision_var7_10: u_7p_0.5t_10d_1g + u_7p_0.5t_10d_2g + u_7p_1.5t_10d_1g
+ + u_7p_1.5t_10d_2g + u_7p_2.5t_10d_1g + u_7p_2.5t_10d_2g + u_7p_3.5t_10d_1g
+ + u_7p_3.5t_10d_2g + u_7p_4.5t_10d_1g + u_7p_4.5t_10d_2g + u_7p_5.5t_10d_1g
+ + u_7p_5.5t_10d_2g + u_7p_6.5t_10d_1g + u_7p_6.5t_10d_2g + u_7p_7.5t_10d_1g
+ + u_7p_7.5t_10d_2g + u_7p_8.5t_10d_1g + u_7p_8.5t_10d_2g >= 10
+max_decision_var7_40: u_7p_0.5t_40d_1g + u_7p_0.5t_40d_2g + u_7p_0.5t_40d_3g
+ + u_7p_1.5t_40d_1g + u_7p_1.5t_40d_2g + u_7p_1.5t_40d_3g + u_7p_2.5t_40d_1g
+ + u_7p_2.5t_40d_2g + u_7p_2.5t_40d_3g + u_7p_3.5t_40d_1g + u_7p_3.5t_40d_2g
+ + u_7p_3.5t_40d_3g + u_7p_4.5t_40d_1g + u_7p_4.5t_40d_2g + u_7p_4.5t_40d_3g
+ + u_7p_5.5t_40d_1g + u_7p_5.5t_40d_2g + u_7p_5.5t_40d_3g + u_7p_6.5t_40d_1g
+ + u_7p_6.5t_40d_2g + u_7p_6.5t_40d_3g + u_7p_7.5t_40d_1g + u_7p_7.5t_40d_2g
+ + u_7p_7.5t_40d_3g + u_7p_8.5t_40d_1g + u_7p_8.5t_40d_2g + u_7p_8.5t_40d_3g
+ >= 10
+max_decision_var8_10: u_8p_0.5t_10d_1g + u_8p_0.5t_10d_2g + u_8p_1.5t_10d_1g
+ + u_8p_1.5t_10d_2g + u_8p_2.5t_10d_1g + u_8p_2.5t_10d_2g + u_8p_3.5t_10d_1g
+ + u_8p_3.5t_10d_2g + u_8p_4.5t_10d_1g + u_8p_4.5t_10d_2g + u_8p_5.5t_10d_1g
+ + u_8p_5.5t_10d_2g + u_8p_6.5t_10d_1g + u_8p_6.5t_10d_2g + u_8p_7.5t_10d_1g
+ + u_8p_7.5t_10d_2g + u_8p_8.5t_10d_1g + u_8p_8.5t_10d_2g >= 10
+max_decision_var8_40: u_8p_0.5t_40d_1g + u_8p_0.5t_40d_2g + u_8p_0.5t_40d_3g
+ + u_8p_1.5t_40d_1g + u_8p_1.5t_40d_2g + u_8p_1.5t_40d_3g + u_8p_2.5t_40d_1g
+ + u_8p_2.5t_40d_2g + u_8p_2.5t_40d_3g + u_8p_3.5t_40d_1g + u_8p_3.5t_40d_2g
+ + u_8p_3.5t_40d_3g + u_8p_4.5t_40d_1g + u_8p_4.5t_40d_2g + u_8p_4.5t_40d_3g
+ + u_8p_5.5t_40d_1g + u_8p_5.5t_40d_2g + u_8p_5.5t_40d_3g + u_8p_6.5t_40d_1g
+ + u_8p_6.5t_40d_2g + u_8p_6.5t_40d_3g + u_8p_7.5t_40d_1g + u_8p_7.5t_40d_2g
+ + u_8p_7.5t_40d_3g + u_8p_8.5t_40d_1g + u_8p_8.5t_40d_2g + u_8p_8.5t_40d_3g
+ >= 10
+max_decision_var9_10: u_9p_0.5t_10d_1g + u_9p_0.5t_10d_2g + u_9p_1.5t_10d_1g
+ + u_9p_1.5t_10d_2g + u_9p_2.5t_10d_1g + u_9p_2.5t_10d_2g + u_9p_3.5t_10d_1g
+ + u_9p_3.5t_10d_2g + u_9p_4.5t_10d_1g + u_9p_4.5t_10d_2g + u_9p_5.5t_10d_1g
+ + u_9p_5.5t_10d_2g + u_9p_6.5t_10d_1g + u_9p_6.5t_10d_2g + u_9p_7.5t_10d_1g
+ + u_9p_7.5t_10d_2g + u_9p_8.5t_10d_1g + u_9p_8.5t_10d_2g >= 10
+max_decision_var9_40: u_9p_0.5t_40d_1g + u_9p_0.5t_40d_2g + u_9p_0.5t_40d_3g
+ + u_9p_1.5t_40d_1g + u_9p_1.5t_40d_2g + u_9p_1.5t_40d_3g + u_9p_2.5t_40d_1g
+ + u_9p_2.5t_40d_2g + u_9p_2.5t_40d_3g + u_9p_3.5t_40d_1g + u_9p_3.5t_40d_2g
+ + u_9p_3.5t_40d_3g + u_9p_4.5t_40d_1g + u_9p_4.5t_40d_2g + u_9p_4.5t_40d_3g
+ + u_9p_5.5t_40d_1g + u_9p_5.5t_40d_2g + u_9p_5.5t_40d_3g + u_9p_6.5t_40d_1g
+ + u_9p_6.5t_40d_2g + u_9p_6.5t_40d_3g + u_9p_7.5t_40d_1g + u_9p_7.5t_40d_2g
+ + u_9p_7.5t_40d_3g + u_9p_8.5t_40d_1g + u_9p_8.5t_40d_2g + u_9p_8.5t_40d_3g
+ >= 10
+upper_bound_on_U1: u_1p_0.5t_10d_1g + u_1p_0.5t_10d_2g + u_1p_0.5t_40d_1g
+ + u_1p_0.5t_40d_2g + u_1p_0.5t_40d_3g + u_1p_1.5t_10d_1g + u_1p_1.5t_10d_2g
+ + u_1p_1.5t_40d_1g + u_1p_1.5t_40d_2g + u_1p_1.5t_40d_3g + u_1p_2.5t_10d_1g
+ + u_1p_2.5t_10d_2g + u_1p_2.5t_40d_1g + u_1p_2.5t_40d_2g + u_1p_2.5t_40d_3g
+ + u_1p_3.5t_10d_1g + u_1p_3.5t_10d_2g + u_1p_3.5t_40d_1g + u_1p_3.5t_40d_2g
+ + u_1p_3.5t_40d_3g + u_1p_4.5t_10d_1g + u_1p_4.5t_10d_2g + u_1p_4.5t_40d_1g
+ + u_1p_4.5t_40d_2g + u_1p_4.5t_40d_3g + u_1p_5.5t_10d_1g + u_1p_5.5t_10d_2g
+ + u_1p_5.5t_40d_1g + u_1p_5.5t_40d_2g + u_1p_5.5t_40d_3g + u_1p_6.5t_10d_1g
+ + u_1p_6.5t_10d_2g + u_1p_6.5t_40d_1g + u_1p_6.5t_40d_2g + u_1p_6.5t_40d_3g
+ + u_1p_7.5t_10d_1g + u_1p_7.5t_10d_2g + u_1p_7.5t_40d_1g + u_1p_7.5t_40d_2g
+ + u_1p_7.5t_40d_3g + u_1p_8.5t_10d_1g + u_1p_8.5t_10d_2g + u_1p_8.5t_40d_1g
+ + u_1p_8.5t_40d_2g + u_1p_8.5t_40d_3g <= 1500
+upper_bound_on_U2: u_2p_0.5t_10d_1g + u_2p_0.5t_10d_2g + u_2p_0.5t_40d_1g
+ + u_2p_0.5t_40d_2g + u_2p_0.5t_40d_3g + u_2p_1.5t_10d_1g + u_2p_1.5t_10d_2g
+ + u_2p_1.5t_40d_1g + u_2p_1.5t_40d_2g + u_2p_1.5t_40d_3g + u_2p_2.5t_10d_1g
+ + u_2p_2.5t_10d_2g + u_2p_2.5t_40d_1g + u_2p_2.5t_40d_2g + u_2p_2.5t_40d_3g
+ + u_2p_3.5t_10d_1g + u_2p_3.5t_10d_2g + u_2p_3.5t_40d_1g + u_2p_3.5t_40d_2g
+ + u_2p_3.5t_40d_3g + u_2p_4.5t_10d_1g + u_2p_4.5t_10d_2g + u_2p_4.5t_40d_1g
+ + u_2p_4.5t_40d_2g + u_2p_4.5t_40d_3g + u_2p_5.5t_10d_1g + u_2p_5.5t_10d_2g
+ + u_2p_5.5t_40d_1g + u_2p_5.5t_40d_2g + u_2p_5.5t_40d_3g + u_2p_6.5t_10d_1g
+ + u_2p_6.5t_10d_2g + u_2p_6.5t_40d_1g + u_2p_6.5t_40d_2g + u_2p_6.5t_40d_3g
+ + u_2p_7.5t_10d_1g + u_2p_7.5t_10d_2g + u_2p_7.5t_40d_1g + u_2p_7.5t_40d_2g
+ + u_2p_7.5t_40d_3g + u_2p_8.5t_10d_1g + u_2p_8.5t_10d_2g + u_2p_8.5t_40d_1g
+ + u_2p_8.5t_40d_2g + u_2p_8.5t_40d_3g <= 1500
+upper_bound_on_U4: u_4p_0.5t_10d_1g + u_4p_0.5t_10d_2g + u_4p_0.5t_40d_1g
+ + u_4p_0.5t_40d_2g + u_4p_0.5t_40d_3g + u_4p_1.5t_10d_1g + u_4p_1.5t_10d_2g
+ + u_4p_1.5t_40d_1g + u_4p_1.5t_40d_2g + u_4p_1.5t_40d_3g + u_4p_2.5t_10d_1g
+ + u_4p_2.5t_10d_2g + u_4p_2.5t_40d_1g + u_4p_2.5t_40d_2g + u_4p_2.5t_40d_3g
+ + u_4p_3.5t_10d_1g + u_4p_3.5t_10d_2g + u_4p_3.5t_40d_1g + u_4p_3.5t_40d_2g
+ + u_4p_3.5t_40d_3g + u_4p_4.5t_10d_1g + u_4p_4.5t_10d_2g + u_4p_4.5t_40d_1g
+ + u_4p_4.5t_40d_2g + u_4p_4.5t_40d_3g + u_4p_5.5t_10d_1g + u_4p_5.5t_10d_2g
+ + u_4p_5.5t_40d_1g + u_4p_5.5t_40d_2g + u_4p_5.5t_40d_3g + u_4p_6.5t_10d_1g
+ + u_4p_6.5t_10d_2g + u_4p_6.5t_40d_1g + u_4p_6.5t_40d_2g + u_4p_6.5t_40d_3g
+ + u_4p_7.5t_10d_1g + u_4p_7.5t_10d_2g + u_4p_7.5t_40d_1g + u_4p_7.5t_40d_2g
+ + u_4p_7.5t_40d_3g + u_4p_8.5t_10d_1g + u_4p_8.5t_10d_2g + u_4p_8.5t_40d_1g
+ + u_4p_8.5t_40d_2g + u_4p_8.5t_40d_3g <= 1500
+upper_bound_on_U5: u_5p_0.5t_10d_1g + u_5p_0.5t_10d_2g + u_5p_0.5t_40d_1g
+ + u_5p_0.5t_40d_2g + u_5p_0.5t_40d_3g + u_5p_1.5t_10d_1g + u_5p_1.5t_10d_2g
+ + u_5p_1.5t_40d_1g + u_5p_1.5t_40d_2g + u_5p_1.5t_40d_3g + u_5p_2.5t_10d_1g
+ + u_5p_2.5t_10d_2g + u_5p_2.5t_40d_1g + u_5p_2.5t_40d_2g + u_5p_2.5t_40d_3g
+ + u_5p_3.5t_10d_1g + u_5p_3.5t_10d_2g + u_5p_3.5t_40d_1g + u_5p_3.5t_40d_2g
+ + u_5p_3.5t_40d_3g + u_5p_4.5t_10d_1g + u_5p_4.5t_10d_2g + u_5p_4.5t_40d_1g
+ + u_5p_4.5t_40d_2g + u_5p_4.5t_40d_3g + u_5p_5.5t_10d_1g + u_5p_5.5t_10d_2g
+ + u_5p_5.5t_40d_1g + u_5p_5.5t_40d_2g + u_5p_5.5t_40d_3g + u_5p_6.5t_10d_1g
+ + u_5p_6.5t_10d_2g + u_5p_6.5t_40d_1g + u_5p_6.5t_40d_2g + u_5p_6.5t_40d_3g
+ + u_5p_7.5t_10d_1g + u_5p_7.5t_10d_2g + u_5p_7.5t_40d_1g + u_5p_7.5t_40d_2g
+ + u_5p_7.5t_40d_3g + u_5p_8.5t_10d_1g + u_5p_8.5t_10d_2g + u_5p_8.5t_40d_1g
+ + u_5p_8.5t_40d_2g + u_5p_8.5t_40d_3g <= 1500
+upper_bound_on_U6: u_6p_0.5t_10d_1g + u_6p_0.5t_10d_2g + u_6p_0.5t_40d_1g
+ + u_6p_0.5t_40d_2g + u_6p_0.5t_40d_3g + u_6p_1.5t_10d_1g + u_6p_1.5t_10d_2g
+ + u_6p_1.5t_40d_1g + u_6p_1.5t_40d_2g + u_6p_1.5t_40d_3g + u_6p_2.5t_10d_1g
+ + u_6p_2.5t_10d_2g + u_6p_2.5t_40d_1g + u_6p_2.5t_40d_2g + u_6p_2.5t_40d_3g
+ + u_6p_3.5t_10d_1g + u_6p_3.5t_10d_2g + u_6p_3.5t_40d_1g + u_6p_3.5t_40d_2g
+ + u_6p_3.5t_40d_3g + u_6p_4.5t_10d_1g + u_6p_4.5t_10d_2g + u_6p_4.5t_40d_1g
+ + u_6p_4.5t_40d_2g + u_6p_4.5t_40d_3g + u_6p_5.5t_10d_1g + u_6p_5.5t_10d_2g
+ + u_6p_5.5t_40d_1g + u_6p_5.5t_40d_2g + u_6p_5.5t_40d_3g + u_6p_6.5t_10d_1g
+ + u_6p_6.5t_10d_2g + u_6p_6.5t_40d_1g + u_6p_6.5t_40d_2g + u_6p_6.5t_40d_3g
+ + u_6p_7.5t_10d_1g + u_6p_7.5t_10d_2g + u_6p_7.5t_40d_1g + u_6p_7.5t_40d_2g
+ + u_6p_7.5t_40d_3g + u_6p_8.5t_10d_1g + u_6p_8.5t_10d_2g + u_6p_8.5t_40d_1g
+ + u_6p_8.5t_40d_2g + u_6p_8.5t_40d_3g <= 1500
+upper_bound_on_U7: u_7p_0.5t_10d_1g + u_7p_0.5t_10d_2g + u_7p_0.5t_40d_1g
+ + u_7p_0.5t_40d_2g + u_7p_0.5t_40d_3g + u_7p_1.5t_10d_1g + u_7p_1.5t_10d_2g
+ + u_7p_1.5t_40d_1g + u_7p_1.5t_40d_2g + u_7p_1.5t_40d_3g + u_7p_2.5t_10d_1g
+ + u_7p_2.5t_10d_2g + u_7p_2.5t_40d_1g + u_7p_2.5t_40d_2g + u_7p_2.5t_40d_3g
+ + u_7p_3.5t_10d_1g + u_7p_3.5t_10d_2g + u_7p_3.5t_40d_1g + u_7p_3.5t_40d_2g
+ + u_7p_3.5t_40d_3g + u_7p_4.5t_10d_1g + u_7p_4.5t_10d_2g + u_7p_4.5t_40d_1g
+ + u_7p_4.5t_40d_2g + u_7p_4.5t_40d_3g + u_7p_5.5t_10d_1g + u_7p_5.5t_10d_2g
+ + u_7p_5.5t_40d_1g + u_7p_5.5t_40d_2g + u_7p_5.5t_40d_3g + u_7p_6.5t_10d_1g
+ + u_7p_6.5t_10d_2g + u_7p_6.5t_40d_1g + u_7p_6.5t_40d_2g + u_7p_6.5t_40d_3g
+ + u_7p_7.5t_10d_1g + u_7p_7.5t_10d_2g + u_7p_7.5t_40d_1g + u_7p_7.5t_40d_2g
+ + u_7p_7.5t_40d_3g + u_7p_8.5t_10d_1g + u_7p_8.5t_10d_2g + u_7p_8.5t_40d_1g
+ + u_7p_8.5t_40d_2g + u_7p_8.5t_40d_3g <= 1500
+upper_bound_on_U8: u_8p_0.5t_10d_1g + u_8p_0.5t_10d_2g + u_8p_0.5t_40d_1g
+ + u_8p_0.5t_40d_2g + u_8p_0.5t_40d_3g + u_8p_1.5t_10d_1g + u_8p_1.5t_10d_2g
+ + u_8p_1.5t_40d_1g + u_8p_1.5t_40d_2g + u_8p_1.5t_40d_3g + u_8p_2.5t_10d_1g
+ + u_8p_2.5t_10d_2g + u_8p_2.5t_40d_1g + u_8p_2.5t_40d_2g + u_8p_2.5t_40d_3g
+ + u_8p_3.5t_10d_1g + u_8p_3.5t_10d_2g + u_8p_3.5t_40d_1g + u_8p_3.5t_40d_2g
+ + u_8p_3.5t_40d_3g + u_8p_4.5t_10d_1g + u_8p_4.5t_10d_2g + u_8p_4.5t_40d_1g
+ + u_8p_4.5t_40d_2g + u_8p_4.5t_40d_3g + u_8p_5.5t_10d_1g + u_8p_5.5t_10d_2g
+ + u_8p_5.5t_40d_1g + u_8p_5.5t_40d_2g + u_8p_5.5t_40d_3g + u_8p_6.5t_10d_1g
+ + u_8p_6.5t_10d_2g + u_8p_6.5t_40d_1g + u_8p_6.5t_40d_2g + u_8p_6.5t_40d_3g
+ + u_8p_7.5t_10d_1g + u_8p_7.5t_10d_2g + u_8p_7.5t_40d_1g + u_8p_7.5t_40d_2g
+ + u_8p_7.5t_40d_3g + u_8p_8.5t_10d_1g + u_8p_8.5t_10d_2g + u_8p_8.5t_40d_1g
+ + u_8p_8.5t_40d_2g + u_8p_8.5t_40d_3g <= 1500
+upper_bound_on_U9: u_9p_0.5t_10d_1g + u_9p_0.5t_10d_2g + u_9p_0.5t_40d_1g
+ + u_9p_0.5t_40d_2g + u_9p_0.5t_40d_3g + u_9p_1.5t_10d_1g + u_9p_1.5t_10d_2g
+ + u_9p_1.5t_40d_1g + u_9p_1.5t_40d_2g + u_9p_1.5t_40d_3g + u_9p_2.5t_10d_1g
+ + u_9p_2.5t_10d_2g + u_9p_2.5t_40d_1g + u_9p_2.5t_40d_2g + u_9p_2.5t_40d_3g
+ + u_9p_3.5t_10d_1g + u_9p_3.5t_10d_2g + u_9p_3.5t_40d_1g + u_9p_3.5t_40d_2g
+ + u_9p_3.5t_40d_3g + u_9p_4.5t_10d_1g + u_9p_4.5t_10d_2g + u_9p_4.5t_40d_1g
+ + u_9p_4.5t_40d_2g + u_9p_4.5t_40d_3g + u_9p_5.5t_10d_1g + u_9p_5.5t_10d_2g
+ + u_9p_5.5t_40d_1g + u_9p_5.5t_40d_2g + u_9p_5.5t_40d_3g + u_9p_6.5t_10d_1g
+ + u_9p_6.5t_10d_2g + u_9p_6.5t_40d_1g + u_9p_6.5t_40d_2g + u_9p_6.5t_40d_3g
+ + u_9p_7.5t_10d_1g + u_9p_7.5t_10d_2g + u_9p_7.5t_40d_1g + u_9p_7.5t_40d_2g
+ + u_9p_7.5t_40d_3g + u_9p_8.5t_10d_1g + u_9p_8.5t_10d_2g + u_9p_8.5t_40d_1g
+ + u_9p_8.5t_40d_2g + u_9p_8.5t_40d_3g <= 1500
+Bounds
+u_1p_0.5t_10d_1g free
+u_1p_0.5t_10d_2g free
+u_1p_0.5t_40d_1g free
+u_1p_0.5t_40d_2g free
+u_1p_0.5t_40d_3g free
+u_1p_1.5t_10d_1g free
+u_1p_1.5t_10d_2g free
+u_1p_1.5t_40d_1g free
+u_1p_1.5t_40d_2g free
+u_1p_1.5t_40d_3g free
+u_1p_2.5t_10d_1g free
+u_1p_2.5t_10d_2g free
+u_1p_2.5t_40d_1g free
+u_1p_2.5t_40d_2g free
+u_1p_2.5t_40d_3g free
+u_1p_3.5t_10d_1g free
+u_1p_3.5t_10d_2g free
+u_1p_3.5t_40d_1g free
+u_1p_3.5t_40d_2g free
+u_1p_3.5t_40d_3g free
+u_1p_4.5t_10d_1g free
+u_1p_4.5t_10d_2g free
+u_1p_4.5t_40d_1g free
+u_1p_4.5t_40d_2g free
+u_1p_4.5t_40d_3g free
+u_1p_5.5t_10d_1g free
+u_1p_5.5t_10d_2g free
+u_1p_5.5t_40d_1g free
+u_1p_5.5t_40d_2g free
+u_1p_5.5t_40d_3g free
+u_1p_6.5t_10d_1g free
+u_1p_6.5t_10d_2g free
+u_1p_6.5t_40d_1g free
+u_1p_6.5t_40d_2g free
+u_1p_6.5t_40d_3g free
+u_1p_7.5t_10d_1g free
+u_1p_7.5t_10d_2g free
+u_1p_7.5t_40d_1g free
+u_1p_7.5t_40d_2g free
+u_1p_7.5t_40d_3g free
+u_1p_8.5t_10d_1g free
+u_1p_8.5t_10d_2g free
+u_1p_8.5t_40d_1g free
+u_1p_8.5t_40d_2g free
+u_1p_8.5t_40d_3g free
+u_2p_0.5t_10d_1g free
+u_2p_0.5t_10d_2g free
+u_2p_0.5t_40d_1g free
+u_2p_0.5t_40d_2g free
+u_2p_0.5t_40d_3g free
+u_2p_1.5t_10d_1g free
+u_2p_1.5t_10d_2g free
+u_2p_1.5t_40d_1g free
+u_2p_1.5t_40d_2g free
+u_2p_1.5t_40d_3g free
+u_2p_2.5t_10d_1g free
+u_2p_2.5t_10d_2g free
+u_2p_2.5t_40d_1g free
+u_2p_2.5t_40d_2g free
+u_2p_2.5t_40d_3g free
+u_2p_3.5t_10d_1g free
+u_2p_3.5t_10d_2g free
+u_2p_3.5t_40d_1g free
+u_2p_3.5t_40d_2g free
+u_2p_3.5t_40d_3g free
+u_2p_4.5t_10d_1g free
+u_2p_4.5t_10d_2g free
+u_2p_4.5t_40d_1g free
+u_2p_4.5t_40d_2g free
+u_2p_4.5t_40d_3g free
+u_2p_5.5t_10d_1g free
+u_2p_5.5t_10d_2g free
+u_2p_5.5t_40d_1g free
+u_2p_5.5t_40d_2g free
+u_2p_5.5t_40d_3g free
+u_2p_6.5t_10d_1g free
+u_2p_6.5t_10d_2g free
+u_2p_6.5t_40d_1g free
+u_2p_6.5t_40d_2g free
+u_2p_6.5t_40d_3g free
+u_2p_7.5t_10d_1g free
+u_2p_7.5t_10d_2g free
+u_2p_7.5t_40d_1g free
+u_2p_7.5t_40d_2g free
+u_2p_7.5t_40d_3g free
+u_2p_8.5t_10d_1g free
+u_2p_8.5t_10d_2g free
+u_2p_8.5t_40d_1g free
+u_2p_8.5t_40d_2g free
+u_2p_8.5t_40d_3g free
+u_4p_0.5t_10d_1g free
+u_4p_0.5t_10d_2g free
+u_4p_0.5t_40d_1g free
+u_4p_0.5t_40d_2g free
+u_4p_0.5t_40d_3g free
+u_4p_1.5t_10d_1g free
+u_4p_1.5t_10d_2g free
+u_4p_1.5t_40d_1g free
+u_4p_1.5t_40d_2g free
+u_4p_1.5t_40d_3g free
+u_4p_2.5t_10d_1g free
+u_4p_2.5t_10d_2g free
+u_4p_2.5t_40d_1g free
+u_4p_2.5t_40d_2g free
+u_4p_2.5t_40d_3g free
+u_4p_3.5t_10d_1g free
+u_4p_3.5t_10d_2g free
+u_4p_3.5t_40d_1g free
+u_4p_3.5t_40d_2g free
+u_4p_3.5t_40d_3g free
+u_4p_4.5t_10d_1g free
+u_4p_4.5t_10d_2g free
+u_4p_4.5t_40d_1g free
+u_4p_4.5t_40d_2g free
+u_4p_4.5t_40d_3g free
+u_4p_5.5t_10d_1g free
+u_4p_5.5t_10d_2g free
+u_4p_5.5t_40d_1g free
+u_4p_5.5t_40d_2g free
+u_4p_5.5t_40d_3g free
+u_4p_6.5t_10d_1g free
+u_4p_6.5t_10d_2g free
+u_4p_6.5t_40d_1g free
+u_4p_6.5t_40d_2g free
+u_4p_6.5t_40d_3g free
+u_4p_7.5t_10d_1g free
+u_4p_7.5t_10d_2g free
+u_4p_7.5t_40d_1g free
+u_4p_7.5t_40d_2g free
+u_4p_7.5t_40d_3g free
+u_4p_8.5t_10d_1g free
+u_4p_8.5t_10d_2g free
+u_4p_8.5t_40d_1g free
+u_4p_8.5t_40d_2g free
+u_4p_8.5t_40d_3g free
+u_5p_0.5t_10d_1g free
+u_5p_0.5t_10d_2g free
+u_5p_0.5t_40d_1g free
+u_5p_0.5t_40d_2g free
+u_5p_0.5t_40d_3g free
+u_5p_1.5t_10d_1g free
+u_5p_1.5t_10d_2g free
+u_5p_1.5t_40d_1g free
+u_5p_1.5t_40d_2g free
+u_5p_1.5t_40d_3g free
+u_5p_2.5t_10d_1g free
+u_5p_2.5t_10d_2g free
+u_5p_2.5t_40d_1g free
+u_5p_2.5t_40d_2g free
+u_5p_2.5t_40d_3g free
+u_5p_3.5t_10d_1g free
+u_5p_3.5t_10d_2g free
+u_5p_3.5t_40d_1g free
+u_5p_3.5t_40d_2g free
+u_5p_3.5t_40d_3g free
+u_5p_4.5t_10d_1g free
+u_5p_4.5t_10d_2g free
+u_5p_4.5t_40d_1g free
+u_5p_4.5t_40d_2g free
+u_5p_4.5t_40d_3g free
+u_5p_5.5t_10d_1g free
+u_5p_5.5t_10d_2g free
+u_5p_5.5t_40d_1g free
+u_5p_5.5t_40d_2g free
+u_5p_5.5t_40d_3g free
+u_5p_6.5t_10d_1g free
+u_5p_6.5t_10d_2g free
+u_5p_6.5t_40d_1g free
+u_5p_6.5t_40d_2g free
+u_5p_6.5t_40d_3g free
+u_5p_7.5t_10d_1g free
+u_5p_7.5t_10d_2g free
+u_5p_7.5t_40d_1g free
+u_5p_7.5t_40d_2g free
+u_5p_7.5t_40d_3g free
+u_5p_8.5t_10d_1g free
+u_5p_8.5t_10d_2g free
+u_5p_8.5t_40d_1g free
+u_5p_8.5t_40d_2g free
+u_5p_8.5t_40d_3g free
+u_6p_0.5t_10d_1g free
+u_6p_0.5t_10d_2g free
+u_6p_0.5t_40d_1g free
+u_6p_0.5t_40d_2g free
+u_6p_0.5t_40d_3g free
+u_6p_1.5t_10d_1g free
+u_6p_1.5t_10d_2g free
+u_6p_1.5t_40d_1g free
+u_6p_1.5t_40d_2g free
+u_6p_1.5t_40d_3g free
+u_6p_2.5t_10d_1g free
+u_6p_2.5t_10d_2g free
+u_6p_2.5t_40d_1g free
+u_6p_2.5t_40d_2g free
+u_6p_2.5t_40d_3g free
+u_6p_3.5t_10d_1g free
+u_6p_3.5t_10d_2g free
+u_6p_3.5t_40d_1g free
+u_6p_3.5t_40d_2g free
+u_6p_3.5t_40d_3g free
+u_6p_4.5t_10d_1g free
+u_6p_4.5t_10d_2g free
+u_6p_4.5t_40d_1g free
+u_6p_4.5t_40d_2g free
+u_6p_4.5t_40d_3g free
+u_6p_5.5t_10d_1g free
+u_6p_5.5t_10d_2g free
+u_6p_5.5t_40d_1g free
+u_6p_5.5t_40d_2g free
+u_6p_5.5t_40d_3g free
+u_6p_6.5t_10d_1g free
+u_6p_6.5t_10d_2g free
+u_6p_6.5t_40d_1g free
+u_6p_6.5t_40d_2g free
+u_6p_6.5t_40d_3g free
+u_6p_7.5t_10d_1g free
+u_6p_7.5t_10d_2g free
+u_6p_7.5t_40d_1g free
+u_6p_7.5t_40d_2g free
+u_6p_7.5t_40d_3g free
+u_6p_8.5t_10d_1g free
+u_6p_8.5t_10d_2g free
+u_6p_8.5t_40d_1g free
+u_6p_8.5t_40d_2g free
+u_6p_8.5t_40d_3g free
+u_7p_0.5t_10d_1g free
+u_7p_0.5t_10d_2g free
+u_7p_0.5t_40d_1g free
+u_7p_0.5t_40d_2g free
+u_7p_0.5t_40d_3g free
+u_7p_1.5t_10d_1g free
+u_7p_1.5t_10d_2g free
+u_7p_1.5t_40d_1g free
+u_7p_1.5t_40d_2g free
+u_7p_1.5t_40d_3g free
+u_7p_2.5t_10d_1g free
+u_7p_2.5t_10d_2g free
+u_7p_2.5t_40d_1g free
+u_7p_2.5t_40d_2g free
+u_7p_2.5t_40d_3g free
+u_7p_3.5t_10d_1g free
+u_7p_3.5t_10d_2g free
+u_7p_3.5t_40d_1g free
+u_7p_3.5t_40d_2g free
+u_7p_3.5t_40d_3g free
+u_7p_4.5t_10d_1g free
+u_7p_4.5t_10d_2g free
+u_7p_4.5t_40d_1g free
+u_7p_4.5t_40d_2g free
+u_7p_4.5t_40d_3g free
+u_7p_5.5t_10d_1g free
+u_7p_5.5t_10d_2g free
+u_7p_5.5t_40d_1g free
+u_7p_5.5t_40d_2g free
+u_7p_5.5t_40d_3g free
+u_7p_6.5t_10d_1g free
+u_7p_6.5t_10d_2g free
+u_7p_6.5t_40d_1g free
+u_7p_6.5t_40d_2g free
+u_7p_6.5t_40d_3g free
+u_7p_7.5t_10d_1g free
+u_7p_7.5t_10d_2g free
+u_7p_7.5t_40d_1g free
+u_7p_7.5t_40d_2g free
+u_7p_7.5t_40d_3g free
+u_7p_8.5t_10d_1g free
+u_7p_8.5t_10d_2g free
+u_7p_8.5t_40d_1g free
+u_7p_8.5t_40d_2g free
+u_7p_8.5t_40d_3g free
+u_8p_0.5t_10d_1g free
+u_8p_0.5t_10d_2g free
+u_8p_0.5t_40d_1g free
+u_8p_0.5t_40d_2g free
+u_8p_0.5t_40d_3g free
+u_8p_1.5t_10d_1g free
+u_8p_1.5t_10d_2g free
+u_8p_1.5t_40d_1g free
+u_8p_1.5t_40d_2g free
+u_8p_1.5t_40d_3g free
+u_8p_2.5t_10d_1g free
+u_8p_2.5t_10d_2g free
+u_8p_2.5t_40d_1g free
+u_8p_2.5t_40d_2g free
+u_8p_2.5t_40d_3g free
+u_8p_3.5t_10d_1g free
+u_8p_3.5t_10d_2g free
+u_8p_3.5t_40d_1g free
+u_8p_3.5t_40d_2g free
+u_8p_3.5t_40d_3g free
+u_8p_4.5t_10d_1g free
+u_8p_4.5t_10d_2g free
+u_8p_4.5t_40d_1g free
+u_8p_4.5t_40d_2g free
+u_8p_4.5t_40d_3g free
+u_8p_5.5t_10d_1g free
+u_8p_5.5t_10d_2g free
+u_8p_5.5t_40d_1g free
+u_8p_5.5t_40d_2g free
+u_8p_5.5t_40d_3g free
+u_8p_6.5t_10d_1g free
+u_8p_6.5t_10d_2g free
+u_8p_6.5t_40d_1g free
+u_8p_6.5t_40d_2g free
+u_8p_6.5t_40d_3g free
+u_8p_7.5t_10d_1g free
+u_8p_7.5t_10d_2g free
+u_8p_7.5t_40d_1g free
+u_8p_7.5t_40d_2g free
+u_8p_7.5t_40d_3g free
+u_8p_8.5t_10d_1g free
+u_8p_8.5t_10d_2g free
+u_8p_8.5t_40d_1g free
+u_8p_8.5t_40d_2g free
+u_8p_8.5t_40d_3g free
+u_9p_0.5t_10d_1g free
+u_9p_0.5t_10d_2g free
+u_9p_0.5t_40d_1g free
+u_9p_0.5t_40d_2g free
+u_9p_0.5t_40d_3g free
+u_9p_1.5t_10d_1g free
+u_9p_1.5t_10d_2g free
+u_9p_1.5t_40d_1g free
+u_9p_1.5t_40d_2g free
+u_9p_1.5t_40d_3g free
+u_9p_2.5t_10d_1g free
+u_9p_2.5t_10d_2g free
+u_9p_2.5t_40d_1g free
+u_9p_2.5t_40d_2g free
+u_9p_2.5t_40d_3g free
+u_9p_3.5t_10d_1g free
+u_9p_3.5t_10d_2g free
+u_9p_3.5t_40d_1g free
+u_9p_3.5t_40d_2g free
+u_9p_3.5t_40d_3g free
+u_9p_4.5t_10d_1g free
+u_9p_4.5t_10d_2g free
+u_9p_4.5t_40d_1g free
+u_9p_4.5t_40d_2g free
+u_9p_4.5t_40d_3g free
+u_9p_5.5t_10d_1g free
+u_9p_5.5t_10d_2g free
+u_9p_5.5t_40d_1g free
+u_9p_5.5t_40d_2g free
+u_9p_5.5t_40d_3g free
+u_9p_6.5t_10d_1g free
+u_9p_6.5t_10d_2g free
+u_9p_6.5t_40d_1g free
+u_9p_6.5t_40d_2g free
+u_9p_6.5t_40d_3g free
+u_9p_7.5t_10d_1g free
+u_9p_7.5t_10d_2g free
+u_9p_7.5t_40d_1g free
+u_9p_7.5t_40d_2g free
+u_9p_7.5t_40d_3g free
+u_9p_8.5t_10d_1g free
+u_9p_8.5t_10d_2g free
+u_9p_8.5t_40d_1g free
+u_9p_8.5t_40d_2g free
+u_9p_8.5t_40d_3g free
+Generals
+u_1p_0.5t_10d_1g
+u_1p_0.5t_10d_2g
+u_1p_0.5t_40d_1g
+u_1p_0.5t_40d_2g
+u_1p_0.5t_40d_3g
+u_1p_1.5t_10d_1g
+u_1p_1.5t_10d_2g
+u_1p_1.5t_40d_1g
+u_1p_1.5t_40d_2g
+u_1p_1.5t_40d_3g
+u_1p_2.5t_10d_1g
+u_1p_2.5t_10d_2g
+u_1p_2.5t_40d_1g
+u_1p_2.5t_40d_2g
+u_1p_2.5t_40d_3g
+u_1p_3.5t_10d_1g
+u_1p_3.5t_10d_2g
+u_1p_3.5t_40d_1g
+u_1p_3.5t_40d_2g
+u_1p_3.5t_40d_3g
+u_1p_4.5t_10d_1g
+u_1p_4.5t_10d_2g
+u_1p_4.5t_40d_1g
+u_1p_4.5t_40d_2g
+u_1p_4.5t_40d_3g
+u_1p_5.5t_10d_1g
+u_1p_5.5t_10d_2g
+u_1p_5.5t_40d_1g
+u_1p_5.5t_40d_2g
+u_1p_5.5t_40d_3g
+u_1p_6.5t_10d_1g
+u_1p_6.5t_10d_2g
+u_1p_6.5t_40d_1g
+u_1p_6.5t_40d_2g
+u_1p_6.5t_40d_3g
+u_1p_7.5t_10d_1g
+u_1p_7.5t_10d_2g
+u_1p_7.5t_40d_1g
+u_1p_7.5t_40d_2g
+u_1p_7.5t_40d_3g
+u_1p_8.5t_10d_1g
+u_1p_8.5t_10d_2g
+u_1p_8.5t_40d_1g
+u_1p_8.5t_40d_2g
+u_1p_8.5t_40d_3g
+u_2p_0.5t_10d_1g
+u_2p_0.5t_10d_2g
+u_2p_0.5t_40d_1g
+u_2p_0.5t_40d_2g
+u_2p_0.5t_40d_3g
+u_2p_1.5t_10d_1g
+u_2p_1.5t_10d_2g
+u_2p_1.5t_40d_1g
+u_2p_1.5t_40d_2g
+u_2p_1.5t_40d_3g
+u_2p_2.5t_10d_1g
+u_2p_2.5t_10d_2g
+u_2p_2.5t_40d_1g
+u_2p_2.5t_40d_2g
+u_2p_2.5t_40d_3g
+u_2p_3.5t_10d_1g
+u_2p_3.5t_10d_2g
+u_2p_3.5t_40d_1g
+u_2p_3.5t_40d_2g
+u_2p_3.5t_40d_3g
+u_2p_4.5t_10d_1g
+u_2p_4.5t_10d_2g
+u_2p_4.5t_40d_1g
+u_2p_4.5t_40d_2g
+u_2p_4.5t_40d_3g
+u_2p_5.5t_10d_1g
+u_2p_5.5t_10d_2g
+u_2p_5.5t_40d_1g
+u_2p_5.5t_40d_2g
+u_2p_5.5t_40d_3g
+u_2p_6.5t_10d_1g
+u_2p_6.5t_10d_2g
+u_2p_6.5t_40d_1g
+u_2p_6.5t_40d_2g
+u_2p_6.5t_40d_3g
+u_2p_7.5t_10d_1g
+u_2p_7.5t_10d_2g
+u_2p_7.5t_40d_1g
+u_2p_7.5t_40d_2g
+u_2p_7.5t_40d_3g
+u_2p_8.5t_10d_1g
+u_2p_8.5t_10d_2g
+u_2p_8.5t_40d_1g
+u_2p_8.5t_40d_2g
+u_2p_8.5t_40d_3g
+u_4p_0.5t_10d_1g
+u_4p_0.5t_10d_2g
+u_4p_0.5t_40d_1g
+u_4p_0.5t_40d_2g
+u_4p_0.5t_40d_3g
+u_4p_1.5t_10d_1g
+u_4p_1.5t_10d_2g
+u_4p_1.5t_40d_1g
+u_4p_1.5t_40d_2g
+u_4p_1.5t_40d_3g
+u_4p_2.5t_10d_1g
+u_4p_2.5t_10d_2g
+u_4p_2.5t_40d_1g
+u_4p_2.5t_40d_2g
+u_4p_2.5t_40d_3g
+u_4p_3.5t_10d_1g
+u_4p_3.5t_10d_2g
+u_4p_3.5t_40d_1g
+u_4p_3.5t_40d_2g
+u_4p_3.5t_40d_3g
+u_4p_4.5t_10d_1g
+u_4p_4.5t_10d_2g
+u_4p_4.5t_40d_1g
+u_4p_4.5t_40d_2g
+u_4p_4.5t_40d_3g
+u_4p_5.5t_10d_1g
+u_4p_5.5t_10d_2g
+u_4p_5.5t_40d_1g
+u_4p_5.5t_40d_2g
+u_4p_5.5t_40d_3g
+u_4p_6.5t_10d_1g
+u_4p_6.5t_10d_2g
+u_4p_6.5t_40d_1g
+u_4p_6.5t_40d_2g
+u_4p_6.5t_40d_3g
+u_4p_7.5t_10d_1g
+u_4p_7.5t_10d_2g
+u_4p_7.5t_40d_1g
+u_4p_7.5t_40d_2g
+u_4p_7.5t_40d_3g
+u_4p_8.5t_10d_1g
+u_4p_8.5t_10d_2g
+u_4p_8.5t_40d_1g
+u_4p_8.5t_40d_2g
+u_4p_8.5t_40d_3g
+u_5p_0.5t_10d_1g
+u_5p_0.5t_10d_2g
+u_5p_0.5t_40d_1g
+u_5p_0.5t_40d_2g
+u_5p_0.5t_40d_3g
+u_5p_1.5t_10d_1g
+u_5p_1.5t_10d_2g
+u_5p_1.5t_40d_1g
+u_5p_1.5t_40d_2g
+u_5p_1.5t_40d_3g
+u_5p_2.5t_10d_1g
+u_5p_2.5t_10d_2g
+u_5p_2.5t_40d_1g
+u_5p_2.5t_40d_2g
+u_5p_2.5t_40d_3g
+u_5p_3.5t_10d_1g
+u_5p_3.5t_10d_2g
+u_5p_3.5t_40d_1g
+u_5p_3.5t_40d_2g
+u_5p_3.5t_40d_3g
+u_5p_4.5t_10d_1g
+u_5p_4.5t_10d_2g
+u_5p_4.5t_40d_1g
+u_5p_4.5t_40d_2g
+u_5p_4.5t_40d_3g
+u_5p_5.5t_10d_1g
+u_5p_5.5t_10d_2g
+u_5p_5.5t_40d_1g
+u_5p_5.5t_40d_2g
+u_5p_5.5t_40d_3g
+u_5p_6.5t_10d_1g
+u_5p_6.5t_10d_2g
+u_5p_6.5t_40d_1g
+u_5p_6.5t_40d_2g
+u_5p_6.5t_40d_3g
+u_5p_7.5t_10d_1g
+u_5p_7.5t_10d_2g
+u_5p_7.5t_40d_1g
+u_5p_7.5t_40d_2g
+u_5p_7.5t_40d_3g
+u_5p_8.5t_10d_1g
+u_5p_8.5t_10d_2g
+u_5p_8.5t_40d_1g
+u_5p_8.5t_40d_2g
+u_5p_8.5t_40d_3g
+u_6p_0.5t_10d_1g
+u_6p_0.5t_10d_2g
+u_6p_0.5t_40d_1g
+u_6p_0.5t_40d_2g
+u_6p_0.5t_40d_3g
+u_6p_1.5t_10d_1g
+u_6p_1.5t_10d_2g
+u_6p_1.5t_40d_1g
+u_6p_1.5t_40d_2g
+u_6p_1.5t_40d_3g
+u_6p_2.5t_10d_1g
+u_6p_2.5t_10d_2g
+u_6p_2.5t_40d_1g
+u_6p_2.5t_40d_2g
+u_6p_2.5t_40d_3g
+u_6p_3.5t_10d_1g
+u_6p_3.5t_10d_2g
+u_6p_3.5t_40d_1g
+u_6p_3.5t_40d_2g
+u_6p_3.5t_40d_3g
+u_6p_4.5t_10d_1g
+u_6p_4.5t_10d_2g
+u_6p_4.5t_40d_1g
+u_6p_4.5t_40d_2g
+u_6p_4.5t_40d_3g
+u_6p_5.5t_10d_1g
+u_6p_5.5t_10d_2g
+u_6p_5.5t_40d_1g
+u_6p_5.5t_40d_2g
+u_6p_5.5t_40d_3g
+u_6p_6.5t_10d_1g
+u_6p_6.5t_10d_2g
+u_6p_6.5t_40d_1g
+u_6p_6.5t_40d_2g
+u_6p_6.5t_40d_3g
+u_6p_7.5t_10d_1g
+u_6p_7.5t_10d_2g
+u_6p_7.5t_40d_1g
+u_6p_7.5t_40d_2g
+u_6p_7.5t_40d_3g
+u_6p_8.5t_10d_1g
+u_6p_8.5t_10d_2g
+u_6p_8.5t_40d_1g
+u_6p_8.5t_40d_2g
+u_6p_8.5t_40d_3g
+u_7p_0.5t_10d_1g
+u_7p_0.5t_10d_2g
+u_7p_0.5t_40d_1g
+u_7p_0.5t_40d_2g
+u_7p_0.5t_40d_3g
+u_7p_1.5t_10d_1g
+u_7p_1.5t_10d_2g
+u_7p_1.5t_40d_1g
+u_7p_1.5t_40d_2g
+u_7p_1.5t_40d_3g
+u_7p_2.5t_10d_1g
+u_7p_2.5t_10d_2g
+u_7p_2.5t_40d_1g
+u_7p_2.5t_40d_2g
+u_7p_2.5t_40d_3g
+u_7p_3.5t_10d_1g
+u_7p_3.5t_10d_2g
+u_7p_3.5t_40d_1g
+u_7p_3.5t_40d_2g
+u_7p_3.5t_40d_3g
+u_7p_4.5t_10d_1g
+u_7p_4.5t_10d_2g
+u_7p_4.5t_40d_1g
+u_7p_4.5t_40d_2g
+u_7p_4.5t_40d_3g
+u_7p_5.5t_10d_1g
+u_7p_5.5t_10d_2g
+u_7p_5.5t_40d_1g
+u_7p_5.5t_40d_2g
+u_7p_5.5t_40d_3g
+u_7p_6.5t_10d_1g
+u_7p_6.5t_10d_2g
+u_7p_6.5t_40d_1g
+u_7p_6.5t_40d_2g
+u_7p_6.5t_40d_3g
+u_7p_7.5t_10d_1g
+u_7p_7.5t_10d_2g
+u_7p_7.5t_40d_1g
+u_7p_7.5t_40d_2g
+u_7p_7.5t_40d_3g
+u_7p_8.5t_10d_1g
+u_7p_8.5t_10d_2g
+u_7p_8.5t_40d_1g
+u_7p_8.5t_40d_2g
+u_7p_8.5t_40d_3g
+u_8p_0.5t_10d_1g
+u_8p_0.5t_10d_2g
+u_8p_0.5t_40d_1g
+u_8p_0.5t_40d_2g
+u_8p_0.5t_40d_3g
+u_8p_1.5t_10d_1g
+u_8p_1.5t_10d_2g
+u_8p_1.5t_40d_1g
+u_8p_1.5t_40d_2g
+u_8p_1.5t_40d_3g
+u_8p_2.5t_10d_1g
+u_8p_2.5t_10d_2g
+u_8p_2.5t_40d_1g
+u_8p_2.5t_40d_2g
+u_8p_2.5t_40d_3g
+u_8p_3.5t_10d_1g
+u_8p_3.5t_10d_2g
+u_8p_3.5t_40d_1g
+u_8p_3.5t_40d_2g
+u_8p_3.5t_40d_3g
+u_8p_4.5t_10d_1g
+u_8p_4.5t_10d_2g
+u_8p_4.5t_40d_1g
+u_8p_4.5t_40d_2g
+u_8p_4.5t_40d_3g
+u_8p_5.5t_10d_1g
+u_8p_5.5t_10d_2g
+u_8p_5.5t_40d_1g
+u_8p_5.5t_40d_2g
+u_8p_5.5t_40d_3g
+u_8p_6.5t_10d_1g
+u_8p_6.5t_10d_2g
+u_8p_6.5t_40d_1g
+u_8p_6.5t_40d_2g
+u_8p_6.5t_40d_3g
+u_8p_7.5t_10d_1g
+u_8p_7.5t_10d_2g
+u_8p_7.5t_40d_1g
+u_8p_7.5t_40d_2g
+u_8p_7.5t_40d_3g
+u_8p_8.5t_10d_1g
+u_8p_8.5t_10d_2g
+u_8p_8.5t_40d_1g
+u_8p_8.5t_40d_2g
+u_8p_8.5t_40d_3g
+u_9p_0.5t_10d_1g
+u_9p_0.5t_10d_2g
+u_9p_0.5t_40d_1g
+u_9p_0.5t_40d_2g
+u_9p_0.5t_40d_3g
+u_9p_1.5t_10d_1g
+u_9p_1.5t_10d_2g
+u_9p_1.5t_40d_1g
+u_9p_1.5t_40d_2g
+u_9p_1.5t_40d_3g
+u_9p_2.5t_10d_1g
+u_9p_2.5t_10d_2g
+u_9p_2.5t_40d_1g
+u_9p_2.5t_40d_2g
+u_9p_2.5t_40d_3g
+u_9p_3.5t_10d_1g
+u_9p_3.5t_10d_2g
+u_9p_3.5t_40d_1g
+u_9p_3.5t_40d_2g
+u_9p_3.5t_40d_3g
+u_9p_4.5t_10d_1g
+u_9p_4.5t_10d_2g
+u_9p_4.5t_40d_1g
+u_9p_4.5t_40d_2g
+u_9p_4.5t_40d_3g
+u_9p_5.5t_10d_1g
+u_9p_5.5t_10d_2g
+u_9p_5.5t_40d_1g
+u_9p_5.5t_40d_2g
+u_9p_5.5t_40d_3g
+u_9p_6.5t_10d_1g
+u_9p_6.5t_10d_2g
+u_9p_6.5t_40d_1g
+u_9p_6.5t_40d_2g
+u_9p_6.5t_40d_3g
+u_9p_7.5t_10d_1g
+u_9p_7.5t_10d_2g
+u_9p_7.5t_40d_1g
+u_9p_7.5t_40d_2g
+u_9p_7.5t_40d_3g
+u_9p_8.5t_10d_1g
+u_9p_8.5t_10d_2g
+u_9p_8.5t_40d_1g
+u_9p_8.5t_40d_2g
+u_9p_8.5t_40d_3g
+Binaries
+y_1p_0.5t_10d_1g
+y_1p_0.5t_10d_2g
+y_1p_0.5t_40d_1g
+y_1p_0.5t_40d_2g
+y_1p_0.5t_40d_3g
+y_1p_1.5t_10d_1g
+y_1p_1.5t_10d_2g
+y_1p_1.5t_40d_1g
+y_1p_1.5t_40d_2g
+y_1p_1.5t_40d_3g
+y_1p_2.5t_10d_1g
+y_1p_2.5t_10d_2g
+y_1p_2.5t_40d_1g
+y_1p_2.5t_40d_2g
+y_1p_2.5t_40d_3g
+y_1p_3.5t_10d_1g
+y_1p_3.5t_10d_2g
+y_1p_3.5t_40d_1g
+y_1p_3.5t_40d_2g
+y_1p_3.5t_40d_3g
+y_1p_4.5t_10d_1g
+y_1p_4.5t_10d_2g
+y_1p_4.5t_40d_1g
+y_1p_4.5t_40d_2g
+y_1p_4.5t_40d_3g
+y_1p_5.5t_10d_1g
+y_1p_5.5t_10d_2g
+y_1p_5.5t_40d_1g
+y_1p_5.5t_40d_2g
+y_1p_5.5t_40d_3g
+y_1p_6.5t_10d_1g
+y_1p_6.5t_10d_2g
+y_1p_6.5t_40d_1g
+y_1p_6.5t_40d_2g
+y_1p_6.5t_40d_3g
+y_1p_7.5t_10d_1g
+y_1p_7.5t_10d_2g
+y_1p_7.5t_40d_1g
+y_1p_7.5t_40d_2g
+y_1p_7.5t_40d_3g
+y_1p_8.5t_10d_1g
+y_1p_8.5t_10d_2g
+y_1p_8.5t_40d_1g
+y_1p_8.5t_40d_2g
+y_1p_8.5t_40d_3g
+y_2p_0.5t_10d_1g
+y_2p_0.5t_10d_2g
+y_2p_0.5t_40d_1g
+y_2p_0.5t_40d_2g
+y_2p_0.5t_40d_3g
+y_2p_1.5t_10d_1g
+y_2p_1.5t_10d_2g
+y_2p_1.5t_40d_1g
+y_2p_1.5t_40d_2g
+y_2p_1.5t_40d_3g
+y_2p_2.5t_10d_1g
+y_2p_2.5t_10d_2g
+y_2p_2.5t_40d_1g
+y_2p_2.5t_40d_2g
+y_2p_2.5t_40d_3g
+y_2p_3.5t_10d_1g
+y_2p_3.5t_10d_2g
+y_2p_3.5t_40d_1g
+y_2p_3.5t_40d_2g
+y_2p_3.5t_40d_3g
+y_2p_4.5t_10d_1g
+y_2p_4.5t_10d_2g
+y_2p_4.5t_40d_1g
+y_2p_4.5t_40d_2g
+y_2p_4.5t_40d_3g
+y_2p_5.5t_10d_1g
+y_2p_5.5t_10d_2g
+y_2p_5.5t_40d_1g
+y_2p_5.5t_40d_2g
+y_2p_5.5t_40d_3g
+y_2p_6.5t_10d_1g
+y_2p_6.5t_10d_2g
+y_2p_6.5t_40d_1g
+y_2p_6.5t_40d_2g
+y_2p_6.5t_40d_3g
+y_2p_7.5t_10d_1g
+y_2p_7.5t_10d_2g
+y_2p_7.5t_40d_1g
+y_2p_7.5t_40d_2g
+y_2p_7.5t_40d_3g
+y_2p_8.5t_10d_1g
+y_2p_8.5t_10d_2g
+y_2p_8.5t_40d_1g
+y_2p_8.5t_40d_2g
+y_2p_8.5t_40d_3g
+y_4p_0.5t_10d_1g
+y_4p_0.5t_10d_2g
+y_4p_0.5t_40d_1g
+y_4p_0.5t_40d_2g
+y_4p_0.5t_40d_3g
+y_4p_1.5t_10d_1g
+y_4p_1.5t_10d_2g
+y_4p_1.5t_40d_1g
+y_4p_1.5t_40d_2g
+y_4p_1.5t_40d_3g
+y_4p_2.5t_10d_1g
+y_4p_2.5t_10d_2g
+y_4p_2.5t_40d_1g
+y_4p_2.5t_40d_2g
+y_4p_2.5t_40d_3g
+y_4p_3.5t_10d_1g
+y_4p_3.5t_10d_2g
+y_4p_3.5t_40d_1g
+y_4p_3.5t_40d_2g
+y_4p_3.5t_40d_3g
+y_4p_4.5t_10d_1g
+y_4p_4.5t_10d_2g
+y_4p_4.5t_40d_1g
+y_4p_4.5t_40d_2g
+y_4p_4.5t_40d_3g
+y_4p_5.5t_10d_1g
+y_4p_5.5t_10d_2g
+y_4p_5.5t_40d_1g
+y_4p_5.5t_40d_2g
+y_4p_5.5t_40d_3g
+y_4p_6.5t_10d_1g
+y_4p_6.5t_10d_2g
+y_4p_6.5t_40d_1g
+y_4p_6.5t_40d_2g
+y_4p_6.5t_40d_3g
+y_4p_7.5t_10d_1g
+y_4p_7.5t_10d_2g
+y_4p_7.5t_40d_1g
+y_4p_7.5t_40d_2g
+y_4p_7.5t_40d_3g
+y_4p_8.5t_10d_1g
+y_4p_8.5t_10d_2g
+y_4p_8.5t_40d_1g
+y_4p_8.5t_40d_2g
+y_4p_8.5t_40d_3g
+y_5p_0.5t_10d_1g
+y_5p_0.5t_10d_2g
+y_5p_0.5t_40d_1g
+y_5p_0.5t_40d_2g
+y_5p_0.5t_40d_3g
+y_5p_1.5t_10d_1g
+y_5p_1.5t_10d_2g
+y_5p_1.5t_40d_1g
+y_5p_1.5t_40d_2g
+y_5p_1.5t_40d_3g
+y_5p_2.5t_10d_1g
+y_5p_2.5t_10d_2g
+y_5p_2.5t_40d_1g
+y_5p_2.5t_40d_2g
+y_5p_2.5t_40d_3g
+y_5p_3.5t_10d_1g
+y_5p_3.5t_10d_2g
+y_5p_3.5t_40d_1g
+y_5p_3.5t_40d_2g
+y_5p_3.5t_40d_3g
+y_5p_4.5t_10d_1g
+y_5p_4.5t_10d_2g
+y_5p_4.5t_40d_1g
+y_5p_4.5t_40d_2g
+y_5p_4.5t_40d_3g
+y_5p_5.5t_10d_1g
+y_5p_5.5t_10d_2g
+y_5p_5.5t_40d_1g
+y_5p_5.5t_40d_2g
+y_5p_5.5t_40d_3g
+y_5p_6.5t_10d_1g
+y_5p_6.5t_10d_2g
+y_5p_6.5t_40d_1g
+y_5p_6.5t_40d_2g
+y_5p_6.5t_40d_3g
+y_5p_7.5t_10d_1g
+y_5p_7.5t_10d_2g
+y_5p_7.5t_40d_1g
+y_5p_7.5t_40d_2g
+y_5p_7.5t_40d_3g
+y_5p_8.5t_10d_1g
+y_5p_8.5t_10d_2g
+y_5p_8.5t_40d_1g
+y_5p_8.5t_40d_2g
+y_5p_8.5t_40d_3g
+y_6p_0.5t_10d_1g
+y_6p_0.5t_10d_2g
+y_6p_0.5t_40d_1g
+y_6p_0.5t_40d_2g
+y_6p_0.5t_40d_3g
+y_6p_1.5t_10d_1g
+y_6p_1.5t_10d_2g
+y_6p_1.5t_40d_1g
+y_6p_1.5t_40d_2g
+y_6p_1.5t_40d_3g
+y_6p_2.5t_10d_1g
+y_6p_2.5t_10d_2g
+y_6p_2.5t_40d_1g
+y_6p_2.5t_40d_2g
+y_6p_2.5t_40d_3g
+y_6p_3.5t_10d_1g
+y_6p_3.5t_10d_2g
+y_6p_3.5t_40d_1g
+y_6p_3.5t_40d_2g
+y_6p_3.5t_40d_3g
+y_6p_4.5t_10d_1g
+y_6p_4.5t_10d_2g
+y_6p_4.5t_40d_1g
+y_6p_4.5t_40d_2g
+y_6p_4.5t_40d_3g
+y_6p_5.5t_10d_1g
+y_6p_5.5t_10d_2g
+y_6p_5.5t_40d_1g
+y_6p_5.5t_40d_2g
+y_6p_5.5t_40d_3g
+y_6p_6.5t_10d_1g
+y_6p_6.5t_10d_2g
+y_6p_6.5t_40d_1g
+y_6p_6.5t_40d_2g
+y_6p_6.5t_40d_3g
+y_6p_7.5t_10d_1g
+y_6p_7.5t_10d_2g
+y_6p_7.5t_40d_1g
+y_6p_7.5t_40d_2g
+y_6p_7.5t_40d_3g
+y_6p_8.5t_10d_1g
+y_6p_8.5t_10d_2g
+y_6p_8.5t_40d_1g
+y_6p_8.5t_40d_2g
+y_6p_8.5t_40d_3g
+y_7p_0.5t_10d_1g
+y_7p_0.5t_10d_2g
+y_7p_0.5t_40d_1g
+y_7p_0.5t_40d_2g
+y_7p_0.5t_40d_3g
+y_7p_1.5t_10d_1g
+y_7p_1.5t_10d_2g
+y_7p_1.5t_40d_1g
+y_7p_1.5t_40d_2g
+y_7p_1.5t_40d_3g
+y_7p_2.5t_10d_1g
+y_7p_2.5t_10d_2g
+y_7p_2.5t_40d_1g
+y_7p_2.5t_40d_2g
+y_7p_2.5t_40d_3g
+y_7p_3.5t_10d_1g
+y_7p_3.5t_10d_2g
+y_7p_3.5t_40d_1g
+y_7p_3.5t_40d_2g
+y_7p_3.5t_40d_3g
+y_7p_4.5t_10d_1g
+y_7p_4.5t_10d_2g
+y_7p_4.5t_40d_1g
+y_7p_4.5t_40d_2g
+y_7p_4.5t_40d_3g
+y_7p_5.5t_10d_1g
+y_7p_5.5t_10d_2g
+y_7p_5.5t_40d_1g
+y_7p_5.5t_40d_2g
+y_7p_5.5t_40d_3g
+y_7p_6.5t_10d_1g
+y_7p_6.5t_10d_2g
+y_7p_6.5t_40d_1g
+y_7p_6.5t_40d_2g
+y_7p_6.5t_40d_3g
+y_7p_7.5t_10d_1g
+y_7p_7.5t_10d_2g
+y_7p_7.5t_40d_1g
+y_7p_7.5t_40d_2g
+y_7p_7.5t_40d_3g
+y_7p_8.5t_10d_1g
+y_7p_8.5t_10d_2g
+y_7p_8.5t_40d_1g
+y_7p_8.5t_40d_2g
+y_7p_8.5t_40d_3g
+y_8p_0.5t_10d_1g
+y_8p_0.5t_10d_2g
+y_8p_0.5t_40d_1g
+y_8p_0.5t_40d_2g
+y_8p_0.5t_40d_3g
+y_8p_1.5t_10d_1g
+y_8p_1.5t_10d_2g
+y_8p_1.5t_40d_1g
+y_8p_1.5t_40d_2g
+y_8p_1.5t_40d_3g
+y_8p_2.5t_10d_1g
+y_8p_2.5t_10d_2g
+y_8p_2.5t_40d_1g
+y_8p_2.5t_40d_2g
+y_8p_2.5t_40d_3g
+y_8p_3.5t_10d_1g
+y_8p_3.5t_10d_2g
+y_8p_3.5t_40d_1g
+y_8p_3.5t_40d_2g
+y_8p_3.5t_40d_3g
+y_8p_4.5t_10d_1g
+y_8p_4.5t_10d_2g
+y_8p_4.5t_40d_1g
+y_8p_4.5t_40d_2g
+y_8p_4.5t_40d_3g
+y_8p_5.5t_10d_1g
+y_8p_5.5t_10d_2g
+y_8p_5.5t_40d_1g
+y_8p_5.5t_40d_2g
+y_8p_5.5t_40d_3g
+y_8p_6.5t_10d_1g
+y_8p_6.5t_10d_2g
+y_8p_6.5t_40d_1g
+y_8p_6.5t_40d_2g
+y_8p_6.5t_40d_3g
+y_8p_7.5t_10d_1g
+y_8p_7.5t_10d_2g
+y_8p_7.5t_40d_1g
+y_8p_7.5t_40d_2g
+y_8p_7.5t_40d_3g
+y_8p_8.5t_10d_1g
+y_8p_8.5t_10d_2g
+y_8p_8.5t_40d_1g
+y_8p_8.5t_40d_2g
+y_8p_8.5t_40d_3g
+y_9p_0.5t_10d_1g
+y_9p_0.5t_10d_2g
+y_9p_0.5t_40d_1g
+y_9p_0.5t_40d_2g
+y_9p_0.5t_40d_3g
+y_9p_1.5t_10d_1g
+y_9p_1.5t_10d_2g
+y_9p_1.5t_40d_1g
+y_9p_1.5t_40d_2g
+y_9p_1.5t_40d_3g
+y_9p_2.5t_10d_1g
+y_9p_2.5t_10d_2g
+y_9p_2.5t_40d_1g
+y_9p_2.5t_40d_2g
+y_9p_2.5t_40d_3g
+y_9p_3.5t_10d_1g
+y_9p_3.5t_10d_2g
+y_9p_3.5t_40d_1g
+y_9p_3.5t_40d_2g
+y_9p_3.5t_40d_3g
+y_9p_4.5t_10d_1g
+y_9p_4.5t_10d_2g
+y_9p_4.5t_40d_1g
+y_9p_4.5t_40d_2g
+y_9p_4.5t_40d_3g
+y_9p_5.5t_10d_1g
+y_9p_5.5t_10d_2g
+y_9p_5.5t_40d_1g
+y_9p_5.5t_40d_2g
+y_9p_5.5t_40d_3g
+y_9p_6.5t_10d_1g
+y_9p_6.5t_10d_2g
+y_9p_6.5t_40d_1g
+y_9p_6.5t_40d_2g
+y_9p_6.5t_40d_3g
+y_9p_7.5t_10d_1g
+y_9p_7.5t_10d_2g
+y_9p_7.5t_40d_1g
+y_9p_7.5t_40d_2g
+y_9p_7.5t_40d_3g
+y_9p_8.5t_10d_1g
+y_9p_8.5t_10d_2g
+y_9p_8.5t_40d_1g
+y_9p_8.5t_40d_2g
+y_9p_8.5t_40d_3g
+End

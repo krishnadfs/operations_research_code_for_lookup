@@ -268,12 +268,15 @@ print ('writing the model into lp format... \n', )
 
 prob.writeLP('model_lp_file.txt')
 
+print ('objective', value(prob.objective), 'and status' ,prob.status, '\n')
+
 # In[Solution Extraction]:
 
 for var in set(df_p_t_d_var.x_var):
     if y[var].value()>=1: 
         if (u[var].value()>=0 and  m[var].value()>=0 and r[var].value()>=0):
-            print ([var, u[var].value(), m[var].value(), r[var].value(), y[var].value()])
+            if (u[var].value()>0 or m[var].value()>0):
+                print ([var, u[var].value(), m[var].value(), r[var].value(), y[var].value()])
     
 
 

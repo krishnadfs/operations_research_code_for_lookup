@@ -213,10 +213,13 @@ print ('In[Constraint-8]: \n \
        The total sum of U in the grid is at least Uthresold, there might be \n \
        Uthresholds for each row. \n ')
 
+prob += lpSum(u[var]  for var in df_p_t_d_var.x_var) >= 10000, 'con_8a_lower_limit_on_U_threshold'
+ 
 u_thresh = []               
 for i in set(base_df_p.p_val):
-    u_thresh.append([i, np.random.randint(10,100,1)[0]])
-u_thresh_df = pd.DataFrame(u_thresh).rename(columns={0:'p_val',1:'u_threshold'})
+    u_thresh.append([i, np.random.randint(20,100,1)[0]])
+u_thresh_df = pd.DataFrame(u_thresh).rename(columns={0:'p_val',
+                                                     1:'u_threshold'})
 
 for i in set(df_p_t_d_var.p_val):
     prob += lpSum(u[var]  for var in df_p_t_d_var[df_p_t_d_var.p_val==i].x_var) >= u_thresh_df[u_thresh_df.p_val==0]['u_threshold'].item(), 'U_threshold_row_'+str(i)
@@ -224,7 +227,8 @@ for i in set(df_p_t_d_var.p_val):
                
 # In[Constraint-9]: 
 print ('In[Constraint-9]: \n \
-       The total sum of M in the grid is at least Mthresold. \n ')
+       The total sum of M in the grid is at least Mthresold. \n \
+       To overcome 0s in r_columns the constraint has been extended to R_variables as well')
 
 m_thresh = []               
 for i in set(base_df_p.p_val):
@@ -234,6 +238,9 @@ m_thresh_df = pd.DataFrame(m_thresh).rename(columns={0:'p_val',1:'m_threshold'})
 
 for i in set(df_p_t_d_var.p_val):
     prob += lpSum(m[var]  for var in df_p_t_d_var[df_p_t_d_var.p_val==i].x_var) >= m_thresh_df[m_thresh_df.p_val==0]['m_threshold'].item(), 'M_threshold_row_'+str(i)
+
+    # Following constraint has been added to pull R values from 0 t
+    prob += lpSum(r[var]  for var in df_p_t_d_var[df_p_t_d_var.p_val==i].x_var) >= m_thresh_df[m_thresh_df.p_val==0]['m_threshold'].item(), 'R_threshold_row_'+str(i)
  
 
 # In[Constraint-10]:                
@@ -241,21 +248,20 @@ for i in set(df_p_t_d_var.p_val):
     #   descending order as per an input. (If not either of the case, this \
     #   constraint will not be applied)
 
-print ('In constriat -10 ...\n ')
+print ('In[Constraint-10]: \n ')
 print ('since the preset model has not accounted for sequecing of the variables \n \
        this constraint has been omitted \n ')
 
 
-# In[Constraint-11]:  Each cell should get a maximum of one value of the decision variable.
+# In[Constraint-11]:  
 
-print ('In constriat -11 ...\n ')
+print ('In[Constraint-11]: Each cell should get a maximum of one value of the decision variable. \n')
 print ('Here a cell is assumed to be the one associated with individual variable \n \
            present in a decision variable (D) ... \n ')
            
 for i in set(df_p_t_d_var.p_val):
     temp_df_2 = df_p_t_d_var[df_p_t_d_var.p_val==i].reset_index(drop=True)
     for j in set(temp_df_2.d_val):
-        # print ([i,j])
         prob += lpSum([u[var]  for var in temp_df_2[temp_df_2.d_val==j].x_var]) >= 0, 'max_decision_var'+str(i)+'_'+str(j) 
                
 

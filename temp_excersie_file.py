@@ -127,8 +127,7 @@ Big_M = 25
 
 # In[Objective]:
 for i in set(df_p_t_d_var.d_val):
-    prob += lpSum(u[var]* coeff for var,coeff in zip(df_p_t_d_var[df_p_t_d_var.d_val==i].x_var, 
-                                                     df_p_t_d_var[df_p_t_d_var.d_val==i].M_val)), 'objective'
+    prob += lpSum(u[var]  for var in df_p_t_d_var[df_p_t_d_var.d_val==i].x_var), 'objective_to_maximize_M'
 
  
 # In[Constraint-3]: 
@@ -180,7 +179,7 @@ print('In[Constraint-6]:')
 print('For each row, the sum of U cannot exceed a Umax that is provided as external input \n')
 
 for i in set(df_p_t_d_var.p_val):
-    prob += lpSum(u[var]  for var in df_p_t_d_var[df_p_t_d_var.p_val==i].x_var) <= 10000, 'upper_bound_on_U'+str(i)
+    prob += lpSum(u[var]  for var in df_p_t_d_var[df_p_t_d_var.p_val==i].x_var) <= 999999, 'upper_bound_on_U'+str(i)
                   
 
 
@@ -261,7 +260,13 @@ time_to_end = time.time()
 
 solve_time = time_to_end - time_to_start      
 
-print ('solver run time ...:', solve_time)
+print ('solver run time ...: \n', solve_time)
+
+print ('\n')
+
+print ('writing the model into lp format... \n', )
+
+prob.writeLP('model_lp_file.txt')
 
 # In[Solution Extraction]:
 
@@ -270,3 +275,5 @@ for var in set(df_p_t_d_var.x_var):
         if (u[var].value()>=0 and  m[var].value()>=0 and r[var].value()>=0):
             print ([var, u[var].value(), m[var].value(), r[var].value(), y[var].value()])
     
+
+

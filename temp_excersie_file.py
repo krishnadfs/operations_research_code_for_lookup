@@ -54,9 +54,9 @@ base_df_p = pd.DataFrame(p_var).rename(columns={0:'p_val'})
 base_df_t = pd.DataFrame(t_var).rename(columns={0:'t_val'})
 base_df_d = pd.DataFrame(d_var).rename(columns={0:'d_val'})
 
-base_df_p.loc[:,'col_com'] =  np.random.randint(0,3,len(base_df_p))
-base_df_t.loc[:,'col_com'] =  np.random.randint(1,3,len(base_df_t))
-base_df_d.loc[:,'col_com'] =  np.random.randint(0,3,len(base_df_d))
+base_df_p.loc[:,'col_com'] =  np.random.randint(0,2,len(base_df_p))
+base_df_t.loc[:,'col_com'] =  np.random.randint(1,2,len(base_df_t))
+base_df_d.loc[:,'col_com'] =  np.random.randint(0,2,len(base_df_d))
 
 df_groups = cp.deepcopy(base_df_d[["d_val"]])
 
@@ -91,7 +91,6 @@ df_p_t_d.loc[:,'M_val'] = np.random.randint(0,10,len(df_p_t_d))
 df_p_t_d = df_p_t_d.drop(columns = ['col_com'], axis=0)
 
 
- 
 # In[1.0]: variable creation and adding into the table 
 df_p_t_d_var = df_p_t_d.merge(final_df_group_count, on="d_val")
 
@@ -123,31 +122,43 @@ m = pulp.LpVariable.dicts('m', df_p_t_d_var.x_var, lowBound = 0, cat=LpContinuou
 r = pulp.LpVariable.dicts('r', df_p_t_d_var.x_var, lowBound = 0, cat=LpContinuous)
 y = pulp.LpVariable.dicts('y', df_p_t_d_var.x_var, lowBound = 0, cat=LpBinary) 
 
-Big_M = 25
+Big_M = 100
 
 # In[Objective]:
+print ('In[Objective]:')
 for i in set(df_p_t_d_var.d_val):
-    prob += lpSum(u[var]  for var in df_p_t_d_var[df_p_t_d_var.d_val==i].x_var), 'objective_to_maximize_M'
+    prob += lpSum(u[var]  for var in df_p_t_d_var[df_p_t_d_var.d_val==i].x_var) , 'objective_to_maximize_M'
 
  
 # In[Constraint-3]: 
     # The total number of unique values of the decision variable \
     #  appearing in each row can be at least I and at most J
 
-    
+print('In[Constraint-3]:') 
+
+con_3_low_limit = 10 
+con_3_up_limit = 2500 
+   
 for i in set(df_p_t_d_var.x_var):
     prob += u[i] >= Big_M*(1-y[i]), 'big_m_con_on_u@'+str(i)
     prob += m[i] >= Big_M*(1-y[i]), 'big_m_con_on_m@'+str(i)
     prob += r[i] >= Big_M*(1-y[i]), 'big_m_con_on_r@'+str(i)
 
-for i in set(df_p_t_d_var.p_val):
-    prob += lpSum(y[var] for var in (df_p_t_d_var[df_p_t_d_var.p_val==i].x_var)) >= 10 , 'low_limit_on_row_var_'+str(i)
-    prob += lpSum(y[var] for var in (df_p_t_d_var[df_p_t_d_var.p_val==i].x_var)) <= 5000 , 'upper_limit_on_row_var_'+str(i)
+# for i in set(df_p_t_d_var.p_val):
+#     prob += lpSum(y[var] for var in (df_p_t_d_var[df_p_t_d_var.p_val==i].x_var)) >= con_3_low_limit , 'con_3_low_limit_on_row_var_'+str(i)
+#     prob += lpSum(y[var] for var in (df_p_t_d_var[df_p_t_d_var.p_val==i].x_var)) <= con_3_up_limit , 'con_3_upper_limit_on_row_var_'+str(i)
 
+for i in set(df_p_t_d_var.p_val):
+    temp_df_1 = df_p_t_d_var[df_p_t_d_var.p_val==i].reset_index(drop=True)
+    for j in set(temp_df_1.d_val):
+        prob += lpSum(y[var] for var in (temp_df_1[temp_df_1.d_val==j].x_var)) >= con_3_low_limit , 'con_3_low_limit_on_row_var_'+str(i)+str(j)
+        prob += lpSum(y[var] for var in (temp_df_1[temp_df_1.d_val==j].x_var)) <= con_3_up_limit , 'con_3_upper_limit_on_row_var_'+str(i)+str(j)
 
 # In[Constraint-4]: 
  # Duration of each level for a row is at least L and at most M, 
     # duration means successive cells having the same value of decision variable
+
+print('In[Constraint-4]:') 
 
 con_4_low_limit = 10 
 con_4_up_limit = 5000 
@@ -157,10 +168,10 @@ for i in set(df_p_t_d_var.p_val):
     for j in set(temp_df_2.d_val):
         # print ([i,j])
         prob += lpSum(y[var]*t_val  for var,t_val in zip(temp_df_2[temp_df_2.d_val==j].x_var, 
-                                                         temp_df_2[temp_df_2.d_val==j].t_val)) >= con_4_low_limit, 'low_limit_on_time'+str(i)+'_'+str(j) 
+                                                         temp_df_2[temp_df_2.d_val==j].t_val)) >= con_4_low_limit, 'con_4_low_limit_on_time'+str(i)+'_'+str(j) 
                   
-        prob += lpSum(y[var]*t_val  for var,t_val in zip(temp_df_2[temp_df_2.d_val==j].x_var, 
-                                                         temp_df_2[temp_df_2.d_val==j].t_val)) <= con_4_up_limit, 'upper_limit_on_time'+str(i)+'_'+str(j) 
+        prob += lpSum(y[var]*t_val for var,t_val in zip(temp_df_2[temp_df_2.d_val==j].x_var, 
+                                                         temp_df_2[temp_df_2.d_val==j].t_val)) <= con_4_up_limit, 'con_4_upper_limit_on_time'+str(i)+'_'+str(j) 
 
               
 # In[Constraint-5]: 
@@ -168,20 +179,19 @@ for i in set(df_p_t_d_var.p_val):
 
 print ('In[Constraint-5]:')
 print ('this has been omitted since X, Y are user defined and can be made \n \
-               redundent using X =0 and Y can be 60 (70-10) \n')
+               redundent using X =0 and Y can be 60 (70-10). Also, this constraint \n \
+               won\'t help in improving the objective function ... \n')
 
 
 
 # In[Constraint-6]: 
-    # For each row, the sum of U cannot exceed a Umax that is provided as external input               
 
-print('In[Constraint-6]:')
-print('For each row, the sum of U cannot exceed a Umax that is provided as external input \n')
+print('In[Constraint-6]: \n \
+      For each row, the sum of U cannot exceed a Umax that is provided as external input   ')
 
 for i in set(df_p_t_d_var.p_val):
-    prob += lpSum(u[var]  for var in df_p_t_d_var[df_p_t_d_var.p_val==i].x_var) <= 999999, 'upper_bound_on_U'+str(i)
+    prob += lpSum(u[var]  for var in df_p_t_d_var[df_p_t_d_var.p_val==i].x_var) <= 1500, 'upper_bound_on_U'+str(i)
                   
-
 
 # In[Constraint-7]: 
 # The value differences between the unique N levels in any column is \
@@ -191,31 +201,30 @@ for i in set(df_p_t_d_var.p_val):
 
 print ('In[Constraint-7]:')
 print ('this has been omitted since A, B are user defined and can be made \n \
-               redundent using A =0 and B can be 60 (70-10) \n')
+               redundent using A =0 and B can be 60 (70-10). Similar to the \n \
+               Costraint-5 this constriants also won\'t help in improving the objective \n')
 
 
 # In[Constraint-8]: 
     # The total sum of U in the grid is at least Uthresold, there might be \
     # Uthresholds for each row.
 
-print ('In constriat -8 ...\n \
+print ('In[Constraint-8]: \n \
        The total sum of U in the grid is at least Uthresold, there might be \n \
        Uthresholds for each row. \n ')
 
 u_thresh = []               
 for i in set(base_df_p.p_val):
-    # print (i)
     u_thresh.append([i, np.random.randint(10,100,1)[0]])
 u_thresh_df = pd.DataFrame(u_thresh).rename(columns={0:'p_val',1:'u_threshold'})
 
 for i in set(df_p_t_d_var.p_val):
-    prob += lpSum(u[var]  for var in df_p_t_d_var[df_p_t_d_var.p_val==i].x_var) <= u_thresh_df[u_thresh_df.p_val==0]['u_threshold'].item(), 'U_threshold_row_'+str(i)
+    prob += lpSum(u[var]  for var in df_p_t_d_var[df_p_t_d_var.p_val==i].x_var) >= u_thresh_df[u_thresh_df.p_val==0]['u_threshold'].item(), 'U_threshold_row_'+str(i)
  
                
 # In[Constraint-9]: 
-    # The total sum of M in the grid is at least Mthresold.
-
-print ('In constriat -9 ...The total sum of M in the grid is at least Mthresold. \n ')
+print ('In[Constraint-9]: \n \
+       The total sum of M in the grid is at least Mthresold. \n ')
 
 m_thresh = []               
 for i in set(base_df_p.p_val):
@@ -295,9 +304,7 @@ final_df_with_t_index = pd.concat([final_sol_df.var_name.apply(lambda x: pd.Seri
 final_df_with_d_index = pd.concat([final_sol_df.var_name.apply(lambda x: pd.Series(str(x).split("_")[2][0:2])).rename(columns={0:'d_index'}), 
                                    final_df_with_t_index], axis=1)
 
-final_df_with_g_index = pd.concat([final_sol_df.var_name.apply(lambda x: pd.Series(str(x).split("_")[3][0])).rename(columns={0:'g_index'}), 
+final_df = pd.concat([final_sol_df.var_name.apply(lambda x: pd.Series(str(x).split("_")[3][0])).rename(columns={0:'g_index'}), 
                                    final_df_with_d_index], axis=1)
-
-    
 
 

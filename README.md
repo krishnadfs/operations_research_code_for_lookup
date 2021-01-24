@@ -8,7 +8,7 @@ We have a table which has for any P x T x D combination where P is in P1…Pn an
 
 # The objective is to maximize the sum of M across the entire grid. 
 
-The row-level constraints are as follows: 
+-- The row-level constraints are as follows: 
 
 1. Rows need to be divided into N groups such that members of the group have the same value of D. N can be any number between 1 to the total number of rows. N can be known or unknown. This means that a column can at max have N different values. This N can be the same across columns or there can be a max Nmax such that each column’s N is lower than or equal to Nmax. 
 
@@ -26,7 +26,7 @@ The column constraints can be:
 
 7. The value differences between the unique N levels in any column is at least equal to A and at most B 
 
-The overall constraints are as follows: 
+-- The overall constraints are as follows: 
 
 8. The total sum of U in the grid is at least Uthresold, there might be Uthresholds for each row. 
 9. The total sum of M in the grid is at least Mthresold. 
